@@ -1,0 +1,10 @@
+{{ range . -}}
+<a
+	href="{{ .url }}"
+	target="_blank"
+	rel="noopener me"
+	title="{{ .name | humanize }}"
+	alt="{{ .name | humanize }} link"
+>{{ partial "svg.html" . }}</a>
+{{- end -}}
+
