@@ -16,7 +16,7 @@ Discover more about me on my personal website <a href="https://blog.geiser.clou
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
-
+- [Coming soon](https://blog.geiser.cloud/coming-soon/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
