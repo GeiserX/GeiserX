@@ -2,8 +2,8 @@
  "name": "Sergio Fernández",
  "icons": [
   {
-   "src": "\/android-icon-36x36.png",
-   "sizes": "36x36",
+   "src": "\/android-icon-32x32.png",
+   "sizes": "32x32",
    "type": "image\/png",
    "density": "0.75"
   },
