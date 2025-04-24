@@ -14,4 +14,4 @@ jobs:
         - uses: gautamkrishnar/blog-post-workflow@v1
           with:
             # Replace this URL with your rss feed URL/s
-            feed_list: "https://danielpetrica.com/feed/"
+            feed_list: "https://blog.geiser.cloud/feed/"
