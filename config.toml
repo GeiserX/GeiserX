@@ -1,0 +1,121 @@
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Sergio Fernández"
+theme = "hermit"
+enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+rssLimit = 5  # Maximum number of items in the RSS feed.
+copyright = "" # This message is only used by the RSS template.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = "🇬🇧"
+    languageNameShort = "🇬🇧"
+    languageFlag = "🇬🇧"
+    weight = 1
+    description = "Sergio Fernández Senior Cloud DevOps in Murcia, Spain. Specializing on Kubernetes, GCP, AWS, Python & Linux"
+    homeSubtitle = '''
+  
+I'm a Senior Cloud DevOps in the province of Murcia, Spain.
+
+Focusing on Kubernetes, I'm currently working especially with GKE and EKS, although I have worked previously with OpenStack, MicroK8s, and Rancher.
+
+Here you will find my RemoteOK profile https://remoteok.com/@geiserx
+
+I occasionally build open source projects, you can discover them on [Github](https://github.com/geiserx) page.
+
+     '''
+
+  [languages.it]
+    languageName = "🇪🇸"
+    languageNameShort = "🇪🇸"
+    languageFlag = "🇪🇸"
+    weight = 2
+    description  = "Sergio Fernández Senior Cloud DevOps en Murcia, España. Especialista en Kubernetes, GCP, AWS, Python & Linux"
+    homeSubtitle  = '''
+Soy un Senior Cloud DevOps en la provincia de Murcia, España.
+
+Especializado en Kubernetes, actualmente trabajo especialmente con GKE y EKS, aunque he trabajado anteriormente con OpenStack, MicroK8s y Rancher.
+
+Aquí encontrarás mi perfil de RemoteOK https://remoteok.com/@geiserx
+
+Ocasionalmente desarrollo proyectos de código abierto, puedes echar un vistazo en mi [Github](https://github.com/geiserx).
+'''
+
+
+[author]
+  name = "Sergio Fernández"
+
+[blackfriday]
+   hrefTargetBlank = true
+   noreferrerLinks = true
+   nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+
+[params]
+  dateform        = " 2 Jan 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 +0200"
+
+
+  shorttitle = "SergioFernández"
+
+  # Metadata mostly used in document's head
+  images = [ "/photo.jpg" ]
+  themeColor = "#494f5c"
+  footerCopyright = '''
+  Puede encontrar el código de esta página en GitHub
+  '''
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = true  # Add a related content section to all single posts page
+
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "twitter"
+    url = "https://x.com/acsdesk"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/geiserx"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sergiofdz/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/2236231/"
+
+[menu]
+#
+#  [[menu.main]]
+#    name = "Posts"
+#    url = "posts/"
+#    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
