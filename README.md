@@ -16,7 +16,7 @@ Discover more about me on my personal website <a href="https://geiser.cloud" re
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
-- [Coming soon](https://blog.geiser.cloud/coming-soon/)
+- [CPU Saturation](https://geiser.cloud/cpu-saturation/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
