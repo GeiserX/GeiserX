@@ -10,7 +10,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 ## Links
 
-Discover more about me on my personal website <a href="https://blog.geiser.cloud" rel="me">blog.geiser.cloud</a> it's built with [Ghost](https://github.com/TryGhost/ghost) and hosted with Docker Compose + Caddy in Unraid. 
+Discover more about me on my personal website <a href="https://geiser.cloud" rel="me">geiser.cloud</a>
 
 
 #### 📩 Latest Posts on my site:
