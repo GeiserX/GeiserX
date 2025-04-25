@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://blog.geiser.cloud/feed/"
+          feed_list: "https://geiser.cloud/feed/"
