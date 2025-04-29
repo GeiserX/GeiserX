@@ -16,6 +16,7 @@ Discover more about me on my personal website <a href="https://geiser.cloud" re
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
+- [The day I was told “it&#39;s impossible”](https://geiser.cloud/the-day-i-was-told-its-impossible/)
 - [Cool backups for the people - Duplicacy](https://geiser.cloud/cool-backups-for-the-people-duplicacy/)
 - [CPU Saturation](https://geiser.cloud/cpu-saturation/)
 <!-- BLOG-POST-LIST:END -->
