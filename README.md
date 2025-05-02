@@ -16,6 +16,7 @@ Discover more about me on my personal website <a href="https://geiser.cloud" re
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
+- [DockerHub rate-limit doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
 - [0-touch provisioning with TR069 and DHCP66](https://geiser.cloud/0-touch-provisioning-with-tr069-and-dhcp66/)
 - [The day I was told “it&#39;s impossible”](https://geiser.cloud/the-day-i-was-told-its-impossible/)
 - [Cool backups for the people - Duplicacy](https://geiser.cloud/cool-backups-for-the-people-duplicacy/)
