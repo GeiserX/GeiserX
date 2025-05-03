@@ -16,11 +16,11 @@ Discover more about me on my personal website <a href="https://geiser.cloud" re
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
-- [DockerHub rate-limit doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
-- [The day I was told “it&#39;s impossible”](https://geiser.cloud/the-day-i-was-told-its-impossible/)
-- [0-touch provisioning with TR069 and DHCP66](https://geiser.cloud/0-touch-provisioning-with-tr069-and-dhcp66/)
-- [Cool backups for the people - Duplicacy](https://geiser.cloud/cool-backups-for-the-people-duplicacy/)
-- [CPU Saturation](https://geiser.cloud/cpu-saturation/)
+- [Upgrade Management at Scale — An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/)
+- [DockerHub Rate-Limit Doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
+- [&#39;Impossible&#39;? Watch Me—My Unorthodox Internship Adventure With R, Python, and MikroTik](https://geiser.cloud/the-day-i-was-told-its-impossible/)
+- [Less Busywork, More Productivity: The Art of Automating Telecom CPE Provisioning](https://geiser.cloud/0-touch-provisioning-with-tr069-and-dhcp66/)
+- [Backup Bliss: A Dockerized Duplicacy Setup for Your Home Servers](https://geiser.cloud/cool-backups-for-the-people-duplicacy/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
