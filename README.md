@@ -17,7 +17,7 @@ Discover more about me on my personal website <a href="https://geiser.cloud" re
 
 <!-- BLOG-POST-LIST:START -->
 - [Building the PiSpot Watch—An IoT Adventure](https://geiser.cloud/building-the-pispot-watch-an-iot-adventure/)
-- [Upgrade Management at Scale — An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/)
+- [Upgrade Management at Scale—An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/)
 - [DockerHub Rate-Limit Doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
 - [&#39;Impossible&#39;? Watch Me—My Unorthodox Internship Adventure With R, Python, and MikroTik](https://geiser.cloud/the-day-i-was-told-its-impossible/)
 - [Less Busywork, More Productivity: The Art of Automating Telecom CPE Provisioning](https://geiser.cloud/0-touch-provisioning-with-tr069-and-dhcp66/)
