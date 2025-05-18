@@ -16,11 +16,11 @@ Discover more about me on my personal website <a href="https://geiser.cloud" re
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
-- [Mastering GenieACS: Experiences from My Journey](https://geiser.cloud/mastering-genieacs-real-world-experiences-and-pro-tips-from-my-journey/)
 - [&quot;DDoSing&quot; EKS &amp; GKE to Study DR for My MSc Dissertation](https://geiser.cloud/the-day-i-ddosd-amazon-eks-google-gke-to-study-disaster-recovery-for-my-msc-dissertation/)
 - [Reliable Kubernetes at Scale: My Experience Creating an Audit Framework](https://geiser.cloud/kubernetes-production-readiness-assessment-how-i-developed-the-product/)
 - [Building the PiSpot Watch—An IoT Adventure](https://geiser.cloud/building-the-pispot-watch-an-iot-adventure/)
-- [How to Deploy GenieACS](https://geiser.cloud/how-to-deploy-genieacs/)
+- [Upgrade Management at Scale—An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/)
+- [DockerHub Rate-Limit Doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
