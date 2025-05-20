@@ -10,7 +10,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 ## Links
 
-Discover more about me on my personal website <a href="https://geiser.cloud" rel="me">geiser.cloud</a>
+Discover more about me on my personal website <a href="https://geiser.cloud/?ref=github.com" rel="me">geiser.cloud</a>
 
 
 #### 📩 Latest Posts on my site:
