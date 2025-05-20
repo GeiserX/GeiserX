@@ -15,13 +15,7 @@ Discover more about me on my personal website <a href="https://geiser.cloud/?re
 
 #### 📩 Latest Posts on my site:
 
-<!-- BLOG-POST-LIST:START -->
-- [&quot;DDoSing&quot; EKS &amp; GKE to Study DR for My MSc Dissertation](https://geiser.cloud/the-day-i-ddosd-amazon-eks-google-gke-to-study-disaster-recovery-for-my-msc-dissertation/)
-- [Reliable Kubernetes at Scale: My Experience Creating an Audit Framework](https://geiser.cloud/kubernetes-production-readiness-assessment-how-i-developed-the-product/)
-- [Building the PiSpot Watch—An IoT Adventure](https://geiser.cloud/building-the-pispot-watch-an-iot-adventure/)
-- [Upgrade Management at Scale—An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/)
-- [DockerHub Rate-Limit Doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [&quot;DDoSing&quot; EKS &amp; GKE to Study DR for My MSc Dissertation](https://geiser.cloud/the-day-i-ddosd-amazon-eks-google-gke-to-study-disaster-recovery-for-my-msc-dissertation/?ref=github.com)- [Reliable Kubernetes at Scale: My Experience Creating an Audit Framework](https://geiser.cloud/kubernetes-production-readiness-assessment-how-i-developed-the-product/?ref=github.com)- [Building the PiSpot Watch—An IoT Adventure](https://geiser.cloud/building-the-pispot-watch-an-iot-adventure/?ref=github.com)- [Upgrade Management at Scale—An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/?ref=github.com)- [DockerHub Rate-Limit Doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/?ref=github.com)<!-- BLOG-POST-LIST:END -->
 
 <!--
 **GeiserX/GeiserX** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
