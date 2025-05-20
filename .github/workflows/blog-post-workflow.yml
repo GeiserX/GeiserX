@@ -18,4 +18,4 @@ jobs:
           template: |
             - [$title]($url?ref=github.com)$newline
           disable_html_encoding: true
-          item_exec: "post.title = post.title.replace('"', '&quot')"
+          item_exec: "post.title = post.title.replace(/&quot;/g, '"');"
