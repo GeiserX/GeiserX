@@ -18,17 +18,3 @@ jobs:
           feed_list: "https://geiser.cloud/feed/"
           template: |
             - [$title]($url?ref=github.com)$newline
-          disable_html_encoding: true
-          item_exec: |
-            const map = {
-              '&quot;': '"',
-              '&#39;': "'",
-              '&apos;': "'",
-              '&amp;' : '&',
-              '&lt;'  : '<',
-              '&gt;'  : '>'
-            };
-            post.title = post.title.replace(
-              /&quot;|&#39;|&apos;|&amp;|&lt;|&gt;/g,
-              m => map[m]
-            );
