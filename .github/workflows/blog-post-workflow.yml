@@ -17,4 +17,6 @@ jobs:
           feed_list: "https://geiser.cloud/feed/"
           template: |
             - [$title]($url?ref=github.com)$newline
+          disable_html_encoding: true
+
 
