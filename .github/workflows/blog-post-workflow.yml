@@ -9,9 +9,11 @@ jobs:
     name: "Update this repo's README with latest blog posts"
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # explicitly provide write-access permission
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://geiser.cloud/feed/"
+          template: |
+            - [$title]($url?ref=github.com)
