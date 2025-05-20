@@ -18,5 +18,6 @@ jobs:
           template: |
             - [$title]($url?ref=github.com)$newline
           disable_html_encoding: true
-          item_exec: |
-            post.title = post.title.replace(/&quot;/g, '"');
+          item_exec: |                        # decode ONLY the title
+            const he = require('he');
+            post.title = he.decode(post.title);
