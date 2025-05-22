@@ -16,11 +16,11 @@ Discover more about me on my personal website <a href="https://geiser.cloud/?re
 #### 📩 Latest Posts on my site:
 
 <!-- BLOG-POST-LIST:START -->
+- [When &#39;df&#39; lies, &#39;du&#39; swears it’s innocent and Loki eats your disk: a forensic walk-through](https://geiser.cloud/when-df-lies-du-swears-its-innocent-and-loki-eats-your-disk-a-forensic-walk-through/)
 - [&quot;DDoSing&quot; EKS &amp; GKE to Study DR for My MSc Dissertation](https://geiser.cloud/the-day-i-ddosd-amazon-eks-google-gke-to-study-disaster-recovery-for-my-msc-dissertation/)
 - [Reliable Kubernetes at Scale: My Experience Creating an Audit Framework](https://geiser.cloud/kubernetes-production-readiness-assessment-how-i-developed-the-product/)
 - [Building the PiSpot Watch—An IoT Adventure](https://geiser.cloud/building-the-pispot-watch-an-iot-adventure/)
 - [Upgrade Management at Scale—An Invisible Art](https://geiser.cloud/upgrade-management-at-scale-an-invisible-art/)
-- [DockerHub Rate-Limit Doom: A Kubernetes Odyssey](https://geiser.cloud/dockerhub-rate-limit-doom-a-kubernetes-odyssey/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
