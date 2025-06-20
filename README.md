@@ -18,9 +18,9 @@ Discover more about me on my personal website <a href="https://geiser.cloud/?re
 <!-- BLOG-POST-LIST:START -->
 - [Deploying Garage S3 &lpar;v2.x&rpar; and Hooking It Up to Duplicacy](https://geiser.cloud/deploying-garage-s3-v2-x-and-hooking-it-up-to-duplicacy/)
 - [Putting AI-Hands on Routers: Building a GenieACS MCP Server in Go](https://geiser.cloud/putting-ai-hands-on-routers-building-a-genieacs-mcp-server-in-go/)
-- [Paging into the Night—Assess Before You Fix: Five Years of On-Call Lessons](https://geiser.cloud/paging-into-the-night-assess-before-you-fix-five-years-of-on-call-lessons/)
 - [DevOps in the Catacombs – Everyday Software Archaeology and Why I’d Still Bet on a Monorepo](https://geiser.cloud/software-archaeology-monorepo/)
-- [Kubernetes Cost-Cutting That Actually Works: Rightsizing at Scale](https://geiser.cloud/kubernetes-cost-cutting-that-actually-works-rightsizing-at-scale/)
+- [When &#39;df&#39; lies, &#39;du&#39; swears it’s innocent and Loki eats your disk: a forensic walk-through](https://geiser.cloud/when-df-lies-du-swears-its-innocent-and-loki-eats-your-disk-a-forensic-walk-through/)
+- [Kubernetes Operators 101: A Hands-On Tale of Go, CRDs, and Redis](https://geiser.cloud/kubernetes-operators-101-a-hands-on-tale-of-go-crds-and-redis/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
