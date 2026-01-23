@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm a Senior Cloud DevOps Engineer specializing in Kubernetes.
+I'm a Senior Cloud DevOps Engineer specializing in Cloud & Kubernetes.
 
 - 🛜 Connect with me on the Fediverse @ https://mastodon.social/@geiser
 
