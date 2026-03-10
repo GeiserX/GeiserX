@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="docs/images/banner.svg" alt="GeiserX banner" width="900"/>
-</p>
-
-<p align="center">
   <strong>Senior DevOps Engineer specializing in Cloud & Kubernetes</strong>
 </p>
 
@@ -29,12 +25,12 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 ## Certifications
 
-| Certification | Issuer | Issued | Credential |
-|---|---|---|---|
-| **AWS Solutions Architect Professional** | Amazon Web Services | Feb 2026 | [Verify](https://www.credly.com/badges/816320ad-ed15-41a1-98f7-f4d134ff9a44/public_url) |
-| **GitHub Actions** | Microsoft | Nov 2025 | [Verify](https://learn.microsoft.com/en-us/users/sergiofz/credentials/62c37378fe6b23b5) |
-| **CKA: Certified Kubernetes Administrator** | The Linux Foundation | Mar 2021 | [Verify](https://www.credly.com/badges/280dfe0a-7f95-4efd-988c-833a2ce50bb3) |
-| **HashiCorp Certified Terraform Associate** | HashiCorp | Sep 2020 | [Verify](https://www.credly.com/badges/95cfef44-d320-4783-bfcd-191e8036edaa) |
-| **Certificate in Advanced English (C1)** | Cambridge English | Aug 2020 | [Verify](https://drive.google.com/file/d/1DDywieez2z3MEFZneKmNWFX29mnscnge/view) |
-| **AWS Solutions Architect Associate** | Amazon Web Services | Aug 2020 | [Verify](https://www.credly.com/badges/5b013852-5840-4003-8d88-f57046f0f867) |
-| **HCNA - Routing & Switching** | Huawei | Jul 2018 | [Verify](https://drive.google.com/file/d/1dW75WIMym5hbxSGHXmK0RmP2Mu4m_RD3/view) |
+<p align="center">
+  <a href="https://www.credly.com/badges/816320ad-ed15-41a1-98f7-f4d134ff9a44/public_url"><img src="https://images.credly.com/size/120x120/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png" width="120" alt="AWS Solutions Architect Professional"></a>&nbsp;&nbsp;
+  <a href="https://learn.microsoft.com/en-us/users/sergiofz/credentials/62c37378fe6b23b5"><img src="https://images.credly.com/size/120x120/images/89efc3e7-842b-4790-b09b-9ea5efc71ec3/image.png" width="120" alt="GitHub Actions"></a>&nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/280dfe0a-7f95-4efd-988c-833a2ce50bb3"><img src="https://images.credly.com/size/120x120/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" width="120" alt="CKA: Certified Kubernetes Administrator"></a>&nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/95cfef44-d320-4783-bfcd-191e8036edaa"><img src="https://images.credly.com/size/120x120/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob" width="120" alt="HashiCorp Certified Terraform Associate"></a>&nbsp;&nbsp;
+  <a href="https://drive.google.com/file/d/1DDywieez2z3MEFZneKmNWFX29mnscnge/view"><img src="docs/images/badge-cambridge-c1.svg" width="120" alt="Cambridge English C1 Advanced"></a>&nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/5b013852-5840-4003-8d88-f57046f0f867"><img src="https://images.credly.com/size/120x120/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" width="120" alt="AWS Solutions Architect Associate"></a>&nbsp;&nbsp;
+  <a href="https://drive.google.com/file/d/1dW75WIMym5hbxSGHXmK0RmP2Mu4m_RD3/view"><img src="docs/images/badge-huawei-hcna.svg" width="120" alt="Huawei HCNA Routing & Switching"></a>
+</p>
