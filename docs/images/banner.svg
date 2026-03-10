@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#0D1B2A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4DB6AC" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00897B" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="150" y1="0" x2="150" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="450" y1="0" x2="450" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="750" y1="0" x2="750" y2="200"/>
+  </g>
+
+  <!-- Cloud + Kubernetes icon -->
+  <g transform="translate(80, 70)">
+    <!-- Cloud shape -->
+    <path d="M-30,30 C-45,30 -55,18 -50,6 C-46,-6 -34,-10 -24,-6 C-20,-22 -4,-30 12,-26 C28,-22 36,-8 34,6 C46,4 56,14 52,28 C48,38 38,38 38,38 L-30,38 Z"
+          fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.85"/>
+    <!-- Kubernetes wheel inside cloud -->
+    <g transform="translate(4, 10)" opacity="0.7">
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#4DB6AC" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="5" fill="#4DB6AC" opacity="0.4"/>
+      <!-- Spokes -->
+      <line x1="0" y1="-14" x2="0" y2="-5" stroke="#4DB6AC" stroke-width="1.5"/>
+      <line x1="12" y1="7" x2="4" y2="2.5" stroke="#4DB6AC" stroke-width="1.5"/>
+      <line x1="-12" y1="7" x2="-4" y2="2.5" stroke="#4DB6AC" stroke-width="1.5"/>
+      <line x1="0" y1="14" x2="0" y2="5" stroke="#4DB6AC" stroke-width="1.5"/>
+      <line x1="12" y1="-7" x2="4" y2="-2.5" stroke="#4DB6AC" stroke-width="1.5"/>
+      <line x1="-12" y1="-7" x2="-4" y2="-2.5" stroke="#4DB6AC" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="200" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">
+    GeiserX
+  </text>
+
+  <!-- Subtitle -->
+  <text x="202" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#4DB6AC" letter-spacing="0.5">
+    Senior DevOps Engineer — Cloud &amp; Kubernetes
+  </text>
+
+  <!-- Decorative: terminal prompt on right -->
+  <g transform="translate(720, 55)" opacity="0.15">
+    <rect width="140" height="90" rx="6" fill="#ffffff"/>
+    <!-- Title bar dots -->
+    <circle cx="14" cy="12" r="3.5" fill="#00897B"/>
+    <circle cx="26" cy="12" r="3.5" fill="#00897B" opacity="0.6"/>
+    <circle cx="38" cy="12" r="3.5" fill="#00897B" opacity="0.3"/>
+    <!-- Terminal lines -->
+    <rect x="12" y="28" width="50" height="5" rx="2" fill="#00897B" opacity="0.6"/>
+    <rect x="12" y="40" width="80" height="5" rx="2" fill="#00897B" opacity="0.4"/>
+    <rect x="12" y="52" width="35" height="5" rx="2" fill="#00897B" opacity="0.6"/>
+    <rect x="12" y="64" width="60" height="5" rx="2" fill="#00897B" opacity="0.3"/>
+    <!-- Cursor -->
+    <rect x="12" y="76" width="8" height="5" rx="1" fill="#4DB6AC" opacity="0.8"/>
+  </g>
+</svg>
