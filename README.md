@@ -29,7 +29,12 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 ## Certifications
 
-<details open>
-<summary>AWS</summary>
-<a target="_blank" href="https://www.credly.com/badges/3de2cb38-cd6c-4f74-8c0a-9d7f823c46da"><img src="https://github.com/sujithq/sujithq/raw/master/assets/aws/0146-aws-cloud-quest-cloud-practitioner.png" width="100"></a>
-</details>
+| Certification | Issuer | Issued | Credential |
+|---|---|---|---|
+| **AWS Solutions Architect Professional** | Amazon Web Services | Feb 2026 | [Verify](https://www.credly.com/badges/816320ad-ed15-41a1-98f7-f4d134ff9a44/public_url) |
+| **GitHub Actions** | Microsoft | Nov 2025 | [Verify](https://learn.microsoft.com/en-us/users/sergiofz/credentials/62c37378fe6b23b5) |
+| **CKA: Certified Kubernetes Administrator** | The Linux Foundation | Mar 2021 | [Verify](https://www.credly.com/badges/280dfe0a-7f95-4efd-988c-833a2ce50bb3) |
+| **HashiCorp Certified Terraform Associate** | HashiCorp | Sep 2020 | [Verify](https://www.credly.com/badges/95cfef44-d320-4783-bfcd-191e8036edaa) |
+| **Certificate in Advanced English (C1)** | Cambridge English | Aug 2020 | [Verify](https://drive.google.com/file/d/1DDywieez2z3MEFZneKmNWFX29mnscnge/view) |
+| **AWS Solutions Architect Associate** | Amazon Web Services | Aug 2020 | [Verify](https://www.credly.com/badges/5b013852-5840-4003-8d88-f57046f0f867) |
+| **HCNA - Routing & Switching** | Huawei | Jul 2018 | [Verify](https://drive.google.com/file/d/1dW75WIMym5hbxSGHXmK0RmP2Mu4m_RD3/view) |
