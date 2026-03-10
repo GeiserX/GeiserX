@@ -8,19 +8,22 @@
   <circle cx="170" cy="170" r="160" fill="url(#bg)"/>
   <circle cx="170" cy="170" r="148" fill="none" stroke="#D4A843" stroke-width="3"/>
   <circle cx="170" cy="170" r="140" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
-  <!-- Cambridge shield simplified -->
-  <g transform="translate(170, 100)" text-anchor="middle">
-    <text font-family="'Georgia', 'Times New Roman', serif" font-size="20" fill="#D4A843" font-weight="700" letter-spacing="2">CAMBRIDGE</text>
-    <text y="24" font-family="'Georgia', 'Times New Roman', serif" font-size="14" fill="#ffffff" opacity="0.8" letter-spacing="1">ENGLISH</text>
-  </g>
-  <!-- C1 level -->
-  <g transform="translate(170, 175)" text-anchor="middle">
-    <text font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">C1</text>
-    <text y="40" font-family="'Georgia', 'Times New Roman', serif" font-size="16" fill="#D4A843" letter-spacing="1.5">ADVANCED</text>
-  </g>
+  <!-- Cambridge text -->
+  <text x="170" y="88" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-size="22" fill="#D4A843" font-weight="700" letter-spacing="2">CAMBRIDGE</text>
+  <text x="170" y="112" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-size="15" fill="#ffffff" opacity="0.8" letter-spacing="1">ENGLISH</text>
+  <!-- Divider line -->
+  <line x1="110" y1="124" x2="230" y2="124" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
+  <!-- Certificate in Advanced English -->
+  <text x="170" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.7" letter-spacing="0.5">Certificate in</text>
+  <text x="170" y="182" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="600" letter-spacing="0.5">Advanced English</text>
+  <!-- C1 level badge -->
+  <rect x="135" y="200" width="70" height="36" rx="6" fill="#D4A843" opacity="0.9"/>
+  <text x="170" y="226" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#5C0F32">C1</text>
   <!-- Decorative laurel hints -->
-  <path d="M100,280 Q120,250 140,270 Q120,260 100,280" fill="#D4A843" opacity="0.3"/>
-  <path d="M240,280 Q220,250 200,270 Q220,260 240,280" fill="#D4A843" opacity="0.3"/>
-  <path d="M90,265 Q110,235 130,255 Q110,245 90,265" fill="#D4A843" opacity="0.2"/>
-  <path d="M250,265 Q230,235 210,255 Q230,245 250,265" fill="#D4A843" opacity="0.2"/>
+  <path d="M95,275 Q115,250 130,265 Q115,255 95,275" fill="#D4A843" opacity="0.3"/>
+  <path d="M245,275 Q225,250 210,265 Q225,255 245,275" fill="#D4A843" opacity="0.3"/>
+  <path d="M85,260 Q105,235 120,250 Q105,240 85,260" fill="#D4A843" opacity="0.2"/>
+  <path d="M255,260 Q235,235 220,250 Q235,240 255,260" fill="#D4A843" opacity="0.2"/>
+  <path d="M80,243 Q98,220 112,234 Q98,225 80,243" fill="#D4A843" opacity="0.15"/>
+  <path d="M260,243 Q242,220 228,234 Q242,225 260,243" fill="#D4A843" opacity="0.15"/>
 </svg>
