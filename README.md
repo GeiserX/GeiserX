@@ -95,9 +95,9 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="github-toggle-all-details"></a>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="Minecraft-Youtube-Follower"></a>
 <br/>
-<a href="https://github.com/GeiserX/jelly-subtitles"><img src="https://img.shields.io/badge/jelly--subtitles-178600?style=flat-square&logo=csharp&logoColor=white" alt="jelly-subtitles"></a>
-<a href="https://github.com/GeiserX/jellyfin-quality-gate"><img src="https://img.shields.io/badge/jellyfin--quality--gate-178600?style=flat-square&logo=csharp&logoColor=white" alt="jellyfin-quality-gate"></a>
-<a href="https://github.com/GeiserX/jellyfin-plugin-book-cover"><img src="https://img.shields.io/badge/jellyfin--plugin--book--cover-178600?style=flat-square&logo=csharp&logoColor=white" alt="jellyfin-plugin-book-cover"></a>
+<a href="https://github.com/GeiserX/jelly-subtitles"><img src="https://img.shields.io/badge/jelly--subtitles-178600?style=flat-square&logo=dotnet&logoColor=white" alt="jelly-subtitles"></a>
+<a href="https://github.com/GeiserX/jellyfin-quality-gate"><img src="https://img.shields.io/badge/jellyfin--quality--gate-178600?style=flat-square&logo=dotnet&logoColor=white" alt="jellyfin-quality-gate"></a>
+<a href="https://github.com/GeiserX/jellyfin-plugin-book-cover"><img src="https://img.shields.io/badge/jellyfin--plugin--book--cover-178600?style=flat-square&logo=dotnet&logoColor=white" alt="jellyfin-plugin-book-cover"></a>
 <br/>
 <a href="https://github.com/GeiserX/cloud-tests-velero"><img src="https://img.shields.io/badge/cloud--tests--velero-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="cloud-tests-velero"></a>
 <br/>
