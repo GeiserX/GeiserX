@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://geiser.cloud/?ref=github.com" rel="me"><img src="https://img.shields.io/badge/Website-geiser.cloud-00897B?style=flat-square&logo=ghost&logoColor=white" alt="Website"></a>
+  <a href="https://geiser.cloud/?ref=github.com" rel="me"><img src="https://img.shields.io/badge/Blog-geiser.cloud-00897B?style=flat-square&logo=ghost&logoColor=white" alt="Blog"></a>
+  <a href="https://pumperly.com"><img src="https://img.shields.io/badge/Pumperly-pumperly.com-FF6B35?style=flat-square&logoColor=white" alt="Pumperly"></a>
+  <a href="https://lynxprompt.com"><img src="https://img.shields.io/badge/LynxPrompt-lynxprompt.com-228BE6?style=flat-square&logoColor=white" alt="LynxPrompt"></a>
   <a href="https://mastodon.social/@geiser" rel="me"><img src="https://img.shields.io/badge/Mastodon-@geiser-6364FF?style=flat-square&logo=mastodon&logoColor=white" alt="Mastodon"></a>
 </p>
 
