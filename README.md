@@ -11,7 +11,7 @@
 
 ---
 
-My journey started when I was just a curious 12-year-old kid, begging my mom to buy me the book _"Hackers 4 - Secrets & Solutions for Network Security"_ (freely translated from Spanish) published by McGraw Hill. I still get chills thinking about it!
+My journey started when I was just a curious 12-year-old kid, begging my mom to buy me the book _"Hacking Exposed 4: Network Security Secrets & Solutions"_ published by McGraw Hill. I still get chills thinking about it!
 
 Honestly though, after reading it, I realized I'd prefer building things rather than breaking them. Fast forward over two decades, and here I am — fully embracing life in the cloud, building and scaling apps, and loving every second of it.
 
