@@ -43,6 +43,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-spain"></a>
 <a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-region-de-murcia"></a>
 <a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-europe"></a>
+<a href="https://github.com/GeiserX/awesome-lint-extra"><img src="https://img.shields.io/badge/awesome--lint--extra-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-lint-extra"></a>
 <a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-555555?style=flat-square&logo=github&logoColor=white" alt="grafana-rightsizing-dashboard"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-docker"><img src="https://img.shields.io/badge/genieacs--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-docker"></a>
@@ -65,6 +66,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/AskePub"><img src="https://img.shields.io/badge/AskePub-3572A5?style=flat-square&logo=python&logoColor=white" alt="AskePub"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-3572A5?style=flat-square&logo=python&logoColor=white" alt="audio-transcode-watcher"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="https://img.shields.io/badge/BuscaPaginasBlancas-3572A5?style=flat-square&logo=python&logoColor=white" alt="BuscaPaginasBlancas"></a>
+<a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-3572A5?style=flat-square&logo=python&logoColor=white" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-3572A5?style=flat-square&logo=python&logoColor=white" alt="duplicacy-exporter"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-3572A5?style=flat-square&logo=python&logoColor=white" alt="epub-and-vtt-to-llm"></a>
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-3572A5?style=flat-square&logo=python&logoColor=white" alt="web-mirror"></a>
