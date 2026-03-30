@@ -61,14 +61,18 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/PiSpot-Deployment"><img src="https://img.shields.io/badge/PiSpot--Deployment-3572A5?style=flat-square&logo=python&logoColor=white" alt="PiSpot-Deployment"></a>
 <a href="https://github.com/GeiserX/PiSpot-Show"><img src="https://img.shields.io/badge/PiSpot--Show-3572A5?style=flat-square&logo=python&logoColor=white" alt="PiSpot-Show"></a>
 <a href="https://github.com/GeiserX/PiSpot-Watch"><img src="https://img.shields.io/badge/PiSpot--Watch-3572A5?style=flat-square&logo=python&logoColor=white" alt="PiSpot-Watch"></a>
+<a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-3572A5?style=flat-square&logo=python&logoColor=white" alt="pumperly-ha"></a>
 <a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-3572A5?style=flat-square&logo=python&logoColor=white" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-3572A5?style=flat-square&logo=python&logoColor=white" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/AskePub"><img src="https://img.shields.io/badge/AskePub-3572A5?style=flat-square&logo=python&logoColor=white" alt="AskePub"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-3572A5?style=flat-square&logo=python&logoColor=white" alt="audio-transcode-watcher"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="https://img.shields.io/badge/BuscaPaginasBlancas-3572A5?style=flat-square&logo=python&logoColor=white" alt="BuscaPaginasBlancas"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-3572A5?style=flat-square&logo=python&logoColor=white" alt="CashPilot"></a>
+<a href="https://github.com/GeiserX/cashpilot-ha"><img src="https://img.shields.io/badge/cashpilot--ha-3572A5?style=flat-square&logo=python&logoColor=white" alt="cashpilot-ha"></a>
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-3572A5?style=flat-square&logo=python&logoColor=white" alt="duplicacy-exporter"></a>
+<a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-3572A5?style=flat-square&logo=python&logoColor=white" alt="duplicacy-ha"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-3572A5?style=flat-square&logo=python&logoColor=white" alt="epub-and-vtt-to-llm"></a>
+<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-3572A5?style=flat-square&logo=python&logoColor=white" alt="genieacs-ha"></a>
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-3572A5?style=flat-square&logo=python&logoColor=white" alt="web-mirror"></a>
 <a href="https://github.com/GeiserX/Website-Diff"><img src="https://img.shields.io/badge/Website--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Website-Diff"></a>
 <br/>
