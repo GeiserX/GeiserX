@@ -48,6 +48,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/genieacs-docker"><img src="https://img.shields.io/badge/genieacs--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-docker"></a>
 <a href="https://github.com/GeiserX/genieacs-sim-docker"><img src="https://img.shields.io/badge/genieacs--sim--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-sim-docker"></a>
+<a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-384d54?style=flat-square&logo=docker&logoColor=white" alt="docker-templates"></a>
 <br/>
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-3572A5?style=flat-square&logo=python&logoColor=white" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-3572A5?style=flat-square&logo=python&logoColor=white" alt="paperless-telegram-bot"></a>
