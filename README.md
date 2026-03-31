@@ -86,6 +86,13 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
+<a href="https://github.com/GeiserX/n8n-nodes-cashpilot"><img src="https://img.shields.io/badge/n8n--nodes--cashpilot-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-cashpilot"></a>
+<a href="https://github.com/GeiserX/n8n-nodes-pumperly"><img src="https://img.shields.io/badge/n8n--nodes--pumperly-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-pumperly"></a>
+<a href="https://github.com/GeiserX/n8n-nodes-lynxprompt"><img src="https://img.shields.io/badge/n8n--nodes--lynxprompt-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-lynxprompt"></a>
+<a href="https://github.com/GeiserX/n8n-nodes-genieacs"><img src="https://img.shields.io/badge/n8n--nodes--genieacs-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-genieacs"></a>
+<a href="https://github.com/GeiserX/n8n-nodes-telegram-archive"><img src="https://img.shields.io/badge/n8n--nodes--telegram--archive-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-telegram-archive"></a>
+<a href="https://github.com/GeiserX/n8n-nodes-way-cms"><img src="https://img.shields.io/badge/n8n--nodes--way--cms-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-way-cms"></a>
+<br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-00ADD8?style=flat-square&logo=go&logoColor=white" alt="genieacs-mcp"></a>
 <a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
 <a href="https://github.com/GeiserX/redis-operator"><img src="https://img.shields.io/badge/redis--operator-00ADD8?style=flat-square&logo=go&logoColor=white" alt="redis-operator"></a>
