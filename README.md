@@ -47,7 +47,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-555555?style=flat-square&logo=github&logoColor=white" alt="grafana-rightsizing-dashboard"></a>
 <a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-555555?style=flat-square&logo=github&logoColor=white" alt="runtipi-appstore"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-docker"><img src="https://img.shields.io/badge/genieacs--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-docker"></a>
+<a href="https://github.com/GeiserX/genieacs-container"><img src="https://img.shields.io/badge/genieacs--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-container"></a>
 <a href="https://github.com/GeiserX/genieacs-sim-docker"><img src="https://img.shields.io/badge/genieacs--sim--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-sim-docker"></a>
 <a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-384d54?style=flat-square&logo=docker&logoColor=white" alt="docker-templates"></a>
 <a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
