@@ -45,6 +45,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-lint-extra"><img src="https://img.shields.io/badge/awesome--lint--extra-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-lint-extra"></a>
 <a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-555555?style=flat-square&logo=github&logoColor=white" alt="grafana-rightsizing-dashboard"></a>
+<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-555555?style=flat-square&logo=github&logoColor=white" alt="runtipi-appstore"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-docker"><img src="https://img.shields.io/badge/genieacs--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-docker"></a>
 <a href="https://github.com/GeiserX/genieacs-sim-docker"><img src="https://img.shields.io/badge/genieacs--sim--docker-384d54?style=flat-square&logo=docker&logoColor=white" alt="genieacs-sim-docker"></a>
