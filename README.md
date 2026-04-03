@@ -75,6 +75,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-3572A5?style=flat-square&logo=python&logoColor=white" alt="duplicacy-exporter"></a>
 <a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-3572A5?style=flat-square&logo=python&logoColor=white" alt="duplicacy-ha"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-3572A5?style=flat-square&logo=python&logoColor=white" alt="epub-and-vtt-to-llm"></a>
+<a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-3572A5?style=flat-square&logo=python&logoColor=white" alt="genieacs-ansible"></a>
 <a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-3572A5?style=flat-square&logo=python&logoColor=white" alt="genieacs-ha"></a>
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-3572A5?style=flat-square&logo=python&logoColor=white" alt="web-mirror"></a>
 <a href="https://github.com/GeiserX/Website-Diff"><img src="https://img.shields.io/badge/Website--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Website-Diff"></a>
