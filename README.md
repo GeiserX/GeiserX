@@ -85,6 +85,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="lynxprompt-vscode"></a>
+<a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="lynxprompt-action"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
