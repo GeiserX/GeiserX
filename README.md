@@ -83,6 +83,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-F05138?style=flat-square&logo=swift&logoColor=white" alt="VPN-Bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="CashPilot-android"></a>
+<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly_Android-Play_Store-34d399?style=flat-square&logo=android&logoColor=white" alt="Pumperly Android"></a>
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="lynxprompt-vscode"></a>
