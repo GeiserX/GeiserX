@@ -107,9 +107,9 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
 <a href="https://github.com/GeiserX/redis-operator"><img src="https://img.shields.io/badge/redis--operator-00ADD8?style=flat-square&logo=go&logoColor=white" alt="redis-operator"></a>
 <br/>
+<a href="https://github.com/GeiserX/personal-genome-pipeline"><img src="https://img.shields.io/badge/personal--genome--pipeline-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="personal-genome-pipeline"></a>
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="genieacs-services"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="duplicacy-cli-cron"></a>
-<a href="https://github.com/GeiserX/genomics-pipeline"><img src="https://img.shields.io/badge/genomics--pipeline-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="genomics-pipeline"></a>
 <a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="k8s-dockerhub-detector"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
 <br/>
