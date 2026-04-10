@@ -1,0 +1,79 @@
+name: Update star badges
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update star badges in README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: python
+        run: |
+          import json, re, subprocess
+
+          result = subprocess.run(
+              ["gh", "repo", "list", "GeiserX", "--source", "--no-archived",
+               "--limit", "200", "--json", "name,stargazerCount"],
+              capture_output=True, text=True, check=True
+          )
+          stars = {r["name"]: r["stargazerCount"] for r in json.loads(result.stdout)}
+
+          with open("README.md") as f:
+              content = f.read()
+
+          def update_badge(m):
+              prefix, repo, badge_path, suffix = m.group(1), m.group(2), m.group(3), m.group(4)
+              count = stars.get(repo, 0)
+              parts = badge_path.split("?", 1)
+              path = parts[0]
+              params = "?" + parts[1] if len(parts) > 1 else ""
+
+              cm = re.match(r"^(.+)-([0-9a-fA-F]{6})$", path)
+              if not cm:
+                  return m.group(0)
+              label, color = cm.group(1), cm.group(2)
+
+              # Strip any existing star suffix
+              label = re.sub(r"_★_\d+$", "", label)
+
+              if count >= 5:
+                  return f"{prefix}{label}_★_{count}-{color}{params}{suffix}"
+              return f"{prefix}{label}-{color}{params}{suffix}"
+
+          updated = re.sub(
+              r'(<a href="https://github\.com/GeiserX/([^"]+)"><img src="https://img\.shields\.io/badge/)([^"]+)(" alt="[^"]*"></a>)',
+              update_badge, content
+          )
+
+          if updated != content:
+              with open("README.md", "w") as f:
+                  f.write(updated)
+              print("README updated with new star counts")
+          else:
+              print("No changes needed")
+
+      - uses: peter-evans/create-pull-request@v7
+        id: create-pr
+        with:
+          commit-message: "Update star badges"
+          title: "Update star badges"
+          body: "Automated daily update of star count badges in profile README."
+          branch: automated/star-badges
+          delete-branch: true
+
+      - name: Merge PR
+        if: steps.create-pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --delete-branch
