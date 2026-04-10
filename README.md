@@ -122,12 +122,12 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/ScriptPoblar"><img src="https://img.shields.io/badge/ScriptPoblar-198CE7?style=flat-square&logo=r&logoColor=white" alt="ScriptPoblar"></a>
 <a href="https://github.com/GeiserX/search-by-surname"><img src="https://img.shields.io/badge/search--by--surname-198CE7?style=flat-square&logo=r&logoColor=white" alt="search-by-surname"></a>
 <br/>
-<a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_3-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_2-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="cc-aws-keepalive"></a>
 <a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="github-toggle-all-details"></a>
 <br/>
 <a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_9-FFD700?style=flat-square&logo=dotnet&logoColor=white&labelColor=178600" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_3-FFD700?style=flat-square&logo=dotnet&logoColor=white&labelColor=178600" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_2-FFD700?style=flat-square&logo=dotnet&logoColor=white&labelColor=178600" alt="smart-covers"></a>
 <br/>
 <a href="https://github.com/GeiserX/cloud-tests-velero"><img src="https://img.shields.io/badge/cloud--tests--velero-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="cloud-tests-velero"></a>
