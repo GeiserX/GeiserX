@@ -32,34 +32,71 @@ jobs:
           with open("README.md") as f:
               content = f.read()
 
-          def update_badge(m):
-              prefix, repo, badge_path, suffix = m.group(1), m.group(2), m.group(3), m.group(4)
-              count = stars.get(repo, 0)
-              parts = badge_path.split("?", 1)
-              path = parts[0]
-              params = "?" + parts[1] if len(parts) > 1 else ""
-
-              cm = re.match(r"^(.+)-([0-9a-fA-F]{6})$", path)
-              if not cm:
-                  return m.group(0)
-              label, color = cm.group(1), cm.group(2)
-
-              # Strip any existing star suffix
-              label = re.sub(r"_★_\d+$", "", label)
-
-              if count >= 5:
-                  return f"{prefix}{label}_★_{count}-{color}{params}{suffix}"
-              return f"{prefix}{label}-{color}{params}{suffix}"
-
-          updated = re.sub(
-              r'(<a href="https://github\.com/GeiserX/([^"]+)"><img src="https://img\.shields\.io/badge/)([^"]+)(" alt="[^"]*"></a>)',
-              update_badge, content
+          # Find the Projects <p> block
+          pm = re.search(
+              r'(## Projects\s*\n+<p align="center">\n)(.*?)(\n</p>)',
+              content, re.DOTALL
           )
+          if not pm:
+              print("No Projects section found")
+              exit(0)
 
-          if updated != content:
+          before = content[:pm.start()] + pm.group(1)
+          block = pm.group(2)
+          after = pm.group(3) + content[pm.end():]
+
+          # Split badges into groups by <br/>
+          groups = []
+          current = []
+          for line in block.split("\n"):
+              stripped = line.strip()
+              if stripped == "<br/>":
+                  if current:
+                      groups.append(current)
+                      current = []
+              elif stripped:
+                  current.append(stripped)
+          if current:
+              groups.append(current)
+
+          repo_re = re.compile(r'href="https://github\.com/GeiserX/([^"]+)"')
+
+          def update_badge_stars(html, repo):
+              count = stars.get(repo, 0)
+              def replacer(m):
+                  path = m.group(1)
+                  parts = path.split("?", 1)
+                  p, params = parts[0], ("?" + parts[1] if len(parts) > 1 else "")
+                  cm = re.match(r"^(.+)-([0-9a-fA-F]{6})$", p)
+                  if not cm:
+                      return m.group(0)
+                  label, color = cm.group(1), cm.group(2)
+                  label = re.sub(r"_★_\d+$", "", label)
+                  if count >= 5:
+                      return f"badge/{label}_★_{count}-{color}{params}"
+                  return f"badge/{label}-{color}{params}"
+              return re.sub(r'badge/([^"]+)', replacer, html)
+
+          new_groups = []
+          for group in groups:
+              items = []
+              for badge in group:
+                  rm = repo_re.search(badge)
+                  repo = rm.group(1) if rm else ""
+                  count = stars.get(repo, 0) if repo else 0
+                  updated = update_badge_stars(badge, repo) if repo else badge
+                  items.append((count, repo.lower(), updated))
+              # Sort by stars descending, then name ascending
+              items.sort(key=lambda x: (-x[0], x[1]))
+              new_groups.append([i[2] for i in items])
+
+          new_block = "\n<br/>\n".join("\n".join(g) for g in new_groups)
+          new_content = before + new_block + after
+
+          if new_content != content:
               with open("README.md", "w") as f:
-                  f.write(updated)
-              print("README updated with new star counts")
+                  f.write(new_content)
+              print("README updated")
           else:
               print("No changes needed")
 
