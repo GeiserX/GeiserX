@@ -100,8 +100,8 @@ jobs:
                   return "GitHub"
               if name.startswith("n8n-nodes-"):
                   return "n8n"
-              if name.endswith("-container") or name.endswith("-docker") or name in (
-                  "genieacs-sim-docker", "docker-templates", "duplicacy-container",
+              if name.endswith("-container") or name in (
+                  "docker-templates",
               ):
                   return "Docker"
               # Force specific repos to a group when GitHub misdetects language
