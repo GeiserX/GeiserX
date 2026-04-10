@@ -33,11 +33,15 @@ jobs:
 
           STAR_COLOR = "FFD700"
 
+          # Language → (GitHub linguist color, shields.io logo)
+          # Covers all current + common languages for future repos
           LANG_STYLES = {
+              # Current languages
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
               "JavaScript": ("f1e05a", "javascript"),
               "Go": ("00ADD8", "go"),
+              "Go Template": ("00ADD8", "go"),
               "Swift": ("F05138", "swift"),
               "Kotlin": ("7F52FF", "kotlin"),
               "Ruby": ("701516", "ruby"),
@@ -47,14 +51,53 @@ jobs:
               "HTML": ("e34c26", "html5"),
               "HCL": ("844FBA", "terraform"),
               "Dockerfile": ("384d54", "docker"),
-              "Java": ("b07219", "openjdk"),
-              "Rust": ("dea584", "rust"),
               "Handlebars": ("f7931e", "handlebarsdotjs"),
               "Makefile": ("89e051", "gnu"),
+              # JVM
+              "Java": ("b07219", "openjdk"),
+              "Scala": ("c22d40", "scala"),
+              "Groovy": ("4298b8", "apachegroovy"),
+              "Clojure": ("db5855", "clojure"),
+              # Systems
+              "Rust": ("dea584", "rust"),
+              "C": ("555555", "c"),
+              "C++": ("f34b7d", "cplusplus"),
+              "Zig": ("F7A41D", "zig"),
+              "Assembly": ("6E4C13", "assemblyscript"),
+              # Functional
+              "Haskell": ("5e5086", "haskell"),
+              "Elixir": ("6e4a7e", "elixir"),
+              "Erlang": ("B83998", "erlang"),
+              "OCaml": ("3be133", "ocaml"),
+              "F#": ("b845fc", "fsharp"),
+              # Scripting
+              "Lua": ("000080", "lua"),
+              "Perl": ("0298c3", "perl"),
+              "PHP": ("4F5D95", "php"),
+              "PowerShell": ("012456", "powershell"),
+              "Nix": ("7e7eff", "nixos"),
+              # Frontend / CSS
               "Vue": ("4FC08D", "vuedotjs"),
+              "Svelte": ("ff3e00", "svelte"),
               "CSS": ("563d7c", "css3"),
               "SCSS": ("c6538c", "sass"),
-              "Go Template": ("00ADD8", "go"),
+              "Astro": ("ff5a03", "astro"),
+              # Data / ML
+              "Jupyter Notebook": ("DA5B0B", "jupyter"),
+              "Julia": ("9558B2", "julia"),
+              "MATLAB": ("e16737", "mathworks"),
+              # Mobile
+              "Dart": ("00B4AB", "dart"),
+              "Objective-C": ("438eff", "apple"),
+              # Config / IaC
+              "Jsonnet": ("0064bd", "json"),
+              "Starlark": ("76d275", "buildkite"),
+              "Nunjucks": ("3d8137", "nunjucks"),
+              "Mustache": ("724b3b", "mustache"),
+              # Other
+              "Vim Script": ("199f4b", "vim"),
+              "Emacs Lisp": ("c065db", "gnuemacs"),
+              "TeX": ("3D6117", "latex"),
               None: ("555555", "github"),
           }
           DEFAULT_STYLE = ("555555", "github")
