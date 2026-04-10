@@ -21,18 +21,126 @@ jobs:
         shell: python
         run: |
           import json, re, subprocess
+          from collections import defaultdict
 
           result = subprocess.run(
               ["gh", "repo", "list", "GeiserX", "--source", "--no-archived",
-               "--limit", "200", "--json", "name,stargazerCount"],
+               "--visibility", "public", "--limit", "200",
+               "--json", "name,stargazerCount,primaryLanguage"],
               capture_output=True, text=True, check=True
           )
-          stars = {r["name"]: r["stargazerCount"] for r in json.loads(result.stdout)}
+          repos = json.loads(result.stdout)
+
+          STAR_COLOR = "FFD700"
+
+          # Language → (GitHub linguist color, shields.io logo)
+          # Covers all current + common languages for future repos
+          LANG_STYLES = {
+              # Current languages
+              "Python": ("3572A5", "python"),
+              "TypeScript": ("3178C6", "typescript"),
+              "JavaScript": ("f1e05a", "javascript"),
+              "Go": ("00ADD8", "go"),
+              "Go Template": ("00ADD8", "go"),
+              "Swift": ("F05138", "swift"),
+              "Kotlin": ("7F52FF", "kotlin"),
+              "Ruby": ("701516", "ruby"),
+              "Shell": ("89e051", "gnubash"),
+              "C#": ("178600", "dotnet"),
+              "R": ("198CE7", "r"),
+              "HTML": ("e34c26", "html5"),
+              "HCL": ("844FBA", "terraform"),
+              "Dockerfile": ("384d54", "docker"),
+              "Handlebars": ("f7931e", "handlebarsdotjs"),
+              "Makefile": ("89e051", "gnu"),
+              # JVM
+              "Java": ("b07219", "openjdk"),
+              "Scala": ("c22d40", "scala"),
+              "Groovy": ("4298b8", "apachegroovy"),
+              "Clojure": ("db5855", "clojure"),
+              # Systems
+              "Rust": ("dea584", "rust"),
+              "C": ("555555", "c"),
+              "C++": ("f34b7d", "cplusplus"),
+              "Zig": ("F7A41D", "zig"),
+              "Assembly": ("6E4C13", "assemblyscript"),
+              # Functional
+              "Haskell": ("5e5086", "haskell"),
+              "Elixir": ("6e4a7e", "elixir"),
+              "Erlang": ("B83998", "erlang"),
+              "OCaml": ("3be133", "ocaml"),
+              "F#": ("b845fc", "fsharp"),
+              # Scripting
+              "Lua": ("000080", "lua"),
+              "Perl": ("0298c3", "perl"),
+              "PHP": ("4F5D95", "php"),
+              "PowerShell": ("012456", "powershell"),
+              "Nix": ("7e7eff", "nixos"),
+              # Frontend / CSS
+              "Vue": ("4FC08D", "vuedotjs"),
+              "Svelte": ("ff3e00", "svelte"),
+              "CSS": ("563d7c", "css3"),
+              "SCSS": ("c6538c", "sass"),
+              "Astro": ("ff5a03", "astro"),
+              # Data / ML
+              "Jupyter Notebook": ("DA5B0B", "jupyter"),
+              "Julia": ("9558B2", "julia"),
+              "MATLAB": ("e16737", "mathworks"),
+              # Mobile
+              "Dart": ("00B4AB", "dart"),
+              "Objective-C": ("438eff", "apple"),
+              # Config / IaC
+              "Jsonnet": ("0064bd", "json"),
+              "Starlark": ("76d275", "buildkite"),
+              "Nunjucks": ("3d8137", "nunjucks"),
+              "Mustache": ("724b3b", "mustache"),
+              # Other
+              "Vim Script": ("199f4b", "vim"),
+              "Emacs Lisp": ("c065db", "gnuemacs"),
+              "TeX": ("3D6117", "latex"),
+              None: ("555555", "github"),
+          }
+          DEFAULT_STYLE = ("555555", "github")
+
+          # Group repos by language
+          groups = defaultdict(list)
+          for r in repos:
+              lang = r["primaryLanguage"]["name"] if r["primaryLanguage"] else None
+              groups[lang].append(r)
+
+          # Sort repos within each group: stars desc, then name asc
+          for lang in groups:
+              groups[lang].sort(key=lambda x: (-x["stargazerCount"], x["name"].lower()))
+
+          # Sort groups: total stars desc, then language name asc
+          sorted_groups = sorted(
+              groups.items(),
+              key=lambda x: (-sum(r["stargazerCount"] for r in x[1]), (x[0] or "zzz").lower())
+          )
+
+          def make_badge(repo, lang):
+              name = repo["name"]
+              count = repo["stargazerCount"]
+              color, logo = LANG_STYLES.get(lang, DEFAULT_STYLE)
+              label = name.replace("-", "--")
+
+              if count >= 5:
+                  src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
+              else:
+                  src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
+
+              return f'<a href="https://github.com/GeiserX/{name}"><img src="{src}" alt="{name}"></a>'
+
+          badge_groups = []
+          for lang, repos_list in sorted_groups:
+              badges = [make_badge(r, lang) for r in repos_list]
+              badge_groups.append("\n".join(badges))
+
+          new_block = "\n<br/>\n".join(badge_groups)
 
           with open("README.md") as f:
               content = f.read()
 
-          # Find the Projects <p> block
           pm = re.search(
               r'(## Projects\s*\n+<p align="center">\n)(.*?)(\n</p>)',
               content, re.DOTALL
@@ -41,77 +149,7 @@ jobs:
               print("No Projects section found")
               exit(0)
 
-          before = content[:pm.start()] + pm.group(1)
-          block = pm.group(2)
-          after = pm.group(3) + content[pm.end():]
-
-          # Split badges into groups by <br/>
-          groups = []
-          current = []
-          for line in block.split("\n"):
-              stripped = line.strip()
-              if stripped == "<br/>":
-                  if current:
-                      groups.append(current)
-                      current = []
-              elif stripped:
-                  current.append(stripped)
-          if current:
-              groups.append(current)
-
-          repo_re = re.compile(r'href="https://github\.com/GeiserX/([^"]+)"')
-
-          STAR_COLOR = "FFD700"
-
-          def update_badge_stars(html, repo):
-              count = stars.get(repo, 0)
-              def replacer(m):
-                  full = m.group(1)
-                  parts = full.split("?", 1)
-                  p = parts[0]
-                  params_str = parts[1] if len(parts) > 1 else ""
-
-                  # Extract and remove labelColor from params
-                  lc_match = re.search(r"&labelColor=[0-9a-fA-F]{6}", params_str)
-                  original_color = None
-                  if lc_match:
-                      original_color = lc_match.group(0).split("=")[1]
-                      params_str = params_str.replace(lc_match.group(0), "")
-                  params = "?" + params_str if params_str else ""
-
-                  # Parse path: LABEL-COLOR or LABEL-★_N-COLOR
-                  cm = re.match(r"^(.+)-([0-9a-fA-F]{6})$", p)
-                  if not cm:
-                      return m.group(0)
-                  label, color = cm.group(1), cm.group(2)
-
-                  # Recover original color if this was a star badge
-                  if color == STAR_COLOR and original_color:
-                      color = original_color
-
-                  # Strip any existing star segment (both formats)
-                  label = re.sub(r"[-_]★_\d+$", "", label)
-
-                  if count >= 5:
-                      return f"badge/{label}-★_{count}-{STAR_COLOR}{params}&labelColor={color}"
-                  return f"badge/{label}-{color}{params}"
-              return re.sub(r'badge/([^"]+)', replacer, html)
-
-          new_groups = []
-          for group in groups:
-              items = []
-              for badge in group:
-                  rm = repo_re.search(badge)
-                  repo = rm.group(1) if rm else ""
-                  count = stars.get(repo, 0) if repo else 0
-                  updated = update_badge_stars(badge, repo) if repo else badge
-                  items.append((count, repo.lower(), updated))
-              # Sort by stars descending, then name ascending
-              items.sort(key=lambda x: (-x[0], x[1]))
-              new_groups.append([i[2] for i in items])
-
-          new_block = "\n<br/>\n".join("\n".join(g) for g in new_groups)
-          new_content = before + new_block + after
+          new_content = content[:pm.start()] + pm.group(1) + new_block + pm.group(3) + content[pm.end():]
 
           if new_content != content:
               with open("README.md", "w") as f:
