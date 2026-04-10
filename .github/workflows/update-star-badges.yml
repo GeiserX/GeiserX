@@ -61,19 +61,39 @@ jobs:
 
           repo_re = re.compile(r'href="https://github\.com/GeiserX/([^"]+)"')
 
+          STAR_COLOR = "FFD700"
+
           def update_badge_stars(html, repo):
               count = stars.get(repo, 0)
               def replacer(m):
-                  path = m.group(1)
-                  parts = path.split("?", 1)
-                  p, params = parts[0], ("?" + parts[1] if len(parts) > 1 else "")
+                  full = m.group(1)
+                  parts = full.split("?", 1)
+                  p = parts[0]
+                  params_str = parts[1] if len(parts) > 1 else ""
+
+                  # Extract and remove labelColor from params
+                  lc_match = re.search(r"&labelColor=[0-9a-fA-F]{6}", params_str)
+                  original_color = None
+                  if lc_match:
+                      original_color = lc_match.group(0).split("=")[1]
+                      params_str = params_str.replace(lc_match.group(0), "")
+                  params = "?" + params_str if params_str else ""
+
+                  # Parse path: LABEL-COLOR or LABEL-★_N-COLOR
                   cm = re.match(r"^(.+)-([0-9a-fA-F]{6})$", p)
                   if not cm:
                       return m.group(0)
                   label, color = cm.group(1), cm.group(2)
-                  label = re.sub(r"_★_\d+$", "", label)
+
+                  # Recover original color if this was a star badge
+                  if color == STAR_COLOR and original_color:
+                      color = original_color
+
+                  # Strip any existing star segment (both formats)
+                  label = re.sub(r"[-_]★_\d+$", "", label)
+
                   if count >= 5:
-                      return f"badge/{label}_★_{count}-{color}{params}"
+                      return f"badge/{label}-★_{count}-{STAR_COLOR}{params}&labelColor={color}"
                   return f"badge/{label}-{color}{params}"
               return re.sub(r'badge/([^"]+)', replacer, html)
 
