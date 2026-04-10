@@ -79,6 +79,7 @@ jobs:
               "Dart": ("00B4AB", "dart"),
               "Objective-C": ("438eff", "apple"),
               "TeX": ("3D6117", "latex"),
+              "Ansible": ("EE0000", "ansible"),
               "Groovy": ("4298b8", "apachegroovy"),
               "Clojure": ("db5855", "clojure"),
               "OCaml": ("3be133", "ocaml"),
@@ -103,6 +104,7 @@ jobs:
               # Force specific repos to a group when GitHub misdetects language
               LANGUAGE_OVERRIDES = {
                   "quality-gate": "C#",
+                  "genieacs-ansible": "Ansible",
               }
               if name in LANGUAGE_OVERRIDES:
                   return LANGUAGE_OVERRIDES[name]
@@ -117,7 +119,7 @@ jobs:
               "GitHub", "Docker", "Python", "Swift", "Kotlin",
               "TypeScript", "n8n", "Go", "Go Template", "Shell",
               "R", "JavaScript", "C#", "HCL", "Handlebars",
-              "Ruby", "HTML",
+              "Ruby", "HTML", "Ansible",
           ]
 
           # Group repos
