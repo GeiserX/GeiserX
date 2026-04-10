@@ -100,6 +100,12 @@ jobs:
                   "genieacs-sim-docker", "docker-templates",
               ):
                   return "Docker"
+              # Force specific repos to a group when GitHub misdetects language
+              LANGUAGE_OVERRIDES = {
+                  "quality-gate": "C#",
+              }
+              if name in LANGUAGE_OVERRIDES:
+                  return LANGUAGE_OVERRIDES[name]
               lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
               # Merge tiny language groups into their closest match
               if lang in ("Go Template", "Makefile"):
