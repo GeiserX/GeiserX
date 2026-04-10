@@ -39,6 +39,9 @@ jobs:
               "GitHub": ("555555", "github"),
               "Docker": ("384d54", "docker"),
               "n8n": ("EA4B71", "n8n"),
+              "Home Assistant": ("18BCF2", "homeassistant"),
+              "Homebrew": ("FBB040", "homebrew"),
+              "GitHub Actions": ("2088FF", "githubactions"),
               # Language groups
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
@@ -98,14 +101,22 @@ jobs:
               if name.startswith("n8n-nodes-"):
                   return "n8n"
               if name.endswith("-container") or name.endswith("-docker") or name in (
-                  "genieacs-sim-docker", "docker-templates",
+                  "genieacs-sim-docker", "docker-templates", "duplicacy-container",
               ):
                   return "Docker"
               # Force specific repos to a group when GitHub misdetects language
               LANGUAGE_OVERRIDES = {
                   "quality-gate": "C#",
                   "genieacs-ansible": "Ansible",
+                  "cashpilot-ha": "Home Assistant",
+                  "duplicacy-ha": "Home Assistant",
+                  "genieacs-ha": "Home Assistant",
+                  "pumperly-ha": "Home Assistant",
+                  "lynxprompt-action": "GitHub Actions",
               }
+              # Homebrew taps
+              if name.startswith("homebrew-"):
+                  return "Homebrew"
               if name in LANGUAGE_OVERRIDES:
                   return LANGUAGE_OVERRIDES[name]
               lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
@@ -119,7 +130,8 @@ jobs:
               "GitHub", "Docker", "Python", "Swift", "Kotlin",
               "TypeScript", "n8n", "Go", "Go Template", "Shell",
               "R", "JavaScript", "C#", "HCL", "Handlebars",
-              "Ruby", "HTML", "Ansible",
+              "Ruby", "HTML", "Ansible", "Home Assistant",
+              "Homebrew", "GitHub Actions",
           ]
 
           # Group repos
