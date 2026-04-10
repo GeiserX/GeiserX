@@ -145,7 +145,7 @@ jobs:
               color, logo = GROUP_STYLES.get(group, DEFAULT_STYLE)
               label = name.replace("-", "--")
 
-              if count >= 5:
+              if count >= 2:
                   src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
               else:
                   src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
