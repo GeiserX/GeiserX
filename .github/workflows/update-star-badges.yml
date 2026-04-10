@@ -33,15 +33,17 @@ jobs:
 
           STAR_COLOR = "FFD700"
 
-          # Language → (GitHub linguist color, shields.io logo)
-          # Covers all current + common languages for future repos
-          LANG_STYLES = {
-              # Current languages
+          # Group styles: (color, shields.io logo)
+          GROUP_STYLES = {
+              # Role-based groups (override primary language)
+              "GitHub": ("555555", "github"),
+              "Docker": ("384d54", "docker"),
+              "n8n": ("EA4B71", "n8n"),
+              # Language groups
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
               "JavaScript": ("f1e05a", "javascript"),
               "Go": ("00ADD8", "go"),
-              "Go Template": ("00ADD8", "go"),
               "Swift": ("F05138", "swift"),
               "Kotlin": ("7F52FF", "kotlin"),
               "Ruby": ("701516", "ruby"),
@@ -53,75 +55,94 @@ jobs:
               "Dockerfile": ("384d54", "docker"),
               "Handlebars": ("f7931e", "handlebarsdotjs"),
               "Makefile": ("89e051", "gnu"),
-              # JVM
+              "Go Template": ("00ADD8", "go"),
               "Java": ("b07219", "openjdk"),
               "Scala": ("c22d40", "scala"),
-              "Groovy": ("4298b8", "apachegroovy"),
-              "Clojure": ("db5855", "clojure"),
-              # Systems
               "Rust": ("dea584", "rust"),
               "C": ("555555", "c"),
               "C++": ("f34b7d", "cplusplus"),
               "Zig": ("F7A41D", "zig"),
-              "Assembly": ("6E4C13", "assemblyscript"),
-              # Functional
               "Haskell": ("5e5086", "haskell"),
               "Elixir": ("6e4a7e", "elixir"),
-              "Erlang": ("B83998", "erlang"),
-              "OCaml": ("3be133", "ocaml"),
-              "F#": ("b845fc", "fsharp"),
-              # Scripting
               "Lua": ("000080", "lua"),
               "Perl": ("0298c3", "perl"),
               "PHP": ("4F5D95", "php"),
               "PowerShell": ("012456", "powershell"),
               "Nix": ("7e7eff", "nixos"),
-              # Frontend / CSS
               "Vue": ("4FC08D", "vuedotjs"),
               "Svelte": ("ff3e00", "svelte"),
               "CSS": ("563d7c", "css3"),
               "SCSS": ("c6538c", "sass"),
               "Astro": ("ff5a03", "astro"),
-              # Data / ML
               "Jupyter Notebook": ("DA5B0B", "jupyter"),
               "Julia": ("9558B2", "julia"),
-              "MATLAB": ("e16737", "mathworks"),
-              # Mobile
               "Dart": ("00B4AB", "dart"),
               "Objective-C": ("438eff", "apple"),
-              # Config / IaC
-              "Jsonnet": ("0064bd", "json"),
-              "Starlark": ("76d275", "buildkite"),
-              "Nunjucks": ("3d8137", "nunjucks"),
-              "Mustache": ("724b3b", "mustache"),
-              # Other
-              "Vim Script": ("199f4b", "vim"),
-              "Emacs Lisp": ("c065db", "gnuemacs"),
               "TeX": ("3D6117", "latex"),
-              None: ("555555", "github"),
+              "Groovy": ("4298b8", "apachegroovy"),
+              "Clojure": ("db5855", "clojure"),
+              "OCaml": ("3be133", "ocaml"),
+              "F#": ("b845fc", "fsharp"),
+              "Erlang": ("B83998", "erlang"),
           }
           DEFAULT_STYLE = ("555555", "github")
 
-          # Group repos by language
+          # Repo name → forced group (overrides primary language)
+          def get_group(repo):
+              name = repo["name"]
+              if name.startswith("awesome-") or name in (
+                  "runtipi-appstore", "grafana-rightsizing-dashboard",
+              ):
+                  return "GitHub"
+              if name.startswith("n8n-nodes-"):
+                  return "n8n"
+              if name.endswith("-container") or name.endswith("-docker") or name in (
+                  "genieacs-sim-docker", "docker-templates",
+              ):
+                  return "Docker"
+              lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
+              # Merge tiny language groups into their closest match
+              if lang in ("Go Template", "Makefile"):
+                  return lang  # keep separate but will merge below
+              return lang or "GitHub"
+
+          # Fixed group order — new groups go at the end alphabetically
+          GROUP_ORDER = [
+              "GitHub", "Docker", "Python", "Swift", "Kotlin",
+              "TypeScript", "n8n", "Go", "Go Template", "Shell",
+              "R", "JavaScript", "C#", "HCL", "Handlebars",
+              "Ruby", "HTML",
+          ]
+
+          # Group repos
           groups = defaultdict(list)
           for r in repos:
-              lang = r["primaryLanguage"]["name"] if r["primaryLanguage"] else None
-              groups[lang].append(r)
+              groups[get_group(r)].append(r)
+
+          # Merge tiny groups (≤1 repo) of Go-family into Go
+          for tiny in ["Go Template", "Makefile"]:
+              if tiny in groups and len(groups[tiny]) <= 2:
+                  groups["Go"].extend(groups.pop(tiny))
 
           # Sort repos within each group: stars desc, then name asc
-          for lang in groups:
-              groups[lang].sort(key=lambda x: (-x["stargazerCount"], x["name"].lower()))
+          for g in groups:
+              groups[g].sort(key=lambda x: (-x["stargazerCount"], x["name"].lower()))
 
-          # Sort groups: total stars desc, then language name asc
-          sorted_groups = sorted(
-              groups.items(),
-              key=lambda x: (-sum(r["stargazerCount"] for r in x[1]), (x[0] or "zzz").lower())
-          )
+          # Build ordered list: fixed order first, then new groups alphabetically
+          ordered = []
+          seen = set()
+          for g in GROUP_ORDER:
+              if g in groups:
+                  ordered.append((g, groups[g]))
+                  seen.add(g)
+          for g in sorted(groups.keys()):
+              if g not in seen:
+                  ordered.append((g, groups[g]))
 
-          def make_badge(repo, lang):
+          def make_badge(repo, group):
               name = repo["name"]
               count = repo["stargazerCount"]
-              color, logo = LANG_STYLES.get(lang, DEFAULT_STYLE)
+              color, logo = GROUP_STYLES.get(group, DEFAULT_STYLE)
               label = name.replace("-", "--")
 
               if count >= 5:
@@ -132,8 +153,8 @@ jobs:
               return f'<a href="https://github.com/GeiserX/{name}"><img src="{src}" alt="{name}"></a>'
 
           badge_groups = []
-          for lang, repos_list in sorted_groups:
-              badges = [make_badge(r, lang) for r in repos_list]
+          for group, repos_list in ordered:
+              badges = [make_badge(r, group) for r in repos_list]
               badge_groups.append("\n".join(badges))
 
           new_block = "\n<br/>\n".join(badge_groups)
