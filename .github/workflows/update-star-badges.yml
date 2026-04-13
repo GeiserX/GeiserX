@@ -127,7 +127,7 @@ jobs:
 
           # Fixed group order — new groups go at the end alphabetically
           GROUP_ORDER = [
-              "GitHub", "Docker", "Python", "Swift", "Kotlin",
+              "GitHub", "Python", "Docker", "Swift", "Kotlin",
               "TypeScript", "n8n", "Go", "Go Template", "Shell",
               "R", "JavaScript", "C#", "HCL", "Handlebars",
               "Ruby", "HTML", "Ansible", "Home Assistant",
