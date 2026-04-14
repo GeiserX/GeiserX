@@ -125,6 +125,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/lynxprompt-mcp"><img src="https://img.shields.io/badge/lynxprompt--mcp-8B5CF6?style=flat-square&logo=anthropic&logoColor=white" alt="lynxprompt-mcp"></a>
 <a href="https://github.com/GeiserX/pumperly-mcp"><img src="https://img.shields.io/badge/pumperly--mcp-8B5CF6?style=flat-square&logo=anthropic&logoColor=white" alt="pumperly-mcp"></a>
 <br/>
+<a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-D97757?style=flat-square&logo=claude&logoColor=white" alt="cc-aws-keepalive"></a>
+<br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_2-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
 <a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-34A853?style=flat-square&logo=android&logoColor=white" alt="Pumperly-android"></a>
 <br/>
@@ -146,7 +148,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
 <br/>
-<a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="cc-aws-keepalive"></a>
 <a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
 <br/>
 <a href="https://github.com/GeiserX/homebrew-catsup"><img src="https://img.shields.io/badge/homebrew--catsup-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-catsup"></a>
