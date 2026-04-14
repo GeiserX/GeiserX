@@ -94,6 +94,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
 <br/>
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_49-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
+<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_2-FFD700?style=flat-square&logo=kotlin&logoColor=white&labelColor=7F52FF" alt="CashPilot-android"></a>
 <a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Pumperly-android"></a>
@@ -164,5 +165,4 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
 <br/>
-<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
 </p>
