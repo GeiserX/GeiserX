@@ -61,8 +61,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-galicia"></a>
 <a href="https://github.com/GeiserX/awesome-lint-extra"><img src="https://img.shields.io/badge/awesome--lint--extra-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-lint-extra"></a>
 <a href="https://github.com/GeiserX/awesome-nafarroa"><img src="https://img.shields.io/badge/awesome--nafarroa-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-nafarroa"></a>
-<a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-555555?style=flat-square&logo=github&logoColor=white" alt="grafana-rightsizing-dashboard"></a>
-<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-555555?style=flat-square&logo=github&logoColor=white" alt="runtipi-appstore"></a>
 <br/>
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_108-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
@@ -72,39 +70,52 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/telegram-delay-channel-cloner"><img src="https://img.shields.io/badge/telegram--delay--channel--cloner-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-delay-channel-cloner"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="https://img.shields.io/badge/BuscaPaginasBlancas-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="BuscaPaginasBlancas"></a>
-<a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="jellyfin-encoder"></a>
-<a href="https://github.com/GeiserX/jellyfin-telegram-channel-sync"><img src="https://img.shields.io/badge/jellyfin--telegram--channel--sync-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="jellyfin-telegram-channel-sync"></a>
 <a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="web-mirror"></a>
 <a href="https://github.com/GeiserX/AskePub"><img src="https://img.shields.io/badge/AskePub-3572A5?style=flat-square&logo=python&logoColor=white" alt="AskePub"></a>
-<a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-3572A5?style=flat-square&logo=python&logoColor=white" alt="atlassian-browser-mcp"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-3572A5?style=flat-square&logo=python&logoColor=white" alt="audio-transcode-watcher"></a>
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-3572A5?style=flat-square&logo=python&logoColor=white" alt="duplicacy-exporter"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-3572A5?style=flat-square&logo=python&logoColor=white" alt="epub-and-vtt-to-llm"></a>
-<a href="https://github.com/GeiserX/PiSpot-Deployment"><img src="https://img.shields.io/badge/PiSpot--Deployment-3572A5?style=flat-square&logo=python&logoColor=white" alt="PiSpot-Deployment"></a>
-<a href="https://github.com/GeiserX/PiSpot-Show"><img src="https://img.shields.io/badge/PiSpot--Show-3572A5?style=flat-square&logo=python&logoColor=white" alt="PiSpot-Show"></a>
-<a href="https://github.com/GeiserX/PiSpot-Watch"><img src="https://img.shields.io/badge/PiSpot--Watch-3572A5?style=flat-square&logo=python&logoColor=white" alt="PiSpot-Watch"></a>
 <a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-3572A5?style=flat-square&logo=python&logoColor=white" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-3572A5?style=flat-square&logo=python&logoColor=white" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Wayback-Diff"></a>
-<br/>
-<a href="https://github.com/GeiserX/genieacs-container"><img src="https://img.shields.io/badge/genieacs--container-★_113-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-container"></a>
-<a href="https://github.com/GeiserX/genieacs-sim-container"><img src="https://img.shields.io/badge/genieacs--sim--container-★_2-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-sim-container"></a>
-<a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-384d54?style=flat-square&logo=docker&logoColor=white" alt="docker-templates"></a>
-<a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
-<br/>
-<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_49-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
-<br/>
-<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
-<br/>
-<a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_2-FFD700?style=flat-square&logo=kotlin&logoColor=white&labelColor=7F52FF" alt="CashPilot-android"></a>
-<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Pumperly-android"></a>
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_27-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_13-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="DeclaRenta"></a>
-<a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="lynxprompt-vscode"></a>
+<br/>
+<a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
+<br/>
+<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_49-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
+<br/>
+<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
+<br/>
+<a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_2-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
+<a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="github-toggle-all-details"></a>
+<br/>
+<a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
+<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
+<a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="duplicacy-cli-cron"></a>
+<br/>
+<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_29-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_6-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="quality-gate"></a>
+<a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_5-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="smart-covers"></a>
+<a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_2-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="jellyfin-encoder"></a>
+<a href="https://github.com/GeiserX/jellyfin-telegram-channel-sync"><img src="https://img.shields.io/badge/jellyfin--telegram--channel--sync-★_2-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="jellyfin-telegram-channel-sync"></a>
+<br/>
+<a href="https://github.com/GeiserX/cashpilot-ha"><img src="https://img.shields.io/badge/cashpilot--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="cashpilot-ha"></a>
+<a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="duplicacy-ha"></a>
+<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="genieacs-ha"></a>
+<a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
+<br/>
+<a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_9-FFD700?style=flat-square&logo=anthropic&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
+<a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_2-FFD700?style=flat-square&logo=anthropic&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
+<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_2-FFD700?style=flat-square&logo=anthropic&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
+<a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-8B5CF6?style=flat-square&logo=anthropic&logoColor=white" alt="atlassian-browser-mcp"></a>
+<a href="https://github.com/GeiserX/duplicacy-mcp"><img src="https://img.shields.io/badge/duplicacy--mcp-8B5CF6?style=flat-square&logo=anthropic&logoColor=white" alt="duplicacy-mcp"></a>
+<a href="https://github.com/GeiserX/lynxprompt-mcp"><img src="https://img.shields.io/badge/lynxprompt--mcp-8B5CF6?style=flat-square&logo=anthropic&logoColor=white" alt="lynxprompt-mcp"></a>
+<a href="https://github.com/GeiserX/pumperly-mcp"><img src="https://img.shields.io/badge/pumperly--mcp-8B5CF6?style=flat-square&logo=anthropic&logoColor=white" alt="pumperly-mcp"></a>
 <br/>
 <a href="https://github.com/GeiserX/n8n-nodes-cashpilot"><img src="https://img.shields.io/badge/n8n--nodes--cashpilot-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-cashpilot"></a>
 <a href="https://github.com/GeiserX/n8n-nodes-genieacs"><img src="https://img.shields.io/badge/n8n--nodes--genieacs-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-genieacs"></a>
@@ -113,20 +124,38 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/n8n-nodes-telegram-archive"><img src="https://img.shields.io/badge/n8n--nodes--telegram--archive-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-telegram-archive"></a>
 <a href="https://github.com/GeiserX/n8n-nodes-way-cms"><img src="https://img.shields.io/badge/n8n--nodes--way--cms-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-way-cms"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_9-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="genieacs-mcp"></a>
-<a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="cashpilot-mcp"></a>
-<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="telegram-archive-mcp"></a>
-<a href="https://github.com/GeiserX/duplicacy-mcp"><img src="https://img.shields.io/badge/duplicacy--mcp-00ADD8?style=flat-square&logo=go&logoColor=white" alt="duplicacy-mcp"></a>
-<a href="https://github.com/GeiserX/lynxprompt-mcp"><img src="https://img.shields.io/badge/lynxprompt--mcp-00ADD8?style=flat-square&logo=go&logoColor=white" alt="lynxprompt-mcp"></a>
-<a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
-<a href="https://github.com/GeiserX/pumperly-mcp"><img src="https://img.shields.io/badge/pumperly--mcp-00ADD8?style=flat-square&logo=go&logoColor=white" alt="pumperly-mcp"></a>
-<a href="https://github.com/GeiserX/redis-operator"><img src="https://img.shields.io/badge/redis--operator-00ADD8?style=flat-square&logo=go&logoColor=white" alt="redis-operator"></a>
+<a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_2-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
+<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-34A853?style=flat-square&logo=android&logoColor=white" alt="Pumperly-android"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
-<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
-<a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="duplicacy-cli-cron"></a>
-<a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="k8s-dockerhub-detector"></a>
-<a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
+<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-27B648?style=flat-square&logo=linux&logoColor=white" alt="runtipi-appstore"></a>
+<br/>
+<a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-F15A2C?style=flat-square&logo=unraid&logoColor=white" alt="docker-templates"></a>
+<br/>
+<a href="https://github.com/GeiserX/cloud-tests-velero"><img src="https://img.shields.io/badge/cloud--tests--velero-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="cloud-tests-velero"></a>
+<a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="k8s-dockerhub-detector"></a>
+<a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="migrate-psql"></a>
+<a href="https://github.com/GeiserX/redis-operator"><img src="https://img.shields.io/badge/redis--operator-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="redis-operator"></a>
+<br/>
+<a href="https://github.com/GeiserX/genieacs-container"><img src="https://img.shields.io/badge/genieacs--container-★_113-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-container"></a>
+<a href="https://github.com/GeiserX/genieacs-sim-container"><img src="https://img.shields.io/badge/genieacs--sim--container-★_2-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-sim-container"></a>
+<a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
+<br/>
+<a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-F46800?style=flat-square&logo=grafana&logoColor=white" alt="grafana-rightsizing-dashboard"></a>
+<br/>
+<a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="lynxprompt-vscode"></a>
+<br/>
+<a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="cc-aws-keepalive"></a>
+<a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
+<br/>
+<a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
+<br/>
+<a href="https://github.com/GeiserX/homebrew-catsup"><img src="https://img.shields.io/badge/homebrew--catsup-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-catsup"></a>
+<a href="https://github.com/GeiserX/homebrew-lynxprompt"><img src="https://img.shields.io/badge/homebrew--lynxprompt-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-lynxprompt"></a>
+<a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
+<br/>
+<a href="https://github.com/GeiserX/PiSpot-Deployment"><img src="https://img.shields.io/badge/PiSpot--Deployment-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Deployment"></a>
+<a href="https://github.com/GeiserX/PiSpot-Show"><img src="https://img.shields.io/badge/PiSpot--Show-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Show"></a>
+<a href="https://github.com/GeiserX/PiSpot-Watch"><img src="https://img.shields.io/badge/PiSpot--Watch-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Watch"></a>
 <br/>
 <a href="https://github.com/GeiserX/services-isp"><img src="https://img.shields.io/badge/services--isp-★_4-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="services-isp"></a>
 <a href="https://github.com/GeiserX/statix"><img src="https://img.shields.io/badge/statix-★_3-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="statix"></a>
@@ -137,32 +166,9 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/ScriptPoblar"><img src="https://img.shields.io/badge/ScriptPoblar-198CE7?style=flat-square&logo=r&logoColor=white" alt="ScriptPoblar"></a>
 <a href="https://github.com/GeiserX/search-by-surname"><img src="https://img.shields.io/badge/search--by--surname-198CE7?style=flat-square&logo=r&logoColor=white" alt="search-by-surname"></a>
 <br/>
-<a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_2-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
-<a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="cc-aws-keepalive"></a>
-<a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="github-toggle-all-details"></a>
-<br/>
-<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_29-FFD700?style=flat-square&logo=dotnet&logoColor=white&labelColor=178600" alt="whisper-subs"></a>
-<a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_6-FFD700?style=flat-square&logo=dotnet&logoColor=white&labelColor=178600" alt="quality-gate"></a>
-<a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_5-FFD700?style=flat-square&logo=dotnet&logoColor=white&labelColor=178600" alt="smart-covers"></a>
-<br/>
-<a href="https://github.com/GeiserX/cloud-tests-velero"><img src="https://img.shields.io/badge/cloud--tests--velero-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="cloud-tests-velero"></a>
-<br/>
-<a href="https://github.com/GeiserX/GeiserX"><img src="https://img.shields.io/badge/GeiserX-f7931e?style=flat-square&logo=handlebarsdotjs&logoColor=white" alt="GeiserX"></a>
-<br/>
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-e34c26?style=flat-square&logo=html5&logoColor=white" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/router-express"><img src="https://img.shields.io/badge/router--express-e34c26?style=flat-square&logo=html5&logoColor=white" alt="router-express"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-e34c26?style=flat-square&logo=html5&logoColor=white" alt="WebApp-Flotas"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
-<br/>
-<a href="https://github.com/GeiserX/cashpilot-ha"><img src="https://img.shields.io/badge/cashpilot--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="cashpilot-ha"></a>
-<a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="duplicacy-ha"></a>
-<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="genieacs-ha"></a>
-<a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
-<br/>
-<a href="https://github.com/GeiserX/homebrew-catsup"><img src="https://img.shields.io/badge/homebrew--catsup-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-catsup"></a>
-<a href="https://github.com/GeiserX/homebrew-lynxprompt"><img src="https://img.shields.io/badge/homebrew--lynxprompt-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-lynxprompt"></a>
-<a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
-<br/>
-<a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
+<a href="https://github.com/GeiserX/GeiserX"><img src="https://img.shields.io/badge/GeiserX-f7931e?style=flat-square&logo=handlebarsdotjs&logoColor=white" alt="GeiserX"></a>
 </p>
