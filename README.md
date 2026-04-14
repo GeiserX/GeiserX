@@ -164,4 +164,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
+<br/>
+<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
 </p>

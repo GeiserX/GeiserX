@@ -88,6 +88,7 @@ jobs:
               "OCaml": ("3be133", "ocaml"),
               "F#": ("b845fc", "fsharp"),
               "Erlang": ("B83998", "erlang"),
+              "ElectroBun": ("111111", "bun"),
           }
           DEFAULT_STYLE = ("555555", "github")
 
@@ -113,6 +114,7 @@ jobs:
                   "genieacs-ha": "Home Assistant",
                   "pumperly-ha": "Home Assistant",
                   "lynxprompt-action": "GitHub Actions",
+                  "AgentTap": "ElectroBun",
               }
               # Homebrew taps
               if name.startswith("homebrew-"):
@@ -131,7 +133,7 @@ jobs:
               "TypeScript", "n8n", "Go", "Go Template", "Shell",
               "R", "JavaScript", "C#", "HCL", "Handlebars",
               "Ruby", "HTML", "Ansible", "Home Assistant",
-              "Homebrew", "GitHub Actions",
+              "Homebrew", "GitHub Actions", "ElectroBun",
           ]
 
           # Group repos
