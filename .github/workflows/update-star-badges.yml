@@ -174,7 +174,7 @@ jobs:
               # Kubernetes tools
               if name in (
                   "redis-operator", "k8s-dockerhub-detector",
-                  "cloud-tests-velero", "migrate-psql",
+                  "cloud-tests-velero",
               ):
                   return "Kubernetes"
 
@@ -193,20 +193,35 @@ jobs:
           # ── Group display order ────────────────────────────────────────
           GROUP_ORDER = [
               # Curated lists
-              "GitHub",
-              # Main products (by language)
-              "Python", "TypeScript", "Go", "Swift", "ElectroBun",
-              "JavaScript", "Shell",
-              # Platform integrations
-              "Jellyfin", "Home Assistant", "MCP", "n8n", "Android",
+              "GitHub",                   # 555555 gray
+              # Main products (contrast-ordered by color)
+              "Python",                   # 3572A5 blue
+              "Swift",                    # F05138 red-orange
+              "TypeScript",               # 3178C6 blue
+              "ElectroBun",               # 111111 black
+              "Go",                       # 00ADD8 cyan
+              "Shell",                    # 89e051 green
+              "JavaScript",               # f1e05a yellow
+              # Platform integrations (contrast-ordered)
+              "Jellyfin",                 # 00A4DC blue
+              "n8n",                      # EA4B71 pink
+              "Home Assistant",           # 18BCF2 light blue
+              "MCP",                      # 8B5CF6 purple
+              "Android",                  # 34A853 green
               # App stores & templates
-              "Runtipi", "Unraid",
+              "Unraid",                   # F15A2C orange
+              "Runtipi",                  # 27B648 green
               # Infrastructure
-              "Kubernetes", "Docker", "Grafana",
-              # Dev tools
-              "VS Code", "GitHub Actions", "Ansible", "Homebrew",
+              "Kubernetes",               # 326CE5 blue
+              "Grafana",                  # F46800 orange
+              "Docker",                   # 384d54 dark
+              # Dev tools (contrast-ordered)
+              "VS Code",                  # 007ACC blue
+              "Ansible",                  # EE0000 red
+              "GitHub Actions",           # 2088FF blue
+              "Homebrew",                 # FBB040 yellow
               # IoT
-              "Raspberry Pi",
+              "Raspberry Pi",             # A22846 magenta
               # Remaining languages
               "R", "C#", "HTML", "Handlebars",
           ]
