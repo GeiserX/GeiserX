@@ -33,16 +33,26 @@ jobs:
 
           STAR_COLOR = "FFD700"
 
-          # Group styles: (color, shields.io logo)
+          # ── Badge styles: (color, shields.io logo) ──────────────────────
           GROUP_STYLES = {
-              # Role-based groups (override primary language)
+              # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
-              "Docker": ("384d54", "docker"),
-              "n8n": ("EA4B71", "n8n"),
+              "Grafana": ("F46800", "grafana"),
+              "Jellyfin": ("00A4DC", "jellyfin"),
               "Home Assistant": ("18BCF2", "homeassistant"),
-              "Homebrew": ("FBB040", "homebrew"),
+              "MCP": ("8B5CF6", "anthropic"),
+              "n8n": ("EA4B71", "n8n"),
+              "Android": ("34A853", "android"),
+              "Runtipi": ("27B648", "linux"),
+              "Unraid": ("F15A2C", "unraid"),
+              "Kubernetes": ("326CE5", "kubernetes"),
+              "Docker": ("384d54", "docker"),
+              "Raspberry Pi": ("A22846", "raspberrypi"),
+              "VS Code": ("007ACC", "visualstudiocode"),
               "GitHub Actions": ("2088FF", "githubactions"),
-              # Language groups
+              "Ansible": ("EE0000", "ansible"),
+              "Homebrew": ("FBB040", "homebrew"),
+              # Language groups (fallback)
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
               "JavaScript": ("f1e05a", "javascript"),
@@ -82,7 +92,6 @@ jobs:
               "Dart": ("00B4AB", "dart"),
               "Objective-C": ("438eff", "apple"),
               "TeX": ("3D6117", "latex"),
-              "Ansible": ("EE0000", "ansible"),
               "Groovy": ("4298b8", "apachegroovy"),
               "Clojure": ("db5855", "clojure"),
               "OCaml": ("3be133", "ocaml"),
@@ -92,56 +101,122 @@ jobs:
           }
           DEFAULT_STYLE = ("555555", "github")
 
-          # Repo name → forced group (overrides primary language)
+          # ── Routing: repo → group ──────────────────────────────────────
           def get_group(repo):
               name = repo["name"]
-              if name.startswith("awesome-") or name in (
-                  "runtipi-appstore", "grafana-rightsizing-dashboard",
-              ):
+              lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
+
+              # ─ Curated lists ─
+              if name.startswith("awesome-"):
                   return "GitHub"
+
+              # ─ Platform / ecosystem (checked first, overrides language) ─
+
+              # Grafana
+              if name == "grafana-rightsizing-dashboard":
+                  return "Grafana"
+
+              # Runtipi
+              if name == "runtipi-appstore":
+                  return "Runtipi"
+
+              # Unraid
+              if name == "docker-templates":
+                  return "Unraid"
+
+              # Raspberry Pi / IoT
+              if name.startswith("PiSpot-"):
+                  return "Raspberry Pi"
+
+              # Jellyfin plugins & tools
+              if name in (
+                  "whisper-subs", "smart-covers", "quality-gate",
+                  "jellyfin-encoder", "jellyfin-telegram-channel-sync",
+              ):
+                  return "Jellyfin"
+
+              # MCP servers
+              if name.endswith("-mcp"):
+                  return "MCP"
+
+              # n8n community nodes
               if name.startswith("n8n-nodes-"):
                   return "n8n"
-              if name.endswith("-container") or name in (
-                  "docker-templates",
-              ):
-                  return "Docker"
-              # Force specific repos to a group when GitHub misdetects language
-              LANGUAGE_OVERRIDES = {
-                  "quality-gate": "C#",
-                  "genieacs-ansible": "Ansible",
-                  "cashpilot-ha": "Home Assistant",
-                  "duplicacy-ha": "Home Assistant",
-                  "genieacs-ha": "Home Assistant",
-                  "pumperly-ha": "Home Assistant",
-                  "lynxprompt-action": "GitHub Actions",
-                  "AgentTap": "ElectroBun",
-              }
+
+              # Home Assistant integrations
+              if name.endswith("-ha"):
+                  return "Home Assistant"
+
+              # Android apps
+              if name.endswith("-android"):
+                  return "Android"
+
+              # VS Code extensions
+              if name.endswith("-vscode"):
+                  return "VS Code"
+
+              # GitHub Actions
+              if name.endswith("-action") or name == "cc-aws-keepalive":
+                  return "GitHub Actions"
+
               # Homebrew taps
               if name.startswith("homebrew-"):
                   return "Homebrew"
-              if name in LANGUAGE_OVERRIDES:
-                  return LANGUAGE_OVERRIDES[name]
-              lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
-              # Merge tiny language groups into their closest match
+
+              # Ansible
+              if name.endswith("-ansible"):
+                  return "Ansible"
+
+              # Docker / Helm containers
+              if name.endswith("-container"):
+                  return "Docker"
+
+              # Kubernetes tools
+              if name in (
+                  "redis-operator", "k8s-dockerhub-detector",
+                  "cloud-tests-velero", "migrate-psql",
+              ):
+                  return "Kubernetes"
+
+              # ─ Special overrides ─
+              OVERRIDES = {
+                  "AgentTap": "ElectroBun",
+              }
+              if name in OVERRIDES:
+                  return OVERRIDES[name]
+
+              # ─ Fallback to primary language ─
               if lang in ("Go Template", "Makefile"):
-                  return lang  # keep separate but will merge below
+                  return lang
               return lang or "GitHub"
 
-          # Fixed group order — new groups go at the end alphabetically
+          # ── Group display order ────────────────────────────────────────
           GROUP_ORDER = [
-              "GitHub", "Python", "Docker", "Swift", "ElectroBun", "Kotlin",
-              "TypeScript", "n8n", "Go", "Go Template", "Shell",
-              "R", "JavaScript", "C#", "HCL", "Handlebars",
-              "Ruby", "HTML", "Ansible", "Home Assistant",
-              "Homebrew", "GitHub Actions",
+              # Curated lists
+              "GitHub",
+              # Main products (by language)
+              "Python", "TypeScript", "Go", "Swift", "ElectroBun",
+              "JavaScript", "Shell",
+              # Platform integrations
+              "Jellyfin", "Home Assistant", "MCP", "n8n", "Android",
+              # App stores & templates
+              "Runtipi", "Unraid",
+              # Infrastructure
+              "Kubernetes", "Docker", "Grafana",
+              # Dev tools
+              "VS Code", "GitHub Actions", "Ansible", "Homebrew",
+              # IoT
+              "Raspberry Pi",
+              # Remaining languages
+              "R", "C#", "HTML", "Handlebars",
           ]
 
-          # Group repos
+          # ── Group repos ────────────────────────────────────────────────
           groups = defaultdict(list)
           for r in repos:
               groups[get_group(r)].append(r)
 
-          # Merge tiny groups (≤1 repo) of Go-family into Go
+          # Merge tiny language groups into closest match
           for tiny in ["Go Template", "Makefile"]:
               if tiny in groups and len(groups[tiny]) <= 2:
                   groups["Go"].extend(groups.pop(tiny))
