@@ -54,6 +54,7 @@ jobs:
               "Ansible": ("EE0000", "ansible"),
               "Homebrew": ("FBB040", "homebrew"),
               "Browser Extensions": ("4285F4", "googlechrome"),
+              "Awesome": ("FC60A8", "awesomelists"),
               # Language groups (fallback)
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
@@ -110,7 +111,7 @@ jobs:
 
               # ─ Curated lists ─
               if name.startswith("awesome-"):
-                  return "GitHub"
+                  return "Awesome"
 
               # ─ Platform / ecosystem (checked first, overrides language) ─
 
@@ -202,8 +203,6 @@ jobs:
 
           # ── Group display order ────────────────────────────────────────
           GROUP_ORDER = [
-              # Curated lists
-              "GitHub",                   # 555555 gray
               # Main products (contrast-ordered by color)
               "Python",                   # 3572A5 blue
               "Swift",                    # F05138 red-orange
@@ -229,13 +228,14 @@ jobs:
               # Dev tools (contrast-ordered)
               "VS Code",                  # 007ACC blue
               "Ansible",                  # EE0000 red
+              "Awesome",                  # FC60A8 pink
               "GitHub Actions",           # 2088FF blue
               "Homebrew",                 # FBB040 yellow
               "Browser Extensions",       # 4285F4 google blue
               # IoT
               "Raspberry Pi",             # A22846 magenta
-              # Remaining languages
-              "R", "C#", "HTML", "Handlebars",
+              # Remaining languages / fallback
+              "R", "C#", "HTML", "Handlebars", "GitHub",
           ]
 
           # ── Group repos ────────────────────────────────────────────────
