@@ -48,7 +48,7 @@ jobs:
               "Kubernetes": ("326CE5", "kubernetes"),
               "Docker": ("384d54", "docker"),
               "Raspberry Pi": ("A22846", "raspberrypi"),
-              "VS Code": ("007ACC", "visualstudiocode"),
+              "VS Code": ("007ACC", "vscodium"),
               "GitHub Actions": ("2088FF", "githubactions"),
               "Ansible": ("EE0000", "ansible"),
               "Homebrew": ("FBB040", "homebrew"),
@@ -197,10 +197,10 @@ jobs:
               # Main products (contrast-ordered by color)
               "Python",                   # 3572A5 blue
               "Swift",                    # F05138 red-orange
-              "TypeScript",               # 3178C6 blue
               "ElectroBun",               # 111111 black
-              "Go",                       # 00ADD8 cyan
+              "TypeScript",               # 3178C6 blue
               "Shell",                    # 89e051 green
+              "Go",                       # 00ADD8 cyan
               "JavaScript",               # f1e05a yellow
               # Platform integrations (contrast-ordered)
               "Jellyfin",                 # 00A4DC blue
@@ -210,9 +210,9 @@ jobs:
               "Android",                  # 34A853 green
               # App stores & templates
               "Unraid",                   # F15A2C orange
-              "Runtipi",                  # 27B648 green
               # Infrastructure
               "Kubernetes",               # 326CE5 blue
+              "Runtipi",                  # 27B648 green
               "Grafana",                  # F46800 orange
               "Docker",                   # 384d54 dark
               # Dev tools (contrast-ordered)
