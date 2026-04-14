@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Senior DevOps Engineer specializing in Cloud & Kubernetes</strong>
+  <strong>Staff AI Engineer with a background on Cloud, Kubernetes, Networking and Software Engineering</strong>
 </p>
 
 <p align="center">
