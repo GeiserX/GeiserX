@@ -41,6 +41,7 @@ jobs:
               "Jellyfin": ("00A4DC", "jellyfin"),
               "Home Assistant": ("18BCF2", "homeassistant"),
               "MCP": ("8B5CF6", "anthropic"),
+              "Claude Code": ("D97757", "claude"),
               "n8n": ("EA4B71", "n8n"),
               "Android": ("34A853", "android"),
               "Runtipi": ("27B648", "linux"),
@@ -155,8 +156,12 @@ jobs:
               if name.endswith("-vscode"):
                   return "VS Code"
 
+              # Claude Code plugins
+              if name.startswith("cc-"):
+                  return "Claude Code"
+
               # GitHub Actions
-              if name.endswith("-action") or name == "cc-aws-keepalive":
+              if name.endswith("-action"):
                   return "GitHub Actions"
 
               # Homebrew taps
@@ -207,6 +212,7 @@ jobs:
               "n8n",                      # EA4B71 pink
               "Home Assistant",           # 18BCF2 light blue
               "MCP",                      # 8B5CF6 purple
+              "Claude Code",              # D97757 terracotta
               "Android",                  # 34A853 green
               # App stores & templates
               "Unraid",                   # F15A2C orange
