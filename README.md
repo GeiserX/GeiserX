@@ -40,11 +40,11 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_261-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-spain"></a>
+<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_262-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-spain"></a>
 <a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_65-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_7-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-region-de-murcia"></a>
+<a href="https://github.com/GeiserX/awesome-aragon"><img src="https://img.shields.io/badge/awesome--aragon-★_3-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-aragon"></a>
 <a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_3-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-catalunya"></a>
-<a href="https://github.com/GeiserX/awesome-aragon"><img src="https://img.shields.io/badge/awesome--aragon-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-aragon"></a>
 <a href="https://github.com/GeiserX/awesome-castilla-la-mancha"><img src="https://img.shields.io/badge/awesome--castilla--la--mancha-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-castilla-la-mancha"></a>
 <a href="https://github.com/GeiserX/awesome-comunidad-de-madrid"><img src="https://img.shields.io/badge/awesome--comunidad--de--madrid-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-comunidad-de-madrid"></a>
 <a href="https://github.com/GeiserX/awesome-illes-balears"><img src="https://img.shields.io/badge/awesome--illes--balears-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-illes-balears"></a>
@@ -94,6 +94,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
 <br/>
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_49-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
+<br/>
 <a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_2-FFD700?style=flat-square&logo=kotlin&logoColor=white&labelColor=7F52FF" alt="CashPilot-android"></a>
@@ -164,5 +165,4 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
-<br/>
 </p>
