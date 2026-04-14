@@ -40,28 +40,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_262-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-spain"></a>
-<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_65-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-europe"></a>
-<a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_7-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-region-de-murcia"></a>
-<a href="https://github.com/GeiserX/awesome-aragon"><img src="https://img.shields.io/badge/awesome--aragon-★_3-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-aragon"></a>
-<a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_3-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-catalunya"></a>
-<a href="https://github.com/GeiserX/awesome-asturies"><img src="https://img.shields.io/badge/awesome--asturies-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-asturies"></a>
-<a href="https://github.com/GeiserX/awesome-castilla-la-mancha"><img src="https://img.shields.io/badge/awesome--castilla--la--mancha-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-castilla-la-mancha"></a>
-<a href="https://github.com/GeiserX/awesome-comunidad-de-madrid"><img src="https://img.shields.io/badge/awesome--comunidad--de--madrid-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-comunidad-de-madrid"></a>
-<a href="https://github.com/GeiserX/awesome-illes-balears"><img src="https://img.shields.io/badge/awesome--illes--balears-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-illes-balears"></a>
-<a href="https://github.com/GeiserX/awesome-la-rioja"><img src="https://img.shields.io/badge/awesome--la--rioja-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-la-rioja"></a>
-<a href="https://github.com/GeiserX/awesome-andalucia"><img src="https://img.shields.io/badge/awesome--andalucia-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-andalucia"></a>
-<a href="https://github.com/GeiserX/awesome-canarias"><img src="https://img.shields.io/badge/awesome--canarias-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-canarias"></a>
-<a href="https://github.com/GeiserX/awesome-cantabria"><img src="https://img.shields.io/badge/awesome--cantabria-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-cantabria"></a>
-<a href="https://github.com/GeiserX/awesome-castilla-y-leon"><img src="https://img.shields.io/badge/awesome--castilla--y--leon-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-castilla-y-leon"></a>
-<a href="https://github.com/GeiserX/awesome-ceuta-y-melilla"><img src="https://img.shields.io/badge/awesome--ceuta--y--melilla-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-ceuta-y-melilla"></a>
-<a href="https://github.com/GeiserX/awesome-comunitat-valenciana"><img src="https://img.shields.io/badge/awesome--comunitat--valenciana-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-comunitat-valenciana"></a>
-<a href="https://github.com/GeiserX/awesome-euskadi"><img src="https://img.shields.io/badge/awesome--euskadi-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-euskadi"></a>
-<a href="https://github.com/GeiserX/awesome-extremadura"><img src="https://img.shields.io/badge/awesome--extremadura-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-extremadura"></a>
-<a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-galicia"></a>
-<a href="https://github.com/GeiserX/awesome-lint-extra"><img src="https://img.shields.io/badge/awesome--lint--extra-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-lint-extra"></a>
-<a href="https://github.com/GeiserX/awesome-nafarroa"><img src="https://img.shields.io/badge/awesome--nafarroa-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-nafarroa"></a>
-<br/>
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_108-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -146,6 +124,28 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-007ACC?style=flat-square&logo=vscodium&logoColor=white" alt="lynxprompt-vscode"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
+<br/>
+<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_262-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
+<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_65-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
+<a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_7-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-region-de-murcia"></a>
+<a href="https://github.com/GeiserX/awesome-aragon"><img src="https://img.shields.io/badge/awesome--aragon-★_3-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-aragon"></a>
+<a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_3-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-catalunya"></a>
+<a href="https://github.com/GeiserX/awesome-asturies"><img src="https://img.shields.io/badge/awesome--asturies-★_2-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-asturies"></a>
+<a href="https://github.com/GeiserX/awesome-castilla-la-mancha"><img src="https://img.shields.io/badge/awesome--castilla--la--mancha-★_2-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-castilla-la-mancha"></a>
+<a href="https://github.com/GeiserX/awesome-comunidad-de-madrid"><img src="https://img.shields.io/badge/awesome--comunidad--de--madrid-★_2-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-comunidad-de-madrid"></a>
+<a href="https://github.com/GeiserX/awesome-illes-balears"><img src="https://img.shields.io/badge/awesome--illes--balears-★_2-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-illes-balears"></a>
+<a href="https://github.com/GeiserX/awesome-la-rioja"><img src="https://img.shields.io/badge/awesome--la--rioja-★_2-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-la-rioja"></a>
+<a href="https://github.com/GeiserX/awesome-andalucia"><img src="https://img.shields.io/badge/awesome--andalucia-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-andalucia"></a>
+<a href="https://github.com/GeiserX/awesome-canarias"><img src="https://img.shields.io/badge/awesome--canarias-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-canarias"></a>
+<a href="https://github.com/GeiserX/awesome-cantabria"><img src="https://img.shields.io/badge/awesome--cantabria-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-cantabria"></a>
+<a href="https://github.com/GeiserX/awesome-castilla-y-leon"><img src="https://img.shields.io/badge/awesome--castilla--y--leon-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-castilla-y-leon"></a>
+<a href="https://github.com/GeiserX/awesome-ceuta-y-melilla"><img src="https://img.shields.io/badge/awesome--ceuta--y--melilla-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-ceuta-y-melilla"></a>
+<a href="https://github.com/GeiserX/awesome-comunitat-valenciana"><img src="https://img.shields.io/badge/awesome--comunitat--valenciana-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-comunitat-valenciana"></a>
+<a href="https://github.com/GeiserX/awesome-euskadi"><img src="https://img.shields.io/badge/awesome--euskadi-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-euskadi"></a>
+<a href="https://github.com/GeiserX/awesome-extremadura"><img src="https://img.shields.io/badge/awesome--extremadura-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-extremadura"></a>
+<a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-galicia"></a>
+<a href="https://github.com/GeiserX/awesome-lint-extra"><img src="https://img.shields.io/badge/awesome--lint--extra-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-lint-extra"></a>
+<a href="https://github.com/GeiserX/awesome-nafarroa"><img src="https://img.shields.io/badge/awesome--nafarroa-FC60A8?style=flat-square&logo=awesomelists&logoColor=white" alt="awesome-nafarroa"></a>
 <br/>
 <a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="lynxprompt-action"></a>
 <br/>
