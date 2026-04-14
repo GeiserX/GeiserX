@@ -82,19 +82,19 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_49-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
+<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
+<br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_27-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_13-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="DeclaRenta"></a>
 <br/>
-<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-111111?style=flat-square&logo=bun&logoColor=white" alt="AgentTap"></a>
-<br/>
-<a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
-<br/>
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
 <a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="duplicacy-cli-cron"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
+<br/>
+<a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
 <br/>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_2-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-f1e05a?style=flat-square&logo=javascript&logoColor=white" alt="github-toggle-all-details"></a>
@@ -130,11 +130,11 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-F15A2C?style=flat-square&logo=unraid&logoColor=white" alt="docker-templates"></a>
 <br/>
-<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-27B648?style=flat-square&logo=linux&logoColor=white" alt="runtipi-appstore"></a>
-<br/>
 <a href="https://github.com/GeiserX/cloud-tests-velero"><img src="https://img.shields.io/badge/cloud--tests--velero-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="cloud-tests-velero"></a>
 <a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="k8s-dockerhub-detector"></a>
 <a href="https://github.com/GeiserX/redis-operator"><img src="https://img.shields.io/badge/redis--operator-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="redis-operator"></a>
+<br/>
+<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-27B648?style=flat-square&logo=linux&logoColor=white" alt="runtipi-appstore"></a>
 <br/>
 <a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-F46800?style=flat-square&logo=grafana&logoColor=white" alt="grafana-rightsizing-dashboard"></a>
 <br/>
@@ -142,7 +142,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/genieacs-sim-container"><img src="https://img.shields.io/badge/genieacs--sim--container-★_2-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-sim-container"></a>
 <a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
 <br/>
-<a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="lynxprompt-vscode"></a>
+<a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-007ACC?style=flat-square&logo=vscodium&logoColor=white" alt="lynxprompt-vscode"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
 <br/>
