@@ -49,7 +49,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/awesome-comunidad-de-madrid"><img src="https://img.shields.io/badge/awesome--comunidad--de--madrid-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-comunidad-de-madrid"></a>
 <a href="https://github.com/GeiserX/awesome-illes-balears"><img src="https://img.shields.io/badge/awesome--illes--balears-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-illes-balears"></a>
 <a href="https://github.com/GeiserX/awesome-la-rioja"><img src="https://img.shields.io/badge/awesome--la--rioja-★_2-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="awesome-la-rioja"></a>
-<a href="https://github.com/GeiserX/AgentTap"><img src="https://img.shields.io/badge/AgentTap-555555?style=flat-square&logo=github&logoColor=white" alt="AgentTap"></a>
 <a href="https://github.com/GeiserX/awesome-andalucia"><img src="https://img.shields.io/badge/awesome--andalucia-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-andalucia"></a>
 <a href="https://github.com/GeiserX/awesome-asturies"><img src="https://img.shields.io/badge/awesome--asturies-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-asturies"></a>
 <a href="https://github.com/GeiserX/awesome-canarias"><img src="https://img.shields.io/badge/awesome--canarias-555555?style=flat-square&logo=github&logoColor=white" alt="awesome-canarias"></a>
