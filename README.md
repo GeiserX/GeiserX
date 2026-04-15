@@ -80,7 +80,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_2-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <br/>
 <a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_30-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="whisper-subs"></a>
-<a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_7-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="quality-gate"></a>
+<a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_8-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_5-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_2-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="jellyfin-encoder"></a>
 <a href="https://github.com/GeiserX/jellyfin-telegram-channel-sync"><img src="https://img.shields.io/badge/jellyfin--telegram--channel--sync-★_2-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=00A4DC" alt="jellyfin-telegram-channel-sync"></a>
