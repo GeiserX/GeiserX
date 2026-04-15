@@ -1,5 +1,6 @@
 <p align="center">
-  <strong>Staff AI Engineer with a background on Cloud, Kubernetes, Networking and Software Engineering</strong>
+  <strong>Staff AI Engineer with a background on DevOps, Cloud, Kubernetes, Networking and Software Engineering</strong>
+  <i>Yes, all these topics</i>
 </p>
 
 <p align="center">
