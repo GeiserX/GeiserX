@@ -2,7 +2,7 @@ name: Update star badges
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -308,7 +308,7 @@ jobs:
         with:
           commit-message: "Update star badges"
           title: "Update star badges"
-          body: "Automated daily update of star count badges in profile README."
+          body: "Automated hourly update of star count badges in profile README."
           branch: automated/star-badges
           delete-branch: true
 
