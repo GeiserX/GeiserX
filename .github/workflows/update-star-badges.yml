@@ -54,6 +54,7 @@ jobs:
               "Ansible": ("EE0000", "ansible"),
               "Homebrew": ("FBB040", "homebrew"),
               "Browser Extensions": ("4285F4", "googlechrome"),
+              "Ghost": ("15171A", "ghost"),
               "Awesome": ("FC60A8", "awesomelists"),
               # Language groups (fallback)
               "Python": ("3572A5", "python"),
@@ -192,6 +193,7 @@ jobs:
               # ─ Special overrides ─
               OVERRIDES = {
                   "AgentTap": "ElectroBun",
+                  "ghost-github-portfolio": "Ghost",
               }
               if name in OVERRIDES:
                   return OVERRIDES[name]
@@ -225,6 +227,7 @@ jobs:
               "Runtipi",                  # 27B648 green
               "Grafana",                  # F46800 orange
               "Docker",                   # 384d54 dark
+              "Ghost",                    # 15171A dark
               # Dev tools (contrast-ordered)
               "VS Code",                  # 007ACC blue
               "Ansible",                  # EE0000 red
