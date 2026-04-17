@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://geiser.cloud/?ref=github.com" rel="me"><img src="https://img.shields.io/badge/Blog-geiser.cloud-FF6B35?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS4zNSA2LjA0QTcuNDkgNy40OSAwIDAwMTIgMEM5LjExIDAgNi42IDEuNjQgNS4zNSA0LjA0QTUuOTk0IDUuOTk0IDAgMDAwIDEwYzAgMy4zMSAyLjY5IDYgNiA2aDEzYzIuNzYgMCA1LTIuMjQgNS01IDAtMi42NC0yLjA1LTQuNzgtNC42NS00Ljk2eiIvPjwvc3ZnPg==&logoColor=white" alt="Blog"></a>
   <a href="https://pumperly.com"><img src="https://img.shields.io/badge/Pumperly-pumperly.com-34d399?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0id2hpdGUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcgMGgxOGMzLjg3IDAgNyAzLjEzIDcgN3YxOGMwIDMuODctMy4xMyA3LTcgN0g3Yy0zLjg3IDAtNy0zLjEzLTctN1Y3QzAgMy4xMyAzLjEzIDAgNyAwek0yMiAyTDcgMTdoOWwtNiAxM0wyNSAxM2gtOXoiLz48L3N2Zz4=&logoColor=white" alt="Pumperly"></a>
   <a href="https://lynxprompt.com"><img src="https://img.shields.io/badge/LynxPrompt-lynxprompt.com-228BE6?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+oDGBUXAcFvQn8AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDMtMTBUMTE6MTI6NDIrMDA6MDDMqllFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTAzLTEwVDExOjEyOjQyKzAwOjAwvffh+QAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wMy0yNFQyMToyMzowMSswMDowMNKq66YAAAJ7SURBVEjHlZVLaFRJFIa/e9P2qNEYBhKJDzQiGoiMs1I3EUUCiiAi4kpxL4Ju4kZcuBEXjgrDILNUEBQUDPjAlaAQRSKIiPFBRBQEX7gwDXnez8Wtvn27o0n3qU3fqvr//s9/TlUhFl1vk0h9YTrmucWixEALvfSUl2aHh9hNDx1QAFpZx07GGUg3RPXA99HHEHH6r02esOSQO4K4maXjHx7ykz88IobpNh+oHz3iggpJBqiGd3jWEfWSzRWC+d5WddTLrpffjiZ7veeUqqczcrHFe2piog57zCXB53aX22FrWiO7POeXbN+FFF4AIGEqS3QVp9jLFeaziWUsYJxvvOEhbRxkTc7Hibw5c7wamJPAn8qsxKRTNTuO5xVM8LLG8KimGHG+hsBYGRGHiUeU6mxEgIgPPK0meMLzXAfN3pC3eVdN8JnrOVg0IzhihJtl2+NsclHdCUgzO4N7oQrY7dsql2ce+tnNaRXioHsPnXWfZ5A2DlAAQwp/sr2BGqTRy+qKB110NQiXpWysEHTT2kACaRT4u0KwIqtGI9FJsUxQ5H3DCmBhmSBmgBuzNE9tRAzzgjg9TAm3aJ/lMpwezzjPaDmFCV7yo0GCIYYZhzgqf75qADxJiYfpz3JHf+V/FrGWpA4dCf0UGUytAMJpKHjUyazbS05Vdf9YtqYf7HGDce4BCHfuUgfVRP3uMZ9lh0tHPRPWEvWfcMnmVQWK/Y6oet8WtztkSR3zriddaJ+Jo4742M5fPj8izvVfE/WikfiX+/zPw7ZZFLdZcsB+t/3m9QoaFnvNj15wTviOskdlq4PusrsWHuUpAFjJfl5za9olu5lm7kwD8RNgBx7Cv8chlwAAAABJRU5ErkJggg==&logoColor=white" alt="LynxPrompt"></a>
   <a href="https://mastodon.social/@geiser" rel="me"><img src="https://img.shields.io/badge/Mastodon-@geiser-6364FF?style=flat-square&logo=mastodon&logoColor=white" alt="Mastodon"></a>
@@ -15,6 +16,16 @@
 My journey started when I was just a curious 12-year-old kid, begging my mom to buy me the book _"Hacking Exposed 4: Network Security Secrets & Solutions"_ published by McGraw Hill. I still get chills thinking about it!
 
 Honestly though, after reading it, I realized I'd prefer building things rather than breaking them. Fast forward over two decades, and here I am — fully embracing life in the cloud, building and scaling apps, and loving every second of it.
+
+#### Latest Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [On Overengineering &lpar;DevOps Edition&rpar;](https://geiser.cloud/on-overengineering-devops-edition/)
+- [Deploying Garage S3 &lpar;v2.x&rpar; and Hooking It Up to Duplicacy](https://geiser.cloud/deploying-garage-s3-v2-x-and-hooking-it-up-to-duplicacy/)
+- [Putting AI-Hands on Routers: Building a GenieACS MCP Server in Go](https://geiser.cloud/putting-ai-hands-on-routers-building-a-genieacs-mcp-server-in-go/)
+- [Paging into the Night—Assess Before You Fix: Many Years of On-Call Lessons](https://geiser.cloud/paging-into-the-night-assess-before-you-fix-many-years-of-on-call-lessons/)
+- [DevOps in the Catacombs – Everyday Software Archaeology and Why I’d Still Bet on a Monorepo](https://geiser.cloud/software-archaeology-monorepo/)
+<!-- BLOG-POST-LIST:END -->
 
 ## Certifications
 
@@ -113,6 +124,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/genieacs-container"><img src="https://img.shields.io/badge/genieacs--container-★_113-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-container"></a>
 <a href="https://github.com/GeiserX/genieacs-sim-container"><img src="https://img.shields.io/badge/genieacs--sim--container-★_2-FFD700?style=flat-square&logo=docker&logoColor=white&labelColor=384d54" alt="genieacs-sim-container"></a>
 <a href="https://github.com/GeiserX/duplicacy-container"><img src="https://img.shields.io/badge/duplicacy--container-384d54?style=flat-square&logo=docker&logoColor=white" alt="duplicacy-container"></a>
+<br/>
+<a href="https://github.com/GeiserX/ghost-github-portfolio"><img src="https://img.shields.io/badge/ghost--github--portfolio-15171A?style=flat-square&logo=ghost&logoColor=white" alt="ghost-github-portfolio"></a>
 <br/>
 <a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-007ACC?style=flat-square&logo=vscodium&logoColor=white" alt="lynxprompt-vscode"></a>
 <br/>
