@@ -61,15 +61,15 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-3572A5?style=flat-square&logo=python&logoColor=white" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Wayback-Diff"></a>
 <br/>
-<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_61-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
+<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_62-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_30-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_15-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
-<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_4-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
+<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_5-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
+<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_8-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
-<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="duplicacy-cli-cron"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
 <br/>
