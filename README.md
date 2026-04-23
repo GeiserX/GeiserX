@@ -57,6 +57,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/AskePub"><img src="https://img.shields.io/badge/AskePub-3572A5?style=flat-square&logo=python&logoColor=white" alt="AskePub"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-3572A5?style=flat-square&logo=python&logoColor=white" alt="audio-transcode-watcher"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-3572A5?style=flat-square&logo=python&logoColor=white" alt="epub-and-vtt-to-llm"></a>
+<a href="https://github.com/GeiserX/IBKR-Telegram"><img src="https://img.shields.io/badge/IBKR--Telegram-3572A5?style=flat-square&logo=python&logoColor=white" alt="IBKR-Telegram"></a>
 <a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-3572A5?style=flat-square&logo=python&logoColor=white" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-3572A5?style=flat-square&logo=python&logoColor=white" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Wayback-Diff"></a>
