@@ -38,7 +38,7 @@ jobs:
               # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
               "Grafana": ("F46800", "grafana"),
-              "Jellyfin": ("00A4DC", "jellyfin"),
+              "Jellyfin": ("AA5CC3", "jellyfin"),
               "Home Assistant": ("18BCF2", "homeassistant"),
               "MCP": ("8B5CF6", "modelcontextprotocol"),
               "Claude Code": ("D97757", "claude"),
@@ -53,7 +53,7 @@ jobs:
               "GitHub Actions": ("2088FF", "githubactions"),
               "Ansible": ("EE0000", "ansible"),
               "Homebrew": ("FBB040", "homebrew"),
-              "Browser Extensions": ("4285F4", "googlechrome"),
+              "Browser Extensions": ("FBBC04", "googlechrome"),
               "Ghost": ("15171A", "ghost"),
               "Awesome": ("FC60A8", "awesomelists"),
               # Language groups (fallback)
@@ -214,7 +214,7 @@ jobs:
               "Go",                       # 00ADD8 cyan
               "JavaScript",               # f1e05a yellow
               # Platform integrations (contrast-ordered)
-              "Jellyfin",                 # 00A4DC blue
+              "Jellyfin",                 # AA5CC3 purple
               "n8n",                      # EA4B71 pink
               "Home Assistant",           # 18BCF2 light blue
               "MCP",                      # 8B5CF6 purple
@@ -234,7 +234,7 @@ jobs:
               "Awesome",                  # FC60A8 pink
               "GitHub Actions",           # 2088FF blue
               "Homebrew",                 # FBB040 yellow
-              "Browser Extensions",       # 4285F4 google blue
+              "Browser Extensions",       # FBBC04 chrome yellow
               # IoT
               "Raspberry Pi",             # A22846 magenta
               # Remaining languages / fallback
