@@ -53,7 +53,7 @@ jobs:
               "GitHub Actions": ("2088FF", "githubactions"),
               "Ansible": ("EE0000", "ansible"),
               "Homebrew": ("FBB040", "homebrew"),
-              "Browser Extensions": ("FBBC04", "googlechrome"),
+              "Browser Extensions": ("FFE100", "googlechrome"),
               "Ghost": ("15171A", "ghost"),
               "Awesome": ("FC60A8", "awesomelists"),
               # Language groups (fallback)
@@ -234,11 +234,10 @@ jobs:
               "Awesome",                  # FC60A8 pink
               "GitHub Actions",           # 2088FF blue
               "Homebrew",                 # FBB040 yellow
-              "Browser Extensions",       # FBBC04 chrome yellow
               # IoT
               "Raspberry Pi",             # A22846 magenta
               # Remaining languages / fallback
-              "R", "C#", "HTML", "Handlebars", "GitHub",
+              "R", "Browser Extensions", "C#", "HTML", "Handlebars", "GitHub",
           ]
 
           # ── Group repos ────────────────────────────────────────────────
