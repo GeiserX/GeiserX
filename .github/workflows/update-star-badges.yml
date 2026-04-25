@@ -38,7 +38,7 @@ jobs:
               # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
               "Grafana": ("F46800", "grafana"),
-              "Jellyfin": ("00A4DC", "jellyfin"),
+              "Jellyfin": ("AA5CC3", "jellyfin"),
               "Home Assistant": ("18BCF2", "homeassistant"),
               "MCP": ("8B5CF6", "modelcontextprotocol"),
               "Claude Code": ("D97757", "claude"),
@@ -214,7 +214,7 @@ jobs:
               "Go",                       # 00ADD8 cyan
               "JavaScript",               # f1e05a yellow
               # Platform integrations (contrast-ordered)
-              "Jellyfin",                 # 00A4DC blue
+              "Jellyfin",                 # AA5CC3 purple
               "n8n",                      # EA4B71 pink
               "Home Assistant",           # 18BCF2 light blue
               "MCP",                      # 8B5CF6 purple
