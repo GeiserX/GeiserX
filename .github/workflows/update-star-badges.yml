@@ -117,7 +117,7 @@ jobs:
               # ─ Platform / ecosystem (checked first, overrides language) ─
 
               # Grafana
-              if name == "grafana-rightsizing-dashboard":
+              if name.startswith("grafana-"):
                   return "Grafana"
 
               # Runtipi
