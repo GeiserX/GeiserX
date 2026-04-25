@@ -160,8 +160,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/homebrew-lynxprompt"><img src="https://img.shields.io/badge/homebrew--lynxprompt-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-lynxprompt"></a>
 <a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
 <br/>
-<a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-FBBC04?style=flat-square&logo=googlechrome&logoColor=white" alt="github-toggle-all-details"></a>
-<br/>
 <a href="https://github.com/GeiserX/PiSpot-Deployment"><img src="https://img.shields.io/badge/PiSpot--Deployment-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Deployment"></a>
 <a href="https://github.com/GeiserX/PiSpot-Show"><img src="https://img.shields.io/badge/PiSpot--Show-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Show"></a>
 <a href="https://github.com/GeiserX/PiSpot-Watch"><img src="https://img.shields.io/badge/PiSpot--Watch-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Watch"></a>
@@ -174,6 +172,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/import-xgest-odoo"><img src="https://img.shields.io/badge/import--xgest--odoo-198CE7?style=flat-square&logo=r&logoColor=white" alt="import-xgest-odoo"></a>
 <a href="https://github.com/GeiserX/ScriptPoblar"><img src="https://img.shields.io/badge/ScriptPoblar-198CE7?style=flat-square&logo=r&logoColor=white" alt="ScriptPoblar"></a>
 <a href="https://github.com/GeiserX/search-by-surname"><img src="https://img.shields.io/badge/search--by--surname-198CE7?style=flat-square&logo=r&logoColor=white" alt="search-by-surname"></a>
+<br/>
+<a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-FFE100?style=flat-square&logo=googlechrome&logoColor=white" alt="github-toggle-all-details"></a>
 <br/>
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-e34c26?style=flat-square&logo=html5&logoColor=white" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/router-express"><img src="https://img.shields.io/badge/router--express-e34c26?style=flat-square&logo=html5&logoColor=white" alt="router-express"></a>
