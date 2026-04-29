@@ -41,16 +41,16 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_111-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_112-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_8-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_5-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
+<a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="duplicacy-exporter"></a>
+<a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
 <a href="https://github.com/GeiserX/Sanitune"><img src="https://img.shields.io/badge/Sanitune-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Sanitune"></a>
 <a href="https://github.com/GeiserX/slskd-transform"><img src="https://img.shields.io/badge/slskd--transform-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="slskd-transform"></a>
 <a href="https://github.com/GeiserX/telegram-delay-channel-cloner"><img src="https://img.shields.io/badge/telegram--delay--channel--cloner-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-delay-channel-cloner"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
-<a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="duplicacy-exporter"></a>
-<a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="web-mirror"></a>
 <a href="https://github.com/GeiserX/AskePub"><img src="https://img.shields.io/badge/AskePub-3572A5?style=flat-square&logo=python&logoColor=white" alt="AskePub"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-3572A5?style=flat-square&logo=python&logoColor=white" alt="audio-transcode-watcher"></a>
@@ -64,7 +64,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_35-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_17-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
-<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_9-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
+<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_10-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
 <a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_9-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
@@ -79,7 +79,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_46-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_10-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate"></a>
-<a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_8-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
+<a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_9-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_2-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="jellyfin-encoder"></a>
 <a href="https://github.com/GeiserX/jellyfin-telegram-channel-sync"><img src="https://img.shields.io/badge/jellyfin--telegram--channel--sync-★_2-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="jellyfin-telegram-channel-sync"></a>
 <br/>
