@@ -44,7 +44,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_120-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_8-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
-<a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_5-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
+<a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/slskd-transform"><img src="https://img.shields.io/badge/slskd--transform-★_4-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="slskd-transform"></a>
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="duplicacy-exporter"></a>
 <a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
