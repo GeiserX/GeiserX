@@ -106,6 +106,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/cc-agents-md"><img src="https://img.shields.io/badge/cc--agents--md-★_4-FFD700?style=flat-square&logo=claude&logoColor=white&labelColor=D97757" alt="cc-agents-md"></a>
 <a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-D97757?style=flat-square&logo=claude&logoColor=white" alt="cc-aws-keepalive"></a>
+<a href="https://github.com/GeiserX/claude-code-parallel-skills"><img src="https://img.shields.io/badge/claude--code--parallel--skills-D97757?style=flat-square&logo=claude&logoColor=white" alt="claude-code-parallel-skills"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_2-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
 <a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-34A853?style=flat-square&logo=android&logoColor=white" alt="Pumperly-android"></a>
@@ -179,5 +180,4 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-e34c26?style=flat-square&logo=html5&logoColor=white" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-e34c26?style=flat-square&logo=html5&logoColor=white" alt="WebApp-Flotas"></a>
 <br/>
-<a href="https://github.com/GeiserX/claude-code-parallel-skills"><img src="https://img.shields.io/badge/claude--code--parallel--skills-555555?style=flat-square&logo=github&logoColor=white" alt="claude-code-parallel-skills"></a>
 </p>
