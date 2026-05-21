@@ -164,7 +164,7 @@ jobs:
                   return "VS Code"
 
               # Claude Code plugins
-              if name.startswith("cc-"):
+              if name.startswith("cc-") or name.startswith("claude-code-"):
                   return "Claude Code"
 
               # GitHub Actions
