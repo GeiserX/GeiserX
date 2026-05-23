@@ -41,7 +41,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_121-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_123-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_8-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -63,7 +63,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_39-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_22-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
-<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_20-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
+<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_21-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
 <a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_11-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
@@ -159,10 +159,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/homebrew-lynxprompt"><img src="https://img.shields.io/badge/homebrew--lynxprompt-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-lynxprompt"></a>
 <a href="https://github.com/GeiserX/homebrew-mcp-upgrade"><img src="https://img.shields.io/badge/homebrew--mcp--upgrade-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-mcp-upgrade"></a>
 <a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
-<br/>
-<a href="https://github.com/GeiserX/PiSpot-Watch"><img src="https://img.shields.io/badge/PiSpot--Watch-★_2-FFD700?style=flat-square&logo=raspberrypi&logoColor=white&labelColor=A22846" alt="PiSpot-Watch"></a>
-<a href="https://github.com/GeiserX/PiSpot-Deployment"><img src="https://img.shields.io/badge/PiSpot--Deployment-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Deployment"></a>
-<a href="https://github.com/GeiserX/PiSpot-Show"><img src="https://img.shields.io/badge/PiSpot--Show-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="PiSpot-Show"></a>
 <br/>
 <a href="https://github.com/GeiserX/services-isp"><img src="https://img.shields.io/badge/services--isp-★_5-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="services-isp"></a>
 <a href="https://github.com/GeiserX/statix"><img src="https://img.shields.io/badge/statix-★_4-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="statix"></a>
