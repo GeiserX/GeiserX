@@ -41,7 +41,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_124-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_125-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_11-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_8-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -71,6 +71,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-★_2-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="duplicacy-cli-cron"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
 <br/>
+<a href="https://github.com/GeiserX/CashPilot-Desktop"><img src="https://img.shields.io/badge/CashPilot--Desktop-00ADD8?style=flat-square&logo=go&logoColor=white" alt="CashPilot-Desktop"></a>
 <a href="https://github.com/GeiserX/mcp-upgrade"><img src="https://img.shields.io/badge/mcp--upgrade-00ADD8?style=flat-square&logo=go&logoColor=white" alt="mcp-upgrade"></a>
 <a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
 <br/>
@@ -89,7 +90,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/n8n-nodes-telegram-archive"><img src="https://img.shields.io/badge/n8n--nodes--telegram--archive-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-telegram-archive"></a>
 <a href="https://github.com/GeiserX/n8n-nodes-way-cms"><img src="https://img.shields.io/badge/n8n--nodes--way--cms-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-way-cms"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-★_4-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="genieacs-ha"></a>
+<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-★_5-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="genieacs-ha"></a>
 <a href="https://github.com/GeiserX/cashpilot-ha"><img src="https://img.shields.io/badge/cashpilot--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="cashpilot-ha"></a>
 <a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="duplicacy-ha"></a>
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
@@ -172,7 +173,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/github-toggle-all-details"><img src="https://img.shields.io/badge/github--toggle--all--details-FFE100?style=flat-square&logo=googlechrome&logoColor=white" alt="github-toggle-all-details"></a>
 <br/>
 <a href="https://github.com/GeiserX/router-express"><img src="https://img.shields.io/badge/router--express-★_2-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="router-express"></a>
-<a href="https://github.com/GeiserX/CashPilot-Desktop"><img src="https://img.shields.io/badge/CashPilot--Desktop-e34c26?style=flat-square&logo=html5&logoColor=white" alt="CashPilot-Desktop"></a>
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-e34c26?style=flat-square&logo=html5&logoColor=white" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-e34c26?style=flat-square&logo=html5&logoColor=white" alt="WebApp-Flotas"></a>
 </p>
