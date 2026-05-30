@@ -41,7 +41,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_125-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_126-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_11-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_9-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -62,7 +62,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_77-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_41-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
-<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_24-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
+<a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_26-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_23-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
@@ -77,7 +77,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_3-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <br/>
-<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_60-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_61-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_12-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_10-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_5-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="jellyfin-encoder"></a>
@@ -96,7 +96,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_12-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
-<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
+<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_4-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
 <a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
 <a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
 <a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-8B5CF6?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="atlassian-browser-mcp"></a>
