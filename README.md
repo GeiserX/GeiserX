@@ -90,7 +90,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/n8n-nodes-telegram-archive"><img src="https://img.shields.io/badge/n8n--nodes--telegram--archive-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-telegram-archive"></a>
 <a href="https://github.com/GeiserX/n8n-nodes-way-cms"><img src="https://img.shields.io/badge/n8n--nodes--way--cms-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n-nodes-way-cms"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-★_6-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="genieacs-ha"></a>
+<a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-★_5-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="genieacs-ha"></a>
 <a href="https://github.com/GeiserX/cashpilot-ha"><img src="https://img.shields.io/badge/cashpilot--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="cashpilot-ha"></a>
 <a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="duplicacy-ha"></a>
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
@@ -133,7 +133,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
 <br/>
 <a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_301-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
-<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_97-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
+<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_98-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_10-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-catalunya"></a>
 <a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-region-de-murcia"></a>
 <a href="https://github.com/GeiserX/awesome-aragon"><img src="https://img.shields.io/badge/awesome--aragon-★_4-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-aragon"></a>
