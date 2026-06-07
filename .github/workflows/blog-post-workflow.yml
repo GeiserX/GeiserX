@@ -11,7 +11,7 @@ jobs:
   update-readme-with-blog:
     runs-on: [self-hosted, Linux, X64]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
