@@ -309,7 +309,7 @@ jobs:
           else:
               print("No changes needed")
 
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@v8
         id: create-pr
         with:
           commit-message: "Update star badges"
