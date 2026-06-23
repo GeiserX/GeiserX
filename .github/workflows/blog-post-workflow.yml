@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   update-readme-with-blog:
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
 
