@@ -41,7 +41,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_141-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_143-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_22-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_18-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -58,7 +58,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-3572A5?style=flat-square&logo=python&logoColor=white" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Wayback-Diff"></a>
 <br/>
-<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_84-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
+<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_85-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_43-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_41-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
