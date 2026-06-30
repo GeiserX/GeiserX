@@ -94,10 +94,10 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_13-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
+<a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
 <a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
 <a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="atlassian-browser-mcp"></a>
 <a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
-<a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
 <a href="https://github.com/GeiserX/duplicacy-mcp"><img src="https://img.shields.io/badge/duplicacy--mcp-8B5CF6?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="duplicacy-mcp"></a>
 <a href="https://github.com/GeiserX/lynxprompt-mcp"><img src="https://img.shields.io/badge/lynxprompt--mcp-8B5CF6?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="lynxprompt-mcp"></a>
 <a href="https://github.com/GeiserX/pumperly-mcp"><img src="https://img.shields.io/badge/pumperly--mcp-8B5CF6?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="pumperly-mcp"></a>
@@ -172,6 +172,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/router-express"><img src="https://img.shields.io/badge/router--express-★_2-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="router-express"></a>
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-e34c26?style=flat-square&logo=html5&logoColor=white" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-e34c26?style=flat-square&logo=html5&logoColor=white" alt="WebApp-Flotas"></a>
+<br/>
+<a href="https://github.com/GeiserX/neutral-disclosure-selftest"><img src="https://img.shields.io/badge/neutral--disclosure--selftest-555555?style=flat-square&logo=github&logoColor=white" alt="neutral-disclosure-selftest"></a>
 <br/>
 <a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_2-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
 <a href="https://github.com/GeiserX/tailscaled-rs"><img src="https://img.shields.io/badge/tailscaled--rs-★_2-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscaled-rs"></a>
