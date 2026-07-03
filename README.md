@@ -42,7 +42,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 <p align="center">
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_148-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
-<a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_22-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
+<a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_23-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_19-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
@@ -58,11 +58,11 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-3572A5?style=flat-square&logo=python&logoColor=white" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-3572A5?style=flat-square&logo=python&logoColor=white" alt="Wayback-Diff"></a>
 <br/>
-<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_87-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
+<a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_90-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_44-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
-<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_41-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
-<a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_24-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
+<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_42-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
+<a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_25-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_8-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-★_2-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="duplicacy-cli-cron"></a>
@@ -94,7 +94,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="pumperly-ha"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_13-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
-<a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
+<a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_4-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
 <a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
 <a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="atlassian-browser-mcp"></a>
 <a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
