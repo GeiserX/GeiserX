@@ -43,7 +43,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <p align="center">
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_151-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/CashPilot"><img src="https://img.shields.io/badge/CashPilot-★_24-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="CashPilot"></a>
-<a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_19-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
+<a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_20-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-★_5-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="duplicacy-exporter"></a>
@@ -70,8 +70,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-Desktop"><img src="https://img.shields.io/badge/CashPilot--Desktop-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="CashPilot-Desktop"></a>
+<a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="nginx-mailer"></a>
 <a href="https://github.com/GeiserX/mcp-upgrade"><img src="https://img.shields.io/badge/mcp--upgrade-00ADD8?style=flat-square&logo=go&logoColor=white" alt="mcp-upgrade"></a>
-<a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-00ADD8?style=flat-square&logo=go&logoColor=white" alt="nginx-mailer"></a>
 <br/>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_3-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <br/>
