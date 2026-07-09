@@ -173,6 +173,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-e34c26?style=flat-square&logo=html5&logoColor=white" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-e34c26?style=flat-square&logo=html5&logoColor=white" alt="WebApp-Flotas"></a>
 <br/>
+<a href="https://github.com/GeiserX/claude-skills"><img src="https://img.shields.io/badge/claude--skills-555555?style=flat-square&logo=github&logoColor=white" alt="claude-skills"></a>
 <a href="https://github.com/GeiserX/neutral-disclosure-selftest"><img src="https://img.shields.io/badge/neutral--disclosure--selftest-555555?style=flat-square&logo=github&logoColor=white" alt="neutral-disclosure-selftest"></a>
 <br/>
 <a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_2-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
