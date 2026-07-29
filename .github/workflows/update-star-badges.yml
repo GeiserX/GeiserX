@@ -28,7 +28,9 @@ jobs:
           from collections import defaultdict
 
           result = subprocess.run(
-              ["gh", "repo", "list", "GeiserX", "--source", "--no-archived",
+              # archived repos are intentionally INCLUDED — archiving a project
+              # should not erase it from the portfolio list
+              ["gh", "repo", "list", "GeiserX", "--source",
                "--visibility", "public", "--limit", "200",
                "--json", "name,stargazerCount,primaryLanguage"],
               capture_output=True, text=True, check=True
