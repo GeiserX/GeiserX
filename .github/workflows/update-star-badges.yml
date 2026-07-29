@@ -35,7 +35,13 @@ jobs:
                "--json", "name,stargazerCount,primaryLanguage"],
               capture_output=True, text=True, check=True
           )
-          repos = [r for r in json.loads(result.stdout) if r["name"] != "GeiserX"]
+          # Repos deliberately kept out of the Projects list.
+          # "GeiserX" is the profile repo itself; add any repo you don't want shown.
+          HIDDEN = {
+              "GeiserX",
+              "biblical-earth",
+          }
+          repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
 
           STAR_COLOR = "FFD700"
 
