@@ -231,8 +231,8 @@ jobs:
           # ── Group display order ────────────────────────────────────────
           GROUP_ORDER = [
               # Main products (contrast-ordered by color)
-              "CashPilot",                # 0A0A1A brand navy + sunset mark
               "Python",                   # 3572A5 blue
+              "CashPilot",                # 0A0A1A brand navy + sunset mark
               "Swift",                    # F05138 red-orange
               "ElectroBun",               # 111111 black
               "TypeScript",               # 3178C6 blue
