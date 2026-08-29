@@ -115,7 +115,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/cc-aws-keepalive"><img src="https://img.shields.io/badge/cc--aws--keepalive-D97757?style=flat-square&logo=claude&logoColor=white" alt="cc-aws-keepalive"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_6-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
-<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-★_2-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="Pumperly-android"></a>
+<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-★_3-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="Pumperly-android"></a>
 <br/>
 <a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-★_2-FFD700?style=flat-square&logo=unraid&logoColor=white&labelColor=F15A2C" alt="docker-templates"></a>
 <br/>
