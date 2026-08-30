@@ -73,7 +73,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_9-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
-<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_7-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
+<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_8-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-★_3-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="duplicacy-cli-cron"></a>
 <a href="https://github.com/GeiserX/gha-deadman"><img src="https://img.shields.io/badge/gha--deadman-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="gha-deadman"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="migrate-psql"></a>
@@ -83,7 +83,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_5-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <br/>
-<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_95-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_96-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_17-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_13-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_9-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="jellyfin-encoder"></a>
