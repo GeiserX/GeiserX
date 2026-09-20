@@ -81,9 +81,9 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="nginx-mailer"></a>
 <a href="https://github.com/GeiserX/mcp-upgrade"><img src="https://img.shields.io/badge/mcp--upgrade-00ADD8?style=flat-square&logo=go&logoColor=white" alt="mcp-upgrade"></a>
 <br/>
-<a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_5-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
+<a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_6-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <br/>
-<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_102-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_101-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_17-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_15-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/jellyfin-encoder"><img src="https://img.shields.io/badge/jellyfin--encoder-★_12-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="jellyfin-encoder"></a>
@@ -190,6 +190,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/neutral-disclosure-selftest"><img src="https://img.shields.io/badge/neutral--disclosure--selftest-555555?style=flat-square&logo=github&logoColor=white" alt="neutral-disclosure-selftest"></a>
 <br/>
-<a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_5-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
+<a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_6-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
 <a href="https://github.com/GeiserX/tailscaled-rs"><img src="https://img.shields.io/badge/tailscaled--rs-★_4-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscaled-rs"></a>
 </p>
