@@ -160,7 +160,7 @@ jobs:
               # Jellyfin plugins & tools
               if name in (
                   "whisper-subs", "smart-covers", "quality-gate",
-                  "jellyfin-encoder", "jellyfin-telegram-channel-sync",
+                  "quality-gate-encoder", "jellyfin-telegram-channel-sync",
               ):
                   return "Jellyfin"
 
