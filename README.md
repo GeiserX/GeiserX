@@ -43,7 +43,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_211-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_212-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_38-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_16-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_12-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -69,8 +69,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_121-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
+<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_49-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_48-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
-<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_48-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_38-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/akou"><img src="https://img.shields.io/badge/akou-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="akou"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="https://img.shields.io/badge/CatsUp-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="CatsUp"></a>
@@ -142,11 +142,11 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="genieacs-ansible"></a>
 <br/>
-<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_350-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
+<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_351-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
 <a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_133-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_11-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-catalunya"></a>
+<a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-galicia"></a>
 <a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-region-de-murcia"></a>
-<a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-★_7-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-galicia"></a>
 <a href="https://github.com/GeiserX/awesome-andalucia"><img src="https://img.shields.io/badge/awesome--andalucia-★_5-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-andalucia"></a>
 <a href="https://github.com/GeiserX/awesome-comunidad-de-madrid"><img src="https://img.shields.io/badge/awesome--comunidad--de--madrid-★_5-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-comunidad-de-madrid"></a>
 <a href="https://github.com/GeiserX/awesome-comunitat-valenciana"><img src="https://img.shields.io/badge/awesome--comunitat--valenciana-★_5-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-comunitat-valenciana"></a>
@@ -170,6 +170,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/homebrew-lynxprompt"><img src="https://img.shields.io/badge/homebrew--lynxprompt-★_2-FFD700?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-lynxprompt"></a>
 <a href="https://github.com/GeiserX/homebrew-mcp-upgrade"><img src="https://img.shields.io/badge/homebrew--mcp--upgrade-★_2-FFD700?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-mcp-upgrade"></a>
 <a href="https://github.com/GeiserX/homebrew-catsup"><img src="https://img.shields.io/badge/homebrew--catsup-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-catsup"></a>
+<a href="https://github.com/GeiserX/homebrew-unsent"><img src="https://img.shields.io/badge/homebrew--unsent-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-unsent"></a>
 <a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-vpn-bypass"></a>
 <br/>
 <a href="https://github.com/GeiserX/PiSpot-Show"><img src="https://img.shields.io/badge/PiSpot--Show-★_3-FFD700?style=flat-square&logo=raspberrypi&logoColor=white&labelColor=A22846" alt="PiSpot-Show"></a>
