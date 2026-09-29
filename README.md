@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="docs/images/banner.svg" alt="GeiserX banner" width="900"/>
+</p>
+
+<p align="center">
   <strong>Staff AI Engineer with a pre-AI-era background on Cloud, Distributed Computing, Networking and Software Engineering</strong>
   <br>
   <i>Building things nobody asked for, one repo at a time.</i>
