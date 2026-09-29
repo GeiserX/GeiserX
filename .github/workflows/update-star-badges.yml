@@ -40,6 +40,7 @@ jobs:
           HIDDEN = {
               "GeiserX",
               "biblical-earth",
+              "claude-code-parallel-skills",  # merged into claude-skills
           }
           repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
 
@@ -185,7 +186,7 @@ jobs:
                   return "VS Code"
 
               # Claude Code plugins
-              if name.startswith("cc-") or name.startswith("claude-code-"):
+              if name.startswith(("cc-", "claude-")):
                   return "Claude Code"
 
               # GitHub Actions
