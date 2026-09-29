@@ -21,8 +21,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 <!-- BLOG-POST-LIST:START -->
 - [Why I built akou, one app for my calls and my dictation](https://geiser.cloud/why-i-built-akou/)
-- [What disaster recovery needs when the region dies](https://geiser.cloud/the-day-the-region-died-lessons-in-disaster-recovery/)
 - [Overengineering in DevOps, and the network project that could have been an email](https://geiser.cloud/on-overengineering-devops-edition/)
+- [What disaster recovery needs when the region dies](https://geiser.cloud/the-day-the-region-died-lessons-in-disaster-recovery/)
 - [Deploying a three-node Garage S3 cluster and hooking it up to Duplicacy](https://geiser.cloud/deploying-garage-s3-v2-x-and-hooking-it-up-to-duplicacy/)
 - [Building a GenieACS MCP server in Go so an LLM can manage routers](https://geiser.cloud/putting-ai-hands-on-routers-building-a-genieacs-mcp-server-in-go/)
 <!-- BLOG-POST-LIST:END -->
