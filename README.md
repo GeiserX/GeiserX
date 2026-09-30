@@ -89,7 +89,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/mcp-upgrade"><img src="docs/images/badges/mcp-upgrade.svg" alt="mcp-upgrade (archived)"></a>
 <br/>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_6-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
-<a href="https://github.com/GeiserX/biblical-earth"><img src="https://img.shields.io/badge/biblical--earth-★_1-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="biblical-earth"></a>
+<br/>
+<a href="https://github.com/GeiserX/biblical-earth"><img src="https://img.shields.io/badge/biblical--earth-★_1-FFD700?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDUuNUMxMC4zIDQuMiA4IDMuNSA1LjUgMy41Yy0xLjQgMC0yLjcuMi0zLjUuNnYxNGMuOC0uNCAyLjEtLjYgMy41LS42IDIuNSAwIDQuOC43IDYuNSAyIDEuNy0xLjMgNC0yIDYuNS0yIDEuNCAwIDIuNy4yIDMuNS42di0xNGMtLjgtLjQtMi4xLS42LTMuNS0uNi0yLjUgMC00LjguNy02LjUgMnpNMTEgMTcuM2MtMS42LS45LTMuNS0xLjQtNS41LTEuNC0uNyAwLTEuNC4xLTIgLjJWNS40Yy42LS4yIDEuMy0uMyAyLS4zIDIgMCAzLjkuNSA1LjUgMS40ek0xMyAxNy4zYzEuNi0uOSAzLjUtMS40IDUuNS0xLjQuNyAwIDEuNC4xIDIgLjJWNS40Yy0uNi0uMi0xLjMtLjMtMi0uMy0yIDAtMy45LjUtNS41IDEuNHoiLz48L3N2Zz4K&logoColor=white&labelColor=5C3D1E" alt="biblical-earth"></a>
 <br/>
 <a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_103-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_18-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
