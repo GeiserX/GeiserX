@@ -40,6 +40,7 @@ jobs:
           HIDDEN = {
               "GeiserX",
               "biblical-earth",
+              "claude-code-parallel-skills",  # merged into agent-skills
           }
           repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
 
@@ -60,6 +61,7 @@ jobs:
               "Jellyfin": ("AA5CC3", "jellyfin"),
               "Home Assistant": ("18BCF2", "homeassistant"),
               "MCP": ("8B5CF6", "modelcontextprotocol"),
+              "Agent Skills": ("0F3B3D", "markdown"),
               "Claude Code": ("D97757", "claude"),
               "n8n": ("EA4B71", "n8n"),
               "Android": ("34A853", "android"),
@@ -184,6 +186,10 @@ jobs:
               if name.endswith("-vscode"):
                   return "VS Code"
 
+              # Agent Skills (SKILL.md packages for any agent)
+              if name.endswith("-skills"):
+                  return "Agent Skills"
+
               # Claude Code plugins
               if name.startswith("cc-") or name.startswith("claude-code-"):
                   return "Claude Code"
@@ -244,6 +250,7 @@ jobs:
               "n8n",                      # EA4B71 pink
               "Home Assistant",           # 18BCF2 light blue
               "MCP",                      # 8B5CF6 purple
+              "Agent Skills",             # 0F3B3D teal
               "Claude Code",              # D97757 terracotta
               "Android",                  # 34A853 green
               # App stores & templates
