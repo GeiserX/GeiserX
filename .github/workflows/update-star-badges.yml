@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: python
         run: |
-          import json, re, subprocess
+          import json, os, re, subprocess, urllib.parse, urllib.request
           from collections import defaultdict
 
           result = subprocess.run(
@@ -44,9 +44,36 @@ jobs:
           repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
 
           STAR_COLOR = "FFD700"
-          # Archived repos stay in their group, greyed out, with a hollow star.
-          ARCHIVED_COLOR = "9E9E9E"
+          # Archived repos: the name keeps its colour on the left and fades to grey on the right,
+          # and the star turns grey and hollow. shields.io cannot draw a gradient, so the badge
+          # is fetched once, the fill of its coloured part swapped for a gradient, and saved here.
           ARCHIVED_STAR_COLOR = "555555"
+          FADE_DIR = "docs/images/badges"
+          os.makedirs(FADE_DIR, exist_ok=True)
+          faded = set()
+
+          def fade_badge(name, url, color):
+              try:
+                  req = urllib.request.Request(urllib.parse.quote(url, safe=":/?&=%+"), headers={"User-Agent": "profile-badges"})
+                  svg = urllib.request.urlopen(req, timeout=20).read().decode()
+              except Exception as e:
+                  print(f"fade: {name}: fetch failed ({e}), using the plain badge")
+                  return url
+              rect = re.compile(r'<rect ([^>]*?)fill="#%s"/>' % color.lower(), re.I)
+              m = rect.search(svg)
+              if not m or '<g shape-rendering' not in svg:
+                  print(f"fade: {name}: unexpected badge shape, using the plain badge")
+                  return url
+              svg = svg[:m.start()] + f'<rect {m.group(1)}fill="url(#fade)"/>' + svg[m.end():]
+              grad = ('<defs><linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">'
+                      f'<stop offset=".45" stop-color="#{color}"/><stop offset="1" stop-color="#9E9E9E"/>'
+                      '</linearGradient></defs>')
+              svg = svg.replace('<g shape-rendering', grad + '<g shape-rendering', 1)
+              path = f"{FADE_DIR}/{name}.svg"
+              with open(path, "w") as f:
+                  f.write(svg)
+              faded.add(f"{name}.svg")
+              return path
 
           # Official CashPilot mark (app/static/favicon.svg from the CashPilot repo),
           # inlined as a data URI — shields.io has no simple-icons entry for it.
@@ -308,15 +335,16 @@ jobs:
               alt = name
 
               if repo.get("isArchived"):
-                  color, alt = ARCHIVED_COLOR, f"{name} (archived)"
-                  if count >= 2:
-                      src = f"https://img.shields.io/badge/{label}-☆_{count}-{ARCHIVED_STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
-                  else:
-                      src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
+                  alt = f"{name} (archived)"
+              if repo.get("isArchived") and count >= 2:
+                  src = f"https://img.shields.io/badge/{label}-☆_{count}-{ARCHIVED_STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
               elif count >= 2:
                   src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
               else:
                   src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
+
+              if repo.get("isArchived") and re.fullmatch(r"[0-9A-Fa-f]{6}", color):
+                  src = fade_badge(name, src, color)
 
               return f'<a href="https://github.com/GeiserX/{name}"><img src="{src}" alt="{alt}"></a>'
 
@@ -324,6 +352,9 @@ jobs:
           for group, repos_list in ordered:
               badges = [make_badge(r, group) for r in repos_list]
               badge_groups.append("\n".join(badges))
+
+          for stale in set(os.listdir(FADE_DIR)) - faded:
+              os.remove(os.path.join(FADE_DIR, stale))
 
           new_block = "\n<br/>\n".join(badge_groups)
 
