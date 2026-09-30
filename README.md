@@ -61,8 +61,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="epub-and-vtt-to-llm"></a>
 <a href="https://github.com/GeiserX/hark-viewer"><img src="https://img.shields.io/badge/hark--viewer-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="hark-viewer"></a>
 <a href="https://github.com/GeiserX/IBKR-Telegram"><img src="https://img.shields.io/badge/IBKR--Telegram-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="IBKR-Telegram"></a>
-<a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Diff"></a>
 <a href="https://github.com/GeiserX/radares-anunciados"><img src="https://img.shields.io/badge/radares--anunciados-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="radares-anunciados"></a>
+<a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Diff"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="docs/images/badges/BuscaPaginasBlancas.svg" alt="BuscaPaginasBlancas (archived)"></a>
 <a href="https://github.com/GeiserX/Sanitune"><img src="docs/images/badges/Sanitune.svg" alt="Sanitune (archived)"></a>
 <a href="https://github.com/GeiserX/telegram-delay-channel-cloner"><img src="docs/images/badges/telegram-delay-channel-cloner.svg" alt="telegram-delay-channel-cloner (archived)"></a>
