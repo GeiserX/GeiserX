@@ -118,6 +118,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/pumperly-mcp"><img src="https://img.shields.io/badge/pumperly--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="pumperly-mcp"></a>
 <a href="https://github.com/GeiserX/duplicacy-mcp"><img src="https://img.shields.io/badge/duplicacy--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="duplicacy-mcp"></a>
 <a href="https://github.com/GeiserX/lynxprompt-mcp"><img src="https://img.shields.io/badge/lynxprompt--mcp-★_2-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="lynxprompt-mcp"></a>
+<a href="https://github.com/GeiserX/vpn-bypass-mcp"><img src="https://img.shields.io/badge/vpn--bypass--mcp-★_1-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="vpn-bypass-mcp"></a>
 <br/>
 <a href="https://github.com/GeiserX/agent-skills"><img src="https://img.shields.io/badge/agent--skills-★_3-FFD700?style=flat-square&logo=markdown&logoColor=white&labelColor=0F3B3D" alt="agent-skills"></a>
 <br/>
