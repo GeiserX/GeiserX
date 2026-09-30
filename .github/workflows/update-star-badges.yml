@@ -39,7 +39,6 @@ jobs:
           # "GeiserX" is the profile repo itself; add any repo you don't want shown.
           HIDDEN = {
               "GeiserX",
-              "biblical-earth",
               "claude-code-parallel-skills",  # merged into agent-skills
           }
           repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
