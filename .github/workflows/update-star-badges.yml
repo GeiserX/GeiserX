@@ -66,7 +66,7 @@ jobs:
                   return url
               svg = svg[:m.start()] + f'<rect {m.group(1)}fill="url(#fade)"/>' + svg[m.end():]
               grad = ('<defs><linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">'
-                      f'<stop offset=".45" stop-color="#{color}"/><stop offset="1" stop-color="#9E9E9E"/>'
+                      f'<stop offset=".30" stop-color="#{color}"/><stop offset="1" stop-color="#9E9E9E"/>'
                       '</linearGradient></defs>')
               svg = svg.replace('<g shape-rendering', grad + '<g shape-rendering', 1)
               path = f"{FADE_DIR}/{name}.svg"
@@ -336,9 +336,9 @@ jobs:
 
               if repo.get("isArchived"):
                   alt = f"{name} (archived)"
-              if repo.get("isArchived") and count >= 2:
+              if repo.get("isArchived") and count >= 1:
                   src = f"https://img.shields.io/badge/{label}-☆_{count}-{ARCHIVED_STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
-              elif count >= 2:
+              elif count >= 1:
                   src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
               else:
                   src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
