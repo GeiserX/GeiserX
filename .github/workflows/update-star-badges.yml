@@ -40,6 +40,7 @@ jobs:
           HIDDEN = {
               "GeiserX",
               "claude-code-parallel-skills",  # merged into agent-skills
+              "geiserx.github.io",  # only a redirect to cv.geiser.cloud now
           }
           repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
 
@@ -83,34 +84,35 @@ jobs:
           # Open book, no cross (biblical-earth is a jw.org-based study tool), inlined the same way.
           BIBLE_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDUuNUMxMC4zIDQuMiA4IDMuNSA1LjUgMy41Yy0xLjQgMC0yLjcuMi0zLjUuNnYxNGMuOC0uNCAyLjEtLjYgMy41LS42IDIuNSAwIDQuOC43IDYuNSAyIDEuNy0xLjMgNC0yIDYuNS0yIDEuNCAwIDIuNy4yIDMuNS42di0xNGMtLjgtLjQtMi4xLS42LTMuNS0uNi0yLjUgMC00LjguNy02LjUgMnpNMTEgMTcuM2MtMS42LS45LTMuNS0xLjQtNS41LTEuNC0uNyAwLTEuNC4xLTIgLjJWNS40Yy42LS4yIDEuMy0uMyAyLS4zIDIgMCAzLjkuNSA1LjUgMS40ek0xMyAxNy4zYzEuNi0uOSAzLjUtMS40IDUuNS0xLjQuNyAwIDEuNC4xIDIgLjJWNS40Yy0uNi0uMi0xLjMtLjMtMi0uMy0yIDAtMy45LjUtNS41IDEuNHoiLz48L3N2Zz4K"
 
-          # ── Badge styles: (color, shields.io logo) ──────────────────────
+          # Marks for the other product families, inlined the same way (white on the label colour).
+          LYNXPROMPT_LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAB11BMVEU8PDwAAAAREREBAQD///8UFBQICAgdHR0DAwMBAQE4OTkpKSkDAgIJiopQUlIBAQEAAAAAAAAAAAEBAQEAAAASEhIhISEAAAAAAAAAAAAAAAFgYGCOjo5OTk4AAAAAAAAAAAABAQEAAAAAAAACAgIEBAQBAQEAAABdXV3GxsaQkJCWlpZwcHAGBgYAAAAAAAAICAgAAAAAAABJSkoEBAQAAAAmJiaVlZX///8BAQFQUFDX19fm5ubHyMjx8fECAgIAAAAAAABqamvIyMh/gICfn58GBgYAAABUVFT6%2B/vn5%2BfS0tIHBwcAAABDQ0LJyckFBAUBAQEPDw%2BdnZ0XFxcBAQEBAQEAAABra2tqamp/f38JCQkKCgoCAgIAAAAAAAAkJCQqKiocHBxaWlplZWUKCgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgIAAAAAAAAAAACJiYkLCwteXl7FxcX6%2Bvr8/PypqakICAgAAAAGBgYWFhba2tqoqKgBAgKoqakHBwcEBAQMDAwCAgLt7e2jo6MODg5GRkY9PT0BAQEKCgrm5uagoKAJCQkJCAm%2Bvr7W1tdpaWklJSXIyMhzdHNiYmIFBQUpKSlJSUmzs7OGhoaE4j6OAAAAc3RSTlMAAAAAAAAAAAAAAAAAAAA1Lw1SET2oOxKEignC4W0VDBYQCTqv9lYOuvjCttHDrOP4TAKQ3ylT%2BP67h/7%2B/v7qPx3O/v7%2BjDfn/v7%2BuBy3/pIJdf3%2B60Eew%2B/2/e7vcRBR75N9yI9s5JMKCH5bBBkFKmUUPtczGAAAANdJREFUCNdj4BdgYGRkYgQCZkEhYQYRUTEWVjZ2DkZGcQlJKQZxaRlZOXkFRSVlFVU1RgZ1jWJNLW0dXT39EgNDRgYj49Ky8orKquqaWhNTTgYuM/M6C4v6quqGKktBoKyVtY2tXWNTc0urvQMjg6NTm7OLa3tHZ1d3jxsjg7tHr6eXd19LbX/1BB95Bl%2B/iZP8vSZXlUypbQ4IZOAOCp46rWz6jJmzQkLDGBl4wiNmR0bNiY4piY2LZ2Tg5UtITEpOSU1Lz8hkZAS6Pys7Jzcvv6CwCOgNAEfsNqrlH3XtAAAAAElFTkSuQmCC"
+          PUMPERLY_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI%2BPHBhdGggZD0iTTIxIDRMOSAxOGg4bC0zIDEwTDI0IDE0aC04bDUtMTB6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPgo="
+          GENIEACS_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMCAxM2gtM1Y3LjVsMi4zLTIuMy0xLjQtMS40TDE1IDYuNyAxMi4xIDMuOGwtMS40IDEuNEwxMyA3LjVWMTNINGEyIDIgMCAwIDAtMiAydjRhMiAyIDAgMCAwIDIgMmgxNmEyIDIgMCAwIDAgMi0ydi00YTIgMiAwIDAgMC0yLTJ6TTYgMThhMS41IDEuNSAwIDEgMSAwLTMgMS41IDEuNSAwIDAgMSAwIDN6bTQgMGExLjUgMS41IDAgMSAxIDAtMyAxLjUgMS41IDAgMCAxIDAgM3ptNCAwYTEuNSAxLjUgMCAxIDEgMC0zIDEuNSAxLjUgMCAwIDEgMCAzeiIvPjwvc3ZnPgo="
+          DUPLICACY_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik00IDNoMTZhMiAyIDAgMCAxIDIgMnY2SDJWNWEyIDIgMCAwIDEgMi0yem0wIDEwaDE2YTIgMiAwIDAgMSAyIDJ2NGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnYtNGEyIDIgMCAwIDEgMi0yem0xMiAzYTEuNSAxLjUgMCAxIDAgMCAzIDEuNSAxLjUgMCAwIDAgMC0zek02IDZ2Mmg4VjZ6bTAgMTB2Mmg2di0yeiIvPjwvc3ZnPgo="
+
+          # ── Badge styles: (color, shields.io logo or None) ──────────────
           GROUP_STYLES = {
-              # Product families (own brand mark, overrides language)
+              # Product families: the core repo and every integration surface
+              # (MCP server, HA integration, n8n node, app, tap, action) in one row.
+              "LynxPrompt": ("151515", LYNXPROMPT_LOGO),
               "CashPilot": ("0A0A1A", CASHPILOT_LOGO),
-              "Biblical Earth": ("5C3D1E", BIBLE_LOGO),
-              # Platform / ecosystem groups (override primary language)
-              "GitHub": ("555555", "github"),
-              "Grafana": ("F46800", "grafana"),
+              "Pumperly": ("059669", PUMPERLY_LOGO),
+              "Telegram-Archive": ("1F4E79", "telegram"),
+              "GenieACS": ("0E7490", GENIEACS_LOGO),
+              "Duplicacy": ("6D28D9", DUPLICACY_LOGO),
+              # Domains
+              "Agents & AI": ("D97757", "claude"),
               "Jellyfin": ("AA5CC3", "jellyfin"),
-              "Home Assistant": ("18BCF2", "homeassistant"),
-              "MCP": ("8B5CF6", "modelcontextprotocol"),
-              "Agent Skills": ("0F3B3D", "markdown"),
-              "Claude Code": ("D97757", "claude"),
-              "n8n": ("EA4B71", "n8n"),
-              "Android": ("34A853", "android"),
-              "Runtipi": ("27B648", "linux"),
-              "Unraid": ("F15A2C", "unraid"),
-              "Kubernetes": ("326CE5", "kubernetes"),
-              "Docker": ("384d54", "docker"),
-              "Raspberry Pi": ("A22846", "raspberrypi"),
-              "VS Code": ("007ACC", "vscodium"),
-              "GitHub Actions": ("2088FF", "githubactions"),
-              "Ansible": ("EE0000", "ansible"),
-              "Homebrew": ("FBB040", "homebrew"),
-              "Browser Extensions": ("FFE100", "googlechrome"),
-              "Ghost": ("15171A", "ghost"),
+              "Telegram bots": ("26A5E4", "telegram"),
+              "Homelab": ("384d54", "docker"),
+              "Networking": ("1F2A44", "tailscale"),
+              "Web archiving": ("4A4A4A", "internetarchive"),
+              "Data & health": ("276DC3", "r"),
+              "Spain": ("AA151B", None),
+              "Biblical Earth": ("5C3D1E", BIBLE_LOGO),
               "Awesome": ("FC60A8", "awesomelists"),
-              # Language groups (fallback)
+              "Older work": ("6E6E6E", "github"),
+              # Language fallback: a repo that lands here is missing from ROUTES below.
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
               "JavaScript": ("f1e05a", "javascript"),
@@ -125,199 +127,92 @@ jobs:
               "HCL": ("844FBA", "terraform"),
               "Dockerfile": ("384d54", "docker"),
               "Handlebars": ("f7931e", "handlebarsdotjs"),
-              "Makefile": ("89e051", "gnu"),
-              "Go Template": ("00ADD8", "go"),
               "Java": ("b07219", "openjdk"),
-              "Scala": ("c22d40", "scala"),
               "Rust": ("dea584", "rust"),
               "C": ("555555", "c"),
               "C++": ("f34b7d", "cplusplus"),
-              "Zig": ("F7A41D", "zig"),
-              "Haskell": ("5e5086", "haskell"),
-              "Elixir": ("6e4a7e", "elixir"),
               "Lua": ("000080", "lua"),
-              "Perl": ("0298c3", "perl"),
               "PHP": ("4F5D95", "php"),
-              "PowerShell": ("012456", "powershell"),
-              "Nix": ("7e7eff", "nixos"),
               "Vue": ("4FC08D", "vuedotjs"),
               "Svelte": ("ff3e00", "svelte"),
               "CSS": ("563d7c", "css3"),
-              "SCSS": ("c6538c", "sass"),
-              "Astro": ("ff5a03", "astro"),
               "Jupyter Notebook": ("DA5B0B", "jupyter"),
-              "Julia": ("9558B2", "julia"),
               "Dart": ("00B4AB", "dart"),
-              "Objective-C": ("438eff", "apple"),
-              "TeX": ("3D6117", "latex"),
-              "Groovy": ("4298b8", "apachegroovy"),
-              "Clojure": ("db5855", "clojure"),
-              "OCaml": ("3be133", "ocaml"),
-              "F#": ("b845fc", "fsharp"),
-              "Erlang": ("B83998", "erlang"),
-              "ElectroBun": ("111111", "bun"),
           }
           DEFAULT_STYLE = ("555555", "github")
 
           # ── Routing: repo → group ──────────────────────────────────────
+          # Every public repo is listed here or matched by a family prefix below.
+          # A repo that shows up in a language row is one that needs a line here.
+          ROUTES = {
+              "Agents & AI": [
+                  "akou", "unsent", "hark-viewer", "agent-skills", "cc-aws-keepalive",
+                  "cc-agents-md", "mcp-upgrade", "homebrew-mcp-upgrade", "epub-and-vtt-to-llm",
+                  "spinnaker-mcp", "atlassian-browser-mcp", "homebrew-agenttap", "homebrew-unsent",
+                  "AgentTap",
+              ],
+              "Jellyfin": [
+                  "whisper-subs", "smart-covers", "quality-gate", "quality-gate-encoder",
+                  "jellyfin-telegram-channel-sync",
+              ],
+              "Telegram bots": [
+                  "telegram-slskd-local-bot", "paperless-telegram-bot", "IBKR-Telegram",
+                  "telegram-delay-channel-cloner",
+              ],
+              "Homelab": [
+                  "media-download", "slskd-transform", "qbittorrent-orphaned", "audio-transcode-watcher",
+                  "migrate-psql", "gha-deadman", "nginx-mailer", "docker-templates", "runtipi-appstore",
+                  "grafana-airgradient-dashboard", "grafana-rightsizing-dashboard", "cloud-tests-velero",
+                  "k8s-dockerhub-detector", "redis-operator", "PiSpot-Show", "PiSpot-Watch",
+                  "PiSpot-Deployment", "Way-CMS", "n8n-nodes-way-cms",
+              ],
+              "Networking": [
+                  "VPN-Bypass", "homebrew-vpn-bypass", "tailscale-rs", "tailscaled-rs", "router-express",
+              ],
+              "Web archiving": ["Wayback-Archive", "Wayback-Diff", "web-mirror"],
+              "Data & health": [
+                  "Personal-Genome-Pipeline", "statix", "search-by-surname",
+                  "secciones-nacionalidades", "services-isp",
+              ],
+              "Spain": ["DeclaRenta", "BuscaPaginasBlancas", "Sanitune", "museopostal", "CatsUp", "homebrew-catsup", "AskePub"],
+              "Biblical Earth": ["biblical-earth"],
+              "Older work": [
+                  "ScriptPoblar", "import-xgest-odoo", "AdamPartsFinder", "WebApp-Flotas", "ePubLangMerger",
+                  "Minecraft-Youtube-Follower", "ghost-github-portfolio", "github-toggle-all-details", "cv",
+              ],
+          }
+          NAME_TO_GROUP = {n: g for g, names in ROUTES.items() for n in names}
+          # Family prefix anywhere in the name catches the core and every integration:
+          # lynxprompt-mcp, homebrew-lynxprompt, n8n-nodes-lynxprompt, CashPilot-android...
+          FAMILIES = [
+              ("lynxprompt", "LynxPrompt"), ("cashpilot", "CashPilot"), ("pumperly", "Pumperly"),
+              ("telegram-archive", "Telegram-Archive"), ("genieacs", "GenieACS"), ("duplicacy", "Duplicacy"),
+          ]
+
           def get_group(repo):
               name = repo["name"]
-              lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
-
-              # ─ Curated lists ─
+              if name in NAME_TO_GROUP:
+                  return NAME_TO_GROUP[name]
               if name.startswith("awesome-"):
                   return "Awesome"
-
-              # ─ Product families (own brand mark) ─
-              # Only the core product + desktop app. CashPilot-android,
-              # cashpilot-ha and cashpilot-mcp stay in their platform groups.
-              if name in ("CashPilot", "CashPilot-Desktop"):
-                  return "CashPilot"
-              if name == "biblical-earth":
-                  return "Biblical Earth"
-
-              # ─ Platform / ecosystem (checked first, overrides language) ─
-
-              # Grafana
-              if name.startswith("grafana-"):
-                  return "Grafana"
-
-              # Runtipi
-              if name == "runtipi-appstore":
-                  return "Runtipi"
-
-              # Unraid
-              if name == "docker-templates":
-                  return "Unraid"
-
-              # Raspberry Pi / IoT
-              if name.startswith("PiSpot-"):
-                  return "Raspberry Pi"
-
-              # Jellyfin plugins & tools
-              if name in (
-                  "whisper-subs", "smart-covers", "quality-gate",
-                  "quality-gate-encoder", "jellyfin-telegram-channel-sync",
-              ):
-                  return "Jellyfin"
-
-              # MCP servers
-              if name.endswith("-mcp"):
-                  return "MCP"
-
-              # n8n community nodes
-              if name.startswith("n8n-nodes-"):
-                  return "n8n"
-
-              # Home Assistant integrations
-              if name.endswith("-ha"):
-                  return "Home Assistant"
-
-              # Android apps
-              if name.endswith("-android"):
-                  return "Android"
-
-              # VS Code extensions
-              if name.endswith("-vscode"):
-                  return "VS Code"
-
-              # Agent Skills (SKILL.md packages for any agent)
-              if name.endswith("-skills"):
-                  return "Agent Skills"
-
-              # Claude Code plugins
-              if name.startswith("cc-") or name.startswith("claude-code-"):
-                  return "Claude Code"
-
-              # GitHub Actions
-              if name.endswith("-action"):
-                  return "GitHub Actions"
-
-              # Homebrew taps
-              if name.startswith("homebrew-"):
-                  return "Homebrew"
-
-              # Ansible
-              if name.endswith("-ansible"):
-                  return "Ansible"
-
-              # Docker / Helm containers
-              if name.endswith("-container"):
-                  return "Docker"
-
-              # Kubernetes tools
-              if name in (
-                  "redis-operator", "k8s-dockerhub-detector",
-                  "cloud-tests-velero",
-              ):
-                  return "Kubernetes"
-
-              # Browser extensions
-              if name == "github-toggle-all-details":
-                  return "Browser Extensions"
-
-              # ─ Special overrides ─
-              OVERRIDES = {
-                  "AgentTap": "ElectroBun",
-                  "ghost-github-portfolio": "Ghost",
-              }
-              if name in OVERRIDES:
-                  return OVERRIDES[name]
-
-              # ─ Fallback to primary language ─
-              if lang in ("Go Template", "Makefile"):
-                  return lang
+              low = name.lower()
+              for key, group in FAMILIES:
+                  if key in low:
+                      return group
+              lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
               return lang or "GitHub"
 
           # ── Group display order ────────────────────────────────────────
           GROUP_ORDER = [
-              # Main products (contrast-ordered by color)
-              "Python",                   # 3572A5 blue
-              "CashPilot",                # 0A0A1A brand navy + sunset mark
-              "Swift",                    # F05138 red-orange
-              "ElectroBun",               # 111111 black
-              "TypeScript",               # 3178C6 blue
-              "Shell",                    # 89e051 green
-              "Go",                       # 00ADD8 cyan
-              "JavaScript",               # f1e05a yellow
-              "Biblical Earth",           # 5C3D1E leather brown + open book
-              # Platform integrations (contrast-ordered)
-              "Jellyfin",                 # AA5CC3 purple
-              "n8n",                      # EA4B71 pink
-              "Home Assistant",           # 18BCF2 light blue
-              "MCP",                      # 8B5CF6 purple
-              "Agent Skills",             # 0F3B3D teal
-              "Claude Code",              # D97757 terracotta
-              "Android",                  # 34A853 green
-              # App stores & templates
-              "Unraid",                   # F15A2C orange
-              # Infrastructure
-              "Kubernetes",               # 326CE5 blue
-              "Runtipi",                  # 27B648 green
-              "Grafana",                  # F46800 orange
-              "Docker",                   # 384d54 dark
-              "Ghost",                    # 15171A dark
-              # Dev tools (contrast-ordered)
-              "VS Code",                  # 007ACC blue
-              "Ansible",                  # EE0000 red
-              "Awesome",                  # FC60A8 pink
-              "GitHub Actions",           # 2088FF blue
-              "Homebrew",                 # FBB040 yellow
-              # IoT
-              "Raspberry Pi",             # A22846 magenta
-              # Remaining languages / fallback
-              "R", "Browser Extensions", "C#", "HTML", "Handlebars", "GitHub",
+              "LynxPrompt", "CashPilot", "Pumperly", "Telegram-Archive", "GenieACS", "Duplicacy",
+              "Agents & AI", "Jellyfin", "Telegram bots", "Homelab", "Networking", "Web archiving",
+              "Data & health", "Spain", "Biblical Earth", "Awesome", "Older work",
           ]
 
           # ── Group repos ────────────────────────────────────────────────
           groups = defaultdict(list)
           for r in repos:
               groups[get_group(r)].append(r)
-
-          # Merge tiny language groups into closest match
-          for tiny in ["Go Template", "Makefile"]:
-              if tiny in groups and len(groups[tiny]) <= 2:
-                  groups["Go"].extend(groups.pop(tiny))
 
           # Sort repos within each group: stars desc, then name asc
           for g in groups:
@@ -343,12 +238,13 @@ jobs:
 
               if repo.get("isArchived"):
                   alt = f"{name} (archived)"
+              logo_q = f"&logo={logo}&logoColor=white" if logo else ""
               if repo.get("isArchived") and count >= 1:
-                  src = f"https://img.shields.io/badge/{label}-☆_{count}-{ARCHIVED_STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
+                  src = f"https://img.shields.io/badge/{label}-☆_{count}-{ARCHIVED_STAR_COLOR}?style=flat-square{logo_q}&labelColor={color}"
               elif count >= 1:
-                  src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
+                  src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square{logo_q}&labelColor={color}"
               else:
-                  src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
+                  src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square{logo_q}"
 
               if repo.get("isArchived") and re.fullmatch(r"[0-9A-Fa-f]{6}", color):
                   src = fade_badge(name, src, color)
