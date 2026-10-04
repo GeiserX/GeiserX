@@ -138,7 +138,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-★_1-FFD700?style=flat-square&logo=kubernetes&logoColor=white&labelColor=326CE5" alt="k8s-dockerhub-detector"></a>
 <a href="https://github.com/GeiserX/redis-operator"><img src="docs/images/badges/redis-operator.svg" alt="redis-operator (archived)"></a>
 <br/>
-<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-★_2-FFD700?style=flat-square&logo=linux&logoColor=white&labelColor=27B648" alt="runtipi-appstore"></a>
+<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-★_3-FFD700?style=flat-square&logo=linux&logoColor=white&labelColor=27B648" alt="runtipi-appstore"></a>
 <br/>
 <a href="https://github.com/GeiserX/grafana-airgradient-dashboard"><img src="https://img.shields.io/badge/grafana--airgradient--dashboard-★_2-FFD700?style=flat-square&logo=grafana&logoColor=white&labelColor=F46800" alt="grafana-airgradient-dashboard"></a>
 <a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-★_1-FFD700?style=flat-square&logo=grafana&logoColor=white&labelColor=F46800" alt="grafana-rightsizing-dashboard"></a>
