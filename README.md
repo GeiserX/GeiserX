@@ -132,6 +132,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_7-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
 <a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-★_3-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="Pumperly-android"></a>
 <a href="https://github.com/GeiserX/pumperly-ios"><img src="https://img.shields.io/badge/pumperly--ios-★_1-FFD700?style=flat-square&logo=apple&logoColor=white&labelColor=000000" alt="pumperly-ios"></a>
+<a href="https://github.com/GeiserX/akou-companion"><img src="https://img.shields.io/badge/akou--companion-★_1-FFD700?style=flat-square&logo=apple&logoColor=white&labelColor=000000" alt="akou-companion"></a>
 <br/>
 <a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-★_2-FFD700?style=flat-square&logo=unraid&logoColor=white&labelColor=F15A2C" alt="docker-templates"></a>
 <br/>
