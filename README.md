@@ -47,7 +47,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_216-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_217-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_39-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_17-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_13-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -73,7 +73,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/VPN-Bypass"><img src="https://img.shields.io/badge/VPN--Bypass-★_126-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="VPN-Bypass"></a>
 <br/>
-<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_49-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
+<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_50-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_48-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_38-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/akou"><img src="https://img.shields.io/badge/akou-★_3-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="akou"></a>
