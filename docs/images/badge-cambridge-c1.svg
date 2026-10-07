@@ -1,29 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" width="340" height="340">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8B1A4A"/>
-      <stop offset="100%" stop-color="#5C0F32"/>
-    </linearGradient>
+    <path id="top" d="M 31,170 A 139,139 0 0 1 309,170"/>
+    <path id="bot" d="M 31,170 A 139,139 0 0 0 309,170"/>
   </defs>
-  <circle cx="170" cy="170" r="160" fill="url(#bg)"/>
-  <circle cx="170" cy="170" r="148" fill="none" stroke="#D4A843" stroke-width="3"/>
-  <circle cx="170" cy="170" r="140" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
-  <!-- Cambridge text -->
-  <text x="170" y="88" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-size="22" fill="#D4A843" font-weight="700" letter-spacing="2">CAMBRIDGE</text>
-  <text x="170" y="112" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-size="15" fill="#ffffff" opacity="0.8" letter-spacing="1">ENGLISH</text>
-  <!-- Divider line -->
-  <line x1="110" y1="124" x2="230" y2="124" stroke="#D4A843" stroke-width="1" opacity="0.4"/>
-  <!-- Certificate in Advanced English -->
-  <text x="170" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.7" letter-spacing="0.5">Certificate in</text>
-  <text x="170" y="182" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="600" letter-spacing="0.5">Advanced English</text>
-  <!-- C1 level badge -->
-  <rect x="135" y="200" width="70" height="36" rx="6" fill="#D4A843" opacity="0.9"/>
-  <text x="170" y="226" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#5C0F32">C1</text>
-  <!-- Decorative laurel hints -->
-  <path d="M95,275 Q115,250 130,265 Q115,255 95,275" fill="#D4A843" opacity="0.3"/>
-  <path d="M245,275 Q225,250 210,265 Q225,255 245,275" fill="#D4A843" opacity="0.3"/>
-  <path d="M85,260 Q105,235 120,250 Q105,240 85,260" fill="#D4A843" opacity="0.2"/>
-  <path d="M255,260 Q235,235 220,250 Q235,240 255,260" fill="#D4A843" opacity="0.2"/>
-  <path d="M80,243 Q98,220 112,234 Q98,225 80,243" fill="#D4A843" opacity="0.15"/>
-  <path d="M260,243 Q242,220 228,234 Q242,225 260,243" fill="#D4A843" opacity="0.15"/>
+  <circle cx="170" cy="170" r="162" fill="#0B2A5B"/>
+  <circle cx="170" cy="170" r="116" fill="#ffffff"/>
+  <circle cx="170" cy="170" r="110" fill="none" stroke="#0B2A5B" stroke-width="2" stroke-opacity="0.25"/>
+  <text font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="4"><textPath href="#top" startOffset="50%" text-anchor="middle">CAMBRIDGE ENGLISH</textPath></text>
+  <text font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" letter-spacing="2.5"><textPath href="#bot" startOffset="50%" text-anchor="middle">CERTIFICATE IN ADVANCED ENGLISH</textPath></text>
+  <circle cx="31" cy="170" r="4" fill="#7FB4FF"/><circle cx="309" cy="170" r="4" fill="#7FB4FF"/>
+  <text x="170" y="200" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="100" font-weight="800" fill="#0B2A5B" letter-spacing="-3">C1</text>
+  <text x="170" y="236" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#2E7BE8" letter-spacing="4">ADVANCED</text>
 </svg>
