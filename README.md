@@ -74,7 +74,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/akou-companion"><img src="https://img.shields.io/badge/akou--companion-★_2-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="akou-companion"></a>
 <a href="https://github.com/GeiserX/pumperly-ios"><img src="https://img.shields.io/badge/pumperly--ios-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="pumperly-ios"></a>
 <a href="https://github.com/GeiserX/radares-anunciados"><img src="https://img.shields.io/badge/radares--anunciados-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="radares-anunciados"></a>
-<a href="https://github.com/GeiserX/tg-archive-ios"><img src="https://img.shields.io/badge/tg--archive--ios-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="tg-archive-ios"></a>
+<a href="https://github.com/GeiserX/TG-Archive-ios"><img src="https://img.shields.io/badge/TG--Archive--ios-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="TG-Archive-ios"></a>
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_50-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_48-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
