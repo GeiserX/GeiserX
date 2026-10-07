@@ -57,7 +57,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
 <a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-★_5-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="audio-transcode-watcher"></a>
-<a href="https://github.com/GeiserX/radares-anunciados-ha"><img src="https://img.shields.io/badge/radares--anunciados--ha-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="radares-anunciados-ha"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Diff"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="epub-and-vtt-to-llm"></a>
@@ -77,7 +76,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_50-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_48-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
-<a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_38-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
+<a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_39-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/akou"><img src="https://img.shields.io/badge/akou-★_3-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="akou"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="docs/images/badges/CatsUp.svg" alt="CatsUp (archived)"></a>
 <br/>
@@ -85,10 +84,10 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_11-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-★_3-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="duplicacy-cli-cron"></a>
 <a href="https://github.com/GeiserX/ScriptPoblar"><img src="https://img.shields.io/badge/ScriptPoblar-★_3-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="ScriptPoblar"></a>
+<a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/gha-deadman"><img src="https://img.shields.io/badge/gha--deadman-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="gha-deadman"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="migrate-psql"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="WebApp-Flotas"></a>
-<a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-89e051?style=flat-square&logo=gnubash&logoColor=white" alt="geiserx.github.io"></a>
 <br/>
 <a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="nginx-mailer"></a>
 <a href="https://github.com/GeiserX/unsent"><img src="https://img.shields.io/badge/unsent-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="unsent"></a>
@@ -113,6 +112,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/genieacs-ha"><img src="https://img.shields.io/badge/genieacs--ha-★_5-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="genieacs-ha"></a>
 <a href="https://github.com/GeiserX/cashpilot-ha"><img src="https://img.shields.io/badge/cashpilot--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="cashpilot-ha"></a>
 <a href="https://github.com/GeiserX/duplicacy-ha"><img src="https://img.shields.io/badge/duplicacy--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="duplicacy-ha"></a>
+<a href="https://github.com/GeiserX/radares-anunciados-ha"><img src="https://img.shields.io/badge/radares--anunciados--ha-★_2-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="radares-anunciados-ha"></a>
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-★_1-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="pumperly-ha"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_17-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
@@ -181,8 +181,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/homebrew-lynxprompt"><img src="https://img.shields.io/badge/homebrew--lynxprompt-★_2-FFD700?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-lynxprompt"></a>
 <a href="https://github.com/GeiserX/homebrew-unsent"><img src="https://img.shields.io/badge/homebrew--unsent-★_2-FFD700?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-unsent"></a>
+<a href="https://github.com/GeiserX/homebrew-akou"><img src="https://img.shields.io/badge/homebrew--akou-★_1-FFD700?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-akou"></a>
 <a href="https://github.com/GeiserX/homebrew-vpn-bypass"><img src="https://img.shields.io/badge/homebrew--vpn--bypass-★_1-FFD700?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-vpn-bypass"></a>
-<a href="https://github.com/GeiserX/homebrew-akou"><img src="https://img.shields.io/badge/homebrew--akou-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="homebrew-akou"></a>
 <a href="https://github.com/GeiserX/homebrew-agenttap"><img src="docs/images/badges/homebrew-agenttap.svg" alt="homebrew-agenttap (archived)"></a>
 <a href="https://github.com/GeiserX/homebrew-mcp-upgrade"><img src="docs/images/badges/homebrew-mcp-upgrade.svg" alt="homebrew-mcp-upgrade (archived)"></a>
 <a href="https://github.com/GeiserX/homebrew-catsup"><img src="docs/images/badges/homebrew-catsup.svg" alt="homebrew-catsup (archived)"></a>
@@ -204,6 +204,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/router-express"><img src="https://img.shields.io/badge/router--express-★_4-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="router-express"></a>
 <a href="https://github.com/GeiserX/cv"><img src="https://img.shields.io/badge/cv-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="cv"></a>
 <a href="https://github.com/GeiserX/museopostal"><img src="https://img.shields.io/badge/museopostal-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="museopostal"></a>
+<br/>
+<a href="https://github.com/GeiserX/radares-anunciados"><img src="https://img.shields.io/badge/radares--anunciados-★_1-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=555555" alt="radares-anunciados"></a>
 <br/>
 <a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_6-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
 <a href="https://github.com/GeiserX/tailscaled-rs"><img src="https://img.shields.io/badge/tailscaled--rs-★_4-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscaled-rs"></a>
