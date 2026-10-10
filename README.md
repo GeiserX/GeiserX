@@ -76,7 +76,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/radares-anunciados"><img src="https://img.shields.io/badge/radares--anunciados-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="radares-anunciados"></a>
 <a href="https://github.com/GeiserX/TG-Archive-iOS"><img src="https://img.shields.io/badge/TG--Archive--iOS-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="TG-Archive-iOS"></a>
 <br/>
-<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_50-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
+<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_52-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_48-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_40-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/akou"><img src="https://img.shields.io/badge/akou-★_4-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="akou"></a>
