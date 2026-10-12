@@ -59,7 +59,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="audio-transcode-watcher"></a>
 <a href="https://github.com/GeiserX/SuperCycleTracker"><img src="https://img.shields.io/badge/SuperCycleTracker-★_0-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperCycleTracker"></a>
 <a href="https://github.com/GeiserX/SuperChangeDetection"><img src="https://img.shields.io/badge/SuperChangeDetection-★_0-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperChangeDetection"></a>
-<a href="https://github.com/GeiserX/vettarr"><img src="https://img.shields.io/badge/vettarr-★_0-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="vettarr"></a>
+<a href="https://github.com/GeiserX/vettarr"><img src="https://img.shields.io/badge/vettarr-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="vettarr"></a>
 <a href="https://github.com/GeiserX/IBKR-Telegram"><img src="https://img.shields.io/badge/IBKR--Telegram-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="IBKR-Telegram"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Diff"></a>
