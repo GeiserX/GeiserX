@@ -65,6 +65,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/SuperChangeDetection"><img src="https://img.shields.io/badge/SuperChangeDetection-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperChangeDetection"></a>
 <a href="https://github.com/GeiserX/SuperCycleTracker"><img src="https://img.shields.io/badge/SuperCycleTracker-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperCycleTracker"></a>
 <a href="https://github.com/GeiserX/SuperMealPlanner"><img src="https://img.shields.io/badge/SuperMealPlanner-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMealPlanner"></a>
+<a href="https://github.com/GeiserX/SuperMedicalDoctor"><img src="https://img.shields.io/badge/SuperMedicalDoctor-★_0-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMedicalDoctor"></a>
 <a href="https://github.com/GeiserX/vettarr"><img src="https://img.shields.io/badge/vettarr-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="vettarr"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="docs/images/badges/BuscaPaginasBlancas.svg" alt="BuscaPaginasBlancas (archived)"></a>
 <a href="https://github.com/GeiserX/Sanitune"><img src="docs/images/badges/Sanitune.svg" alt="Sanitune (archived)"></a>
