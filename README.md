@@ -47,7 +47,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 ## Projects
 
 <p align="center">
-<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_225-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
+<a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_226-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
 <a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_41-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_18-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_13-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
@@ -93,6 +93,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/geiserx.github.io"><img src="https://img.shields.io/badge/geiserx.github.io-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="geiserx.github.io"></a>
 <a href="https://github.com/GeiserX/gha-deadman"><img src="https://img.shields.io/badge/gha--deadman-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="gha-deadman"></a>
 <a href="https://github.com/GeiserX/migrate-psql"><img src="https://img.shields.io/badge/migrate--psql-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="migrate-psql"></a>
+<a href="https://github.com/GeiserX/SuperMedicalDoctor"><img src="https://img.shields.io/badge/SuperMedicalDoctor-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="SuperMedicalDoctor"></a>
 <a href="https://github.com/GeiserX/WebApp-Flotas"><img src="https://img.shields.io/badge/WebApp--Flotas-★_1-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="WebApp-Flotas"></a>
 <br/>
 <a href="https://github.com/GeiserX/nginx-mailer"><img src="https://img.shields.io/badge/nginx--mailer-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="nginx-mailer"></a>
@@ -211,6 +212,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/cv"><img src="https://img.shields.io/badge/cv-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="cv"></a>
 <a href="https://github.com/GeiserX/museopostal"><img src="https://img.shields.io/badge/museopostal-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="museopostal"></a>
 <br/>
-<a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_6-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
+<a href="https://github.com/GeiserX/tailscale-rs"><img src="https://img.shields.io/badge/tailscale--rs-★_7-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscale-rs"></a>
 <a href="https://github.com/GeiserX/tailscaled-rs"><img src="https://img.shields.io/badge/tailscaled--rs-★_4-FFD700?style=flat-square&logo=rust&logoColor=white&labelColor=dea584" alt="tailscaled-rs"></a>
 </p>
