@@ -48,7 +48,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 <p align="center">
 <a href="https://github.com/GeiserX/Telegram-Archive"><img src="https://img.shields.io/badge/Telegram--Archive-★_226-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Telegram-Archive"></a>
-<a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_41-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
+<a href="https://github.com/GeiserX/Wayback-Archive"><img src="https://img.shields.io/badge/Wayback--Archive-★_42-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Archive"></a>
 <a href="https://github.com/GeiserX/telegram-slskd-local-bot"><img src="https://img.shields.io/badge/telegram--slskd--local--bot-★_18-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="telegram-slskd-local-bot"></a>
 <a href="https://github.com/GeiserX/paperless-telegram-bot"><img src="https://img.shields.io/badge/paperless--telegram--bot-★_13-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="paperless-telegram-bot"></a>
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-★_9-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="web-mirror"></a>
@@ -100,13 +100,13 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/unsent"><img src="https://img.shields.io/badge/unsent-★_2-FFD700?style=flat-square&logo=go&logoColor=white&labelColor=00ADD8" alt="unsent"></a>
 <a href="https://github.com/GeiserX/mcp-upgrade"><img src="docs/images/badges/mcp-upgrade.svg" alt="mcp-upgrade (archived)"></a>
 <br/>
-<a href="https://github.com/GeiserX/biblical-atlas"><img src="https://img.shields.io/badge/biblical--atlas-★_6-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="biblical-atlas"></a>
+<a href="https://github.com/GeiserX/biblical-atlas"><img src="https://img.shields.io/badge/biblical--atlas-★_7-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="biblical-atlas"></a>
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_6-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <br/>
-<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_112-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_113-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_20-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_17-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate"></a>
-<a href="https://github.com/GeiserX/quality-gate-encoder"><img src="https://img.shields.io/badge/quality--gate--encoder-★_12-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate-encoder"></a>
+<a href="https://github.com/GeiserX/quality-gate-encoder"><img src="https://img.shields.io/badge/quality--gate--encoder-★_13-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate-encoder"></a>
 <a href="https://github.com/GeiserX/jellyfin-telegram-channel-sync"><img src="https://img.shields.io/badge/jellyfin--telegram--channel--sync-★_4-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="jellyfin-telegram-channel-sync"></a>
 <br/>
 <a href="https://github.com/GeiserX/n8n-nodes-genieacs"><img src="docs/images/badges/n8n-nodes-genieacs.svg" alt="n8n-nodes-genieacs (archived)"></a>
@@ -162,8 +162,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-★_1-FFD700?style=flat-square&logo=ansible&logoColor=white&labelColor=EE0000" alt="genieacs-ansible"></a>
 <br/>
-<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_357-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
-<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_144-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
+<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_358-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
+<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_145-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_11-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-catalunya"></a>
 <a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-galicia"></a>
 <a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-region-de-murcia"></a>
