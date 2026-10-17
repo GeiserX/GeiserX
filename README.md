@@ -198,8 +198,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/PiSpot-Watch"><img src="docs/images/badges/PiSpot-Watch.svg" alt="PiSpot-Watch (archived)"></a>
 <a href="https://github.com/GeiserX/PiSpot-Deployment"><img src="docs/images/badges/PiSpot-Deployment.svg" alt="PiSpot-Deployment (archived)"></a>
 <br/>
+<a href="https://github.com/GeiserX/statix"><img src="https://img.shields.io/badge/statix-★_7-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="statix"></a>
 <a href="https://github.com/GeiserX/services-isp"><img src="https://img.shields.io/badge/services--isp-★_6-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="services-isp"></a>
-<a href="https://github.com/GeiserX/statix"><img src="https://img.shields.io/badge/statix-★_6-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="statix"></a>
 <a href="https://github.com/GeiserX/ePubLangMerger"><img src="https://img.shields.io/badge/ePubLangMerger-★_4-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="ePubLangMerger"></a>
 <a href="https://github.com/GeiserX/import-xgest-odoo"><img src="https://img.shields.io/badge/import--xgest--odoo-★_2-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="import-xgest-odoo"></a>
 <a href="https://github.com/GeiserX/secciones-nacionalidades"><img src="https://img.shields.io/badge/secciones--nacionalidades-★_2-FFD700?style=flat-square&logo=r&logoColor=white&labelColor=198CE7" alt="secciones-nacionalidades"></a>
