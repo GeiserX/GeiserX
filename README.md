@@ -67,6 +67,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/SuperMealPlanner"><img src="https://img.shields.io/badge/SuperMealPlanner-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMealPlanner"></a>
 <a href="https://github.com/GeiserX/SuperMedicalDoctor"><img src="https://img.shields.io/badge/SuperMedicalDoctor-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMedicalDoctor"></a>
 <a href="https://github.com/GeiserX/vettarr"><img src="https://img.shields.io/badge/vettarr-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="vettarr"></a>
+<a href="https://github.com/GeiserX/gramps-web-toolkit"><img src="https://img.shields.io/badge/gramps--web--toolkit-★_0-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="gramps-web-toolkit"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="docs/images/badges/BuscaPaginasBlancas.svg" alt="BuscaPaginasBlancas (archived)"></a>
 <a href="https://github.com/GeiserX/Sanitune"><img src="docs/images/badges/Sanitune.svg" alt="Sanitune (archived)"></a>
 <a href="https://github.com/GeiserX/telegram-delay-channel-cloner"><img src="docs/images/badges/telegram-delay-channel-cloner.svg" alt="telegram-delay-channel-cloner (archived)"></a>
