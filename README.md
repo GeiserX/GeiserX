@@ -79,6 +79,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/akou-companion"><img src="https://img.shields.io/badge/akou--companion-★_3-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="akou-companion"></a>
 <a href="https://github.com/GeiserX/pumperly-ios"><img src="https://img.shields.io/badge/pumperly--ios-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="pumperly-ios"></a>
 <a href="https://github.com/GeiserX/radares-anunciados"><img src="https://img.shields.io/badge/radares--anunciados-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="radares-anunciados"></a>
+<a href="https://github.com/GeiserX/supermealplanner-ios"><img src="https://img.shields.io/badge/supermealplanner--ios-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="supermealplanner-ios"></a>
 <a href="https://github.com/GeiserX/TG-Archive-iOS"><img src="https://img.shields.io/badge/TG--Archive--iOS-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="TG-Archive-iOS"></a>
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_53-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
@@ -87,7 +88,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/akou"><img src="https://img.shields.io/badge/akou-★_14-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="akou"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="docs/images/badges/CatsUp.svg" alt="CatsUp (archived)"></a>
 <br/>
-<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_20-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
+<a href="https://github.com/GeiserX/Personal-Genome-Pipeline"><img src="https://img.shields.io/badge/Personal--Genome--Pipeline-★_21-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="Personal-Genome-Pipeline"></a>
 <a href="https://github.com/GeiserX/genieacs-services"><img src="https://img.shields.io/badge/genieacs--services-★_11-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="genieacs-services"></a>
 <a href="https://github.com/GeiserX/duplicacy-cli-cron"><img src="https://img.shields.io/badge/duplicacy--cli--cron-★_3-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="duplicacy-cli-cron"></a>
 <a href="https://github.com/GeiserX/ScriptPoblar"><img src="https://img.shields.io/badge/ScriptPoblar-★_3-FFD700?style=flat-square&logo=gnubash&logoColor=white&labelColor=89e051" alt="ScriptPoblar"></a>
@@ -162,8 +163,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-★_1-FFD700?style=flat-square&logo=ansible&logoColor=white&labelColor=EE0000" alt="genieacs-ansible"></a>
 <br/>
-<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_359-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
-<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_146-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
+<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_360-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
+<a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_147-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_11-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-catalunya"></a>
 <a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-galicia"></a>
 <a href="https://github.com/GeiserX/awesome-region-de-murcia"><img src="https://img.shields.io/badge/awesome--region--de--murcia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-region-de-murcia"></a>
