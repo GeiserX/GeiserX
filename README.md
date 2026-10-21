@@ -57,19 +57,19 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
 <a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="audio-transcode-watcher"></a>
+<a href="https://github.com/GeiserX/Sanitune"><img src="https://img.shields.io/badge/Sanitune-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Sanitune"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Way-CMS"></a>
 <a href="https://github.com/GeiserX/IBKR-Telegram"><img src="https://img.shields.io/badge/IBKR--Telegram-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="IBKR-Telegram"></a>
 <a href="https://github.com/GeiserX/Wayback-Diff"><img src="https://img.shields.io/badge/Wayback--Diff-★_2-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Wayback-Diff"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="epub-and-vtt-to-llm"></a>
+<a href="https://github.com/GeiserX/gramps-web-toolkit"><img src="https://img.shields.io/badge/gramps--web--toolkit-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="gramps-web-toolkit"></a>
 <a href="https://github.com/GeiserX/hark-viewer"><img src="https://img.shields.io/badge/hark--viewer-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="hark-viewer"></a>
 <a href="https://github.com/GeiserX/SuperChangeDetection"><img src="https://img.shields.io/badge/SuperChangeDetection-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperChangeDetection"></a>
 <a href="https://github.com/GeiserX/SuperCycleTracker"><img src="https://img.shields.io/badge/SuperCycleTracker-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperCycleTracker"></a>
 <a href="https://github.com/GeiserX/SuperMealPlanner"><img src="https://img.shields.io/badge/SuperMealPlanner-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMealPlanner"></a>
 <a href="https://github.com/GeiserX/SuperMedicalDoctor"><img src="https://img.shields.io/badge/SuperMedicalDoctor-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMedicalDoctor"></a>
 <a href="https://github.com/GeiserX/vettarr"><img src="https://img.shields.io/badge/vettarr-★_1-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="vettarr"></a>
-<a href="https://github.com/GeiserX/gramps-web-toolkit"><img src="https://img.shields.io/badge/gramps--web--toolkit-★_0-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="gramps-web-toolkit"></a>
 <a href="https://github.com/GeiserX/BuscaPaginasBlancas"><img src="docs/images/badges/BuscaPaginasBlancas.svg" alt="BuscaPaginasBlancas (archived)"></a>
-<a href="https://github.com/GeiserX/Sanitune"><img src="docs/images/badges/Sanitune.svg" alt="Sanitune (archived)"></a>
 <a href="https://github.com/GeiserX/telegram-delay-channel-cloner"><img src="docs/images/badges/telegram-delay-channel-cloner.svg" alt="telegram-delay-channel-cloner (archived)"></a>
 <a href="https://github.com/GeiserX/AskePub"><img src="docs/images/badges/AskePub.svg" alt="AskePub (archived)"></a>
 <br/>
@@ -164,7 +164,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-★_1-FFD700?style=flat-square&logo=ansible&logoColor=white&labelColor=EE0000" alt="genieacs-ansible"></a>
 <br/>
-<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_360-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
+<a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_361-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
 <a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_147-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
 <a href="https://github.com/GeiserX/awesome-catalunya"><img src="https://img.shields.io/badge/awesome--catalunya-★_11-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-catalunya"></a>
 <a href="https://github.com/GeiserX/awesome-galicia"><img src="https://img.shields.io/badge/awesome--galicia-★_8-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-galicia"></a>
