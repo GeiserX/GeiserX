@@ -82,7 +82,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/radares-anunciados"><img src="https://img.shields.io/badge/radares--anunciados-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="radares-anunciados"></a>
 <a href="https://github.com/GeiserX/TG-Archive-iOS"><img src="https://img.shields.io/badge/TG--Archive--iOS-★_1-FFD700?style=flat-square&logo=swift&logoColor=white&labelColor=F05138" alt="TG-Archive-iOS"></a>
 <br/>
-<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_55-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
+<a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_54-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_49-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
 <a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_45-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/akou"><img src="https://img.shields.io/badge/akou-★_16-FFD700?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="akou"></a>
@@ -211,6 +211,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/router-express"><img src="https://img.shields.io/badge/router--express-★_4-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="router-express"></a>
 <a href="https://github.com/GeiserX/cv"><img src="https://img.shields.io/badge/cv-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="cv"></a>
+<a href="https://github.com/GeiserX/gardaniels"><img src="https://img.shields.io/badge/gardaniels-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="gardaniels"></a>
 <a href="https://github.com/GeiserX/museopostal"><img src="https://img.shields.io/badge/museopostal-★_1-FFD700?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="museopostal"></a>
 <br/>
 <a href="https://github.com/GeiserX/akou-companion"><img src="https://img.shields.io/badge/akou--companion-★_3-FFD700?style=flat-square&logo=kotlin&logoColor=white&labelColor=7F52FF" alt="akou-companion"></a>
