@@ -54,8 +54,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/web-mirror"><img src="https://img.shields.io/badge/web--mirror-★_10-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="web-mirror"></a>
 <a href="https://github.com/GeiserX/slskd-transform"><img src="https://img.shields.io/badge/slskd--transform-★_8-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="slskd-transform"></a>
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="duplicacy-exporter"></a>
+<a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-★_7-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/media-download"><img src="https://img.shields.io/badge/media--download-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="media-download"></a>
-<a href="https://github.com/GeiserX/qbittorrent-orphaned"><img src="https://img.shields.io/badge/qbittorrent--orphaned-★_6-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="qbittorrent-orphaned"></a>
 <a href="https://github.com/GeiserX/audio-transcode-watcher"><img src="https://img.shields.io/badge/audio--transcode--watcher-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="audio-transcode-watcher"></a>
 <a href="https://github.com/GeiserX/IBKR-Telegram"><img src="https://img.shields.io/badge/IBKR--Telegram-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="IBKR-Telegram"></a>
 <a href="https://github.com/GeiserX/Way-CMS"><img src="https://img.shields.io/badge/Way--CMS-★_3-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="Way-CMS"></a>
@@ -105,7 +105,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/Minecraft-Youtube-Follower"><img src="https://img.shields.io/badge/Minecraft--Youtube--Follower-★_6-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="Minecraft-Youtube-Follower"></a>
 <a href="https://github.com/GeiserX/secciones-nacionalidades"><img src="https://img.shields.io/badge/secciones--nacionalidades-★_3-FFD700?style=flat-square&logo=javascript&logoColor=white&labelColor=f1e05a" alt="secciones-nacionalidades"></a>
 <br/>
-<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_119-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
+<a href="https://github.com/GeiserX/whisper-subs"><img src="https://img.shields.io/badge/whisper--subs-★_120-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="whisper-subs"></a>
 <a href="https://github.com/GeiserX/smart-covers"><img src="https://img.shields.io/badge/smart--covers-★_21-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="smart-covers"></a>
 <a href="https://github.com/GeiserX/quality-gate"><img src="https://img.shields.io/badge/quality--gate-★_18-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate"></a>
 <a href="https://github.com/GeiserX/quality-gate-encoder"><img src="https://img.shields.io/badge/quality--gate--encoder-★_14-FFD700?style=flat-square&logo=jellyfin&logoColor=white&labelColor=AA5CC3" alt="quality-gate-encoder"></a>
@@ -125,7 +125,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-★_1-FFD700?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="pumperly-ha"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_19-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
-<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_7-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
+<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_8-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
 <a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_5-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
 <a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="atlassian-browser-mcp"></a>
 <a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_3-FFD700?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
