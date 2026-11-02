@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Staff AI Engineer with a pre-AI-era background on Cloud, Distributed Computing, Networking, Hardware and Software Engineering</strong>
+  <strong>Staff AI Engineer with a pre-AI-era background on Cloud, Distributed Computing, Networking, Hardware, Data and Software Engineering</strong>
   <br>
   <i>Building things nobody asked for, one repo at a time.</i>
 </p>
