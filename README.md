@@ -143,7 +143,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_9-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
 <a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-★_3-FFD700?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="Pumperly-android"></a>
 <br/>
-<a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-★_2-FFD700?style=flat-square&logo=unraid&logoColor=white&labelColor=F15A2C" alt="docker-templates"></a>
+<a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-★_3-FFD700?style=flat-square&logo=unraid&logoColor=white&labelColor=F15A2C" alt="docker-templates"></a>
 <br/>
 <a href="https://github.com/GeiserX/cloud-tests-velero"><img src="https://img.shields.io/badge/cloud--tests--velero-★_1-FFD700?style=flat-square&logo=kubernetes&logoColor=white&labelColor=326CE5" alt="cloud-tests-velero"></a>
 <a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-★_1-FFD700?style=flat-square&logo=kubernetes&logoColor=white&labelColor=326CE5" alt="k8s-dockerhub-detector"></a>
