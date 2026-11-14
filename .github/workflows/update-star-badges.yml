@@ -134,6 +134,9 @@ jobs:
           # A small pedigree (one parent node over two children), for the genealogy tools.
           TREE_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTEyIDZ2NU01IDExaDE0TTUgMTF2NU0xOSAxMXY1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iNCIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSI1IiBjeT0iMTkiIHI9IjMiIGZpbGw9IndoaXRlIi8%2BPGNpcmNsZSBjeD0iMTkiIGN5PSIxOSIgcj0iMyIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
 
+          # A terminal window with a prompt, for the command-line tools.
+          TERMINAL_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjMiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCIgcng9IjMiLz48cGF0aCBkPSJNNiA5bDQgMy00IDNNMTIgMTZoNiIvPjwvc3ZnPg=="
+
           # ── Badge styles: (color, shields.io logo) ──────────────────────
           GROUP_STYLES = {
               # Product families (own brand mark, overrides language)
@@ -143,7 +146,7 @@ jobs:
               "Web Archive": ("671700", "internetarchive"),
               "Audio": ("630075", WAVE_LOGO),
               "Telegram": ("06489C", "telegram"),  # deep blue: Telegram's own blue is too close to Go
-              "Media": ("007A6E", "qbittorrent"),
+              "CLI": ("007A6E", TERMINAL_LOGO),
               "Genealogy": ("8A6836", TREE_LOGO),
               # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
@@ -237,14 +240,14 @@ jobs:
               if name in ("Wayback-Archive", "web-mirror", "media-download", "Way-CMS", "Wayback-Diff"):
                   return "Web Archive"
               if name in ("hark-viewer", "telegram-slskd-local-bot", "akou",
-                          "akou-companion", "audio-transcode-watcher"):
+                          "akou-companion", "audio-transcode-watcher", "slskd-transform", "Sanitune"):
                   return "Audio"
-              if name in ("Telegram-Archive", "paperless-telegram-bot", "IBKR-Telegram",
+              if name in ("Telegram-Archive", "TG-Archive-iOS", "paperless-telegram-bot", "IBKR-Telegram",
                           "telegram-delay-channel-cloner"):
                   return "Telegram"
-              if name in ("qbittorrent-orphaned", "vettarr"):
-                  return "Media"
-              if name in ("gramps-web-toolkit", "search-by-surname"):
+              if name in ("unsent", "mcp-upgrade"):
+                  return "CLI"
+              if name in ("gramps-web-toolkit", "search-by-surname", "BuscaPaginasBlancas"):
                   return "Genealogy"
 
               # ─ Platform / ecosystem (checked first, overrides language) ─
@@ -269,6 +272,7 @@ jobs:
               if name in (
                   "whisper-subs", "smart-covers", "quality-gate",
                   "quality-gate-encoder", "jellyfin-telegram-channel-sync",
+                  "qbittorrent-orphaned", "vettarr",
               ):
                   return "Jellyfin"
 
@@ -354,7 +358,7 @@ jobs:
               "Shell",                    # 89e051 green
               "Go",                       # 00ADD8 cyan
               "Web Archive",              # 671700 rust brown + Internet Archive
-              "Media",                    # 007A6E teal + qBittorrent
+              "CLI",                      # 007A6E teal + terminal
               "JavaScript",               # 1A7100 deep green
               "Biblical Earth",           # 5C3D1E leather brown + open book
               "Genealogy",                # 8A6836 ochre + family tree
