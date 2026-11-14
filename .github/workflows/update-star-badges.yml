@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: python
         run: |
-          import json, os, re, subprocess, urllib.parse, urllib.request
+          import json, math, os, re, subprocess, urllib.parse, urllib.request
           from collections import defaultdict
 
           result = subprocess.run(
@@ -44,6 +44,51 @@ jobs:
           repos = [r for r in json.loads(result.stdout) if r["name"] not in HIDDEN]
 
           STAR_COLOR = "FFD700"
+          # The star side of a badge starts at the badge's own colour and moves towards gold as
+          # the stars grow. x is the log of the stars over the log of the most-starred repo, so
+          # 1 star is 0 and the top repo is 1. An S-curve on x keeps 1-2 stars near the badge
+          # colour and puts ~50 stars mostly in gold. STAR_MID is the x that is half gold;
+          # STAR_STEEP sets how fast it turns. The mix runs in OKLab, so blue fades straight to
+          # gold without passing through some other hue. A new top repo shifts every badge a
+          # little towards its own colour, which is the point: gold means "near the top".
+          STAR_MID, STAR_STEEP = 0.45, 10.0
+
+          def _lin(c):
+              return c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
+
+          def _unlin(c):
+              c = min(1.0, max(0.0, c))
+              return 12.92 * c if c <= 0.0031308 else 1.055 * c ** (1 / 2.4) - 0.055
+
+          def _oklab(hexc):
+              r, g, b = (_lin(int(hexc[i:i + 2], 16) / 255) for i in (0, 2, 4))
+              l = (0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b) ** (1 / 3)
+              m = (0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b) ** (1 / 3)
+              s = (0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b) ** (1 / 3)
+              return (0.2104542553 * l + 0.7936177850 * m - 0.0040720468 * s,
+                      1.9779984951 * l - 2.4285922050 * m + 0.4505937099 * s,
+                      0.0259040371 * l + 0.7827717662 * m - 0.8086757660 * s)
+
+          def _hex(L, a, b):
+              l = (L + 0.3963377774 * a + 0.2158037573 * b) ** 3
+              m = (L - 0.1055613458 * a - 0.0638541728 * b) ** 3
+              s = (L - 0.0894841775 * a - 1.2914855480 * b) ** 3
+              rgb = (4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+                     -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+                     -0.0041960863 * l - 0.7034186147 * m + 1.7076147010 * s)
+              return "".join(f"{round(_unlin(c) * 255):02X}" for c in rgb)
+
+          def star_color(count, color, top):
+              if top <= 1 or count <= 1:
+                  return color
+              x = min(1.0, math.log(count) / math.log(top))
+              sig = lambda v: 1 / (1 + math.exp(-STAR_STEEP * (v - STAR_MID)))
+              t = (sig(x) - sig(0)) / (sig(1) - sig(0))
+              base, gold = _oklab(color), _oklab(STAR_COLOR)
+              return _hex(*(p + (q - p) * t for p, q in zip(base, gold)))
+
+          TOP_STARS = max((r["stargazerCount"] for r in repos if not r.get("isArchived")), default=1)
+
           # Archived repos: the name keeps its colour on the left and fades to grey on the right,
           # and the star turns grey and hollow. shields.io cannot draw a gradient, so the badge
           # is fetched once, the fill of its coloured part swapped for a gradient, and saved here.
@@ -83,11 +128,17 @@ jobs:
           # Open book, no cross (biblical-earth is a jw.org-based study tool), inlined the same way.
           BIBLE_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDUuNUMxMC4zIDQuMiA4IDMuNSA1LjUgMy41Yy0xLjQgMC0yLjcuMi0zLjUuNnYxNGMuOC0uNCAyLjEtLjYgMy41LS42IDIuNSAwIDQuOC43IDYuNSAyIDEuNy0xLjMgNC0yIDYuNS0yIDEuNCAwIDIuNy4yIDMuNS42di0xNGMtLjgtLjQtMi4xLS42LTMuNS0uNi0yLjUgMC00LjguNy02LjUgMnpNMTEgMTcuM2MtMS42LS45LTMuNS0xLjQtNS41LTEuNC0uNyAwLTEuNC4xLTIgLjJWNS40Yy42LS4yIDEuMy0uMyAyLS4zIDIgMCAzLjkuNSA1LjUgMS40ek0xMyAxNy4zYzEuNi0uOSAzLjUtMS40IDUuNS0xLjQuNyAwIDEuNC4xIDIgLjJWNS40Yy0uNi0uMi0xLjMtLjMtMi0uMy0yIDAtMy45LjUtNS41IDEuNHoiLz48L3N2Zz4K"
 
+          # Five sound-wave bars, for the audio tools (no simple-icons mark fits all three).
+          WAVE_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxyZWN0IHg9IjEuNSIgeT0iOSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8%2BPHJlY3QgeD0iNi4xIiB5PSI1IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjE0IiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTAuNyIgeT0iMS41IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjIxIiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTUuMyIgeT0iNiIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIxMiIgcng9IjEuMyIvPjxyZWN0IHg9IjE5LjkiIHk9IjkuNSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI1IiByeD0iMS4zIi8%2BPC9zdmc%2B"
+
           # ── Badge styles: (color, shields.io logo) ──────────────────────
           GROUP_STYLES = {
               # Product families (own brand mark, overrides language)
               "CashPilot": ("0A0A1A", CASHPILOT_LOGO),
               "Biblical Earth": ("5C3D1E", BIBLE_LOGO),
+              # Topic groups (override primary language)
+              "Web Archive": ("671700", "internetarchive"),
+              "Audio": ("630075", WAVE_LOGO),
               # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
               "Grafana": ("F46800", "grafana"),
@@ -107,13 +158,13 @@ jobs:
               "GitHub Actions": ("2088FF", "githubactions"),
               "Ansible": ("EE0000", "ansible"),
               "Homebrew": ("FBB040", "homebrew"),
-              "Browser Extensions": ("FFE100", "googlechrome"),
+              "Browser Extensions": ("4E00A9", "firefoxbrowser"),
               "Ghost": ("15171A", "ghost"),
               "Awesome": ("FC60A8", "awesomelists"),
               # Language groups (fallback)
               "Python": ("3572A5", "python"),
               "TypeScript": ("3178C6", "typescript"),
-              "JavaScript": ("f1e05a", "javascript"),
+              "JavaScript": ("1A7100", "javascript"),  # deep Node.js green: JS yellow would vanish into the gold stars
               "Go": ("00ADD8", "go"),
               "Swift": ("F05138", "swift"),
               "Kotlin": ("7F52FF", "kotlin"),
@@ -176,6 +227,12 @@ jobs:
               if name == "biblical-earth":
                   return "Biblical Earth"
 
+              # ─ Topic groups ─
+              if name in ("Wayback-Archive", "web-mirror", "media-download", "Way-CMS", "Wayback-Diff"):
+                  return "Web Archive"
+              if name in ("hark-viewer", "telegram-slskd-local-bot", "akou"):
+                  return "Audio"
+
               # ─ Platform / ecosystem (checked first, overrides language) ─
 
               # Grafana
@@ -222,7 +279,8 @@ jobs:
                   return "VS Code"
 
               # Agent Skills (SKILL.md packages for any agent)
-              if name.endswith("-skills"):
+              # sstack is Markdown skills; GitHub calls it Python because it counts code, not prose
+              if name.endswith("-skills") or name == "sstack":
                   return "Agent Skills"
 
               # Claude Code plugins
@@ -277,9 +335,11 @@ jobs:
               "Swift",                    # F05138 red-orange
               "ElectroBun",               # 111111 black
               "TypeScript",               # 3178C6 blue
+              "Audio",                    # 630075 plum + sound wave
               "Shell",                    # 89e051 green
               "Go",                       # 00ADD8 cyan
-              "JavaScript",               # f1e05a yellow
+              "Web Archive",              # 671700 rust brown + Internet Archive
+              "JavaScript",               # 1A7100 deep green
               "Biblical Earth",           # 5C3D1E leather brown + open book
               # Platform integrations (contrast-ordered)
               "Jellyfin",                 # AA5CC3 purple
@@ -306,7 +366,9 @@ jobs:
               # IoT
               "Raspberry Pi",             # A22846 magenta
               # Remaining languages / fallback
-              "R", "Browser Extensions", "C#", "HTML", "Handlebars", "GitHub",
+              "R",
+              "Browser Extensions",       # 4E00A9 Firefox violet
+              "C#", "HTML", "Handlebars", "GitHub",
           ]
 
           # ── Group repos ────────────────────────────────────────────────
@@ -346,7 +408,7 @@ jobs:
               if repo.get("isArchived") and count >= 1:
                   src = f"https://img.shields.io/badge/{label}-☆_{count}-{ARCHIVED_STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
               elif count >= 1:
-                  src = f"https://img.shields.io/badge/{label}-★_{count}-{STAR_COLOR}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
+                  src = f"https://img.shields.io/badge/{label}-★_{count}-{star_color(count, color, TOP_STARS)}?style=flat-square&logo={logo}&logoColor=white&labelColor={color}"
               else:
                   src = f"https://img.shields.io/badge/{label}-{color}?style=flat-square&logo={logo}&logoColor=white"
 
