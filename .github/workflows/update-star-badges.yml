@@ -131,6 +131,9 @@ jobs:
           # Five sound-wave bars, for the audio tools (no simple-icons mark fits all three).
           WAVE_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxyZWN0IHg9IjEuNSIgeT0iOSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8%2BPHJlY3QgeD0iNi4xIiB5PSI1IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjE0IiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTAuNyIgeT0iMS41IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjIxIiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTUuMyIgeT0iNiIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIxMiIgcng9IjEuMyIvPjxyZWN0IHg9IjE5LjkiIHk9IjkuNSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI1IiByeD0iMS4zIi8%2BPC9zdmc%2B"
 
+          # A small pedigree (one parent node over two children), for the genealogy tools.
+          TREE_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTEyIDZ2NU01IDExaDE0TTUgMTF2NU0xOSAxMXY1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iNCIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSI1IiBjeT0iMTkiIHI9IjMiIGZpbGw9IndoaXRlIi8%2BPGNpcmNsZSBjeD0iMTkiIGN5PSIxOSIgcj0iMyIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+
           # ── Badge styles: (color, shields.io logo) ──────────────────────
           GROUP_STYLES = {
               # Product families (own brand mark, overrides language)
@@ -139,6 +142,9 @@ jobs:
               # Topic groups (override primary language)
               "Web Archive": ("671700", "internetarchive"),
               "Audio": ("630075", WAVE_LOGO),
+              "Telegram": ("06489C", "telegram"),  # deep blue: Telegram's own blue is too close to Go
+              "Media": ("007A6E", "qbittorrent"),
+              "Genealogy": ("8A6836", TREE_LOGO),
               # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
               "Grafana": ("F46800", "grafana"),
@@ -180,7 +186,7 @@ jobs:
               "Go Template": ("00ADD8", "go"),
               "Java": ("b07219", "openjdk"),
               "Scala": ("c22d40", "scala"),
-              "Rust": ("dea584", "rust"),
+              "Rust": ("CF9572", "rust"),  # a little darker than GitHub's dea584, so the gold stars stand out
               "C": ("555555", "c"),
               "C++": ("f34b7d", "cplusplus"),
               "Zig": ("F7A41D", "zig"),
@@ -230,8 +236,16 @@ jobs:
               # ─ Topic groups ─
               if name in ("Wayback-Archive", "web-mirror", "media-download", "Way-CMS", "Wayback-Diff"):
                   return "Web Archive"
-              if name in ("hark-viewer", "telegram-slskd-local-bot", "akou"):
+              if name in ("hark-viewer", "telegram-slskd-local-bot", "akou",
+                          "akou-companion", "audio-transcode-watcher"):
                   return "Audio"
+              if name in ("Telegram-Archive", "paperless-telegram-bot", "IBKR-Telegram",
+                          "telegram-delay-channel-cloner"):
+                  return "Telegram"
+              if name in ("qbittorrent-orphaned", "vettarr"):
+                  return "Media"
+              if name in ("gramps-web-toolkit", "search-by-surname"):
+                  return "Genealogy"
 
               # ─ Platform / ecosystem (checked first, overrides language) ─
 
@@ -332,6 +346,7 @@ jobs:
               # Main products (contrast-ordered by color)
               "Python",                   # 3572A5 blue
               "CashPilot",                # 0A0A1A brand navy + sunset mark
+              "Telegram",                 # 06489C deep blue
               "Swift",                    # F05138 red-orange
               "ElectroBun",               # 111111 black
               "TypeScript",               # 3178C6 blue
@@ -339,8 +354,10 @@ jobs:
               "Shell",                    # 89e051 green
               "Go",                       # 00ADD8 cyan
               "Web Archive",              # 671700 rust brown + Internet Archive
+              "Media",                    # 007A6E teal + qBittorrent
               "JavaScript",               # 1A7100 deep green
               "Biblical Earth",           # 5C3D1E leather brown + open book
+              "Genealogy",                # 8A6836 ochre + family tree
               # Platform integrations (contrast-ordered)
               "Jellyfin",                 # AA5CC3 purple
               "n8n",                      # EA4B71 pink
