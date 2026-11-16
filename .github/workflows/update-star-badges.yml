@@ -137,6 +137,9 @@ jobs:
           # A terminal window with a prompt, for the command-line tools.
           TERMINAL_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjMiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCIgcng9IjMiLz48cGF0aCBkPSJNNiA5bDQgMy00IDNNMTIgMTZoNiIvPjwvc3ZnPg=="
 
+          # Three linked nodes, for the networking tools (VPN routing, Tailscale, GenieACS).
+          NETWORK_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTEyIDQuNUw0LjUgMThoMTV6IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjQuNSIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSI0LjUiIGN5PSIxOCIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSIxOS41IiBjeT0iMTgiIHI9IjMiIGZpbGw9IndoaXRlIi8%2BPC9zdmc%2B"
+
           # ── Badge styles: (color, shields.io logo) ──────────────────────
           GROUP_STYLES = {
               # Product families (own brand mark, overrides language)
@@ -148,6 +151,7 @@ jobs:
               "Telegram": ("06489C", "telegram"),  # deep blue: Telegram's own blue is too close to Go
               "CLI": ("007A6E", TERMINAL_LOGO),
               "Genealogy": ("8A6836", TREE_LOGO),
+              "Networking": ("4A6D1F", NETWORK_LOGO),
               # Platform / ecosystem groups (override primary language)
               "GitHub": ("555555", "github"),
               "Grafana": ("F46800", "grafana"),
@@ -249,6 +253,12 @@ jobs:
                   return "CLI"
               if name in ("gramps-web-toolkit", "search-by-surname", "BuscaPaginasBlancas"):
                   return "Genealogy"
+              # Only the core GenieACS repos; genieacs-mcp, -ha, -ansible and n8n-nodes-genieacs
+              # stay in their platform groups, the same rule as CashPilot.
+              if name in ("VPN-Bypass", "tailscale-rs", "tailscaled-rs", "router-express",
+                          "genieacs-container", "genieacs-services", "genieacs-sim-container",
+                          "statix", "services-isp"):
+                  return "Networking"
 
               # ─ Platform / ecosystem (checked first, overrides language) ─
 
@@ -352,6 +362,7 @@ jobs:
               "CashPilot",                # 0A0A1A brand navy + sunset mark
               "Telegram",                 # 06489C deep blue
               "Swift",                    # F05138 red-orange
+              "Networking",               # 4A6D1F olive + linked nodes
               "ElectroBun",               # 111111 black
               "TypeScript",               # 3178C6 blue
               "Audio",                    # 630075 plum + sound wave
