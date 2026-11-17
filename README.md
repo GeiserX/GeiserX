@@ -146,8 +146,8 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-★_5-9674E6?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="atlassian-browser-mcp"></a>
 <a href="https://github.com/GeiserX/biblical-atlas-mcp"><img src="https://img.shields.io/badge/biblical--atlas--mcp-★_3-9067EF?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="biblical-atlas-mcp"></a>
 <a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_3-9067EF?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
+<a href="https://github.com/GeiserX/duplicacy-mcp"><img src="https://img.shields.io/badge/duplicacy--mcp-★_3-9067EF?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="duplicacy-mcp"></a>
 <a href="https://github.com/GeiserX/pumperly-mcp"><img src="https://img.shields.io/badge/pumperly--mcp-★_3-9067EF?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="pumperly-mcp"></a>
-<a href="https://github.com/GeiserX/duplicacy-mcp"><img src="https://img.shields.io/badge/duplicacy--mcp-★_2-8D61F3?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="duplicacy-mcp"></a>
 <a href="https://github.com/GeiserX/lynxprompt-mcp"><img src="https://img.shields.io/badge/lynxprompt--mcp-★_2-8D61F3?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="lynxprompt-mcp"></a>
 <a href="https://github.com/GeiserX/vpn-bypass-mcp"><img src="https://img.shields.io/badge/vpn--bypass--mcp-★_2-8D61F3?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="vpn-bypass-mcp"></a>
 <br/>
@@ -157,7 +157,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/cc-agents-md"><img src="docs/images/badges/cc-agents-md.svg" alt="cc-agents-md (archived)"></a>
 <br/>
 <a href="https://github.com/GeiserX/CashPilot-android"><img src="https://img.shields.io/badge/CashPilot--android-★_9-82B84B?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="CashPilot-android"></a>
-<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-★_3-47AB52?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="Pumperly-android"></a>
+<a href="https://github.com/GeiserX/Pumperly-android"><img src="https://img.shields.io/badge/Pumperly--android-★_4-52AD51?style=flat-square&logo=android&logoColor=white&labelColor=34A853" alt="Pumperly-android"></a>
 <br/>
 <a href="https://github.com/GeiserX/docker-templates"><img src="https://img.shields.io/badge/docker--templates-★_3-F3622C?style=flat-square&logo=unraid&logoColor=white&labelColor=F15A2C" alt="docker-templates"></a>
 <br/>
@@ -165,7 +165,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/k8s-dockerhub-detector"><img src="https://img.shields.io/badge/k8s--dockerhub--detector-★_1-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=326CE5" alt="k8s-dockerhub-detector"></a>
 <a href="https://github.com/GeiserX/redis-operator"><img src="docs/images/badges/redis-operator.svg" alt="redis-operator (archived)"></a>
 <br/>
-<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-★_3-40B847?style=flat-square&logo=linux&logoColor=white&labelColor=27B648" alt="runtipi-appstore"></a>
+<a href="https://github.com/GeiserX/runtipi-appstore"><img src="https://img.shields.io/badge/runtipi--appstore-★_4-4DBA46?style=flat-square&logo=linux&logoColor=white&labelColor=27B648" alt="runtipi-appstore"></a>
 <br/>
 <a href="https://github.com/GeiserX/grafana-airgradient-dashboard"><img src="https://img.shields.io/badge/grafana--airgradient--dashboard-★_3-F56F00?style=flat-square&logo=grafana&logoColor=white&labelColor=F46800" alt="grafana-airgradient-dashboard"></a>
 <a href="https://github.com/GeiserX/grafana-rightsizing-dashboard"><img src="https://img.shields.io/badge/grafana--rightsizing--dashboard-★_1-F46800?style=flat-square&logo=grafana&logoColor=white&labelColor=F46800" alt="grafana-rightsizing-dashboard"></a>
@@ -176,7 +176,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/lynxprompt-vscode"><img src="https://img.shields.io/badge/lynxprompt--vscode-★_2-147DCA?style=flat-square&logo=vscodium&logoColor=white&labelColor=007ACC" alt="lynxprompt-vscode"></a>
 <br/>
-<a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-★_1-EE0000?style=flat-square&logo=ansible&logoColor=white&labelColor=EE0000" alt="genieacs-ansible"></a>
+<a href="https://github.com/GeiserX/genieacs-ansible"><img src="https://img.shields.io/badge/genieacs--ansible-★_2-EF1600?style=flat-square&logo=ansible&logoColor=white&labelColor=EE0000" alt="genieacs-ansible"></a>
 <br/>
 <a href="https://github.com/GeiserX/awesome-spain"><img src="https://img.shields.io/badge/awesome--spain-★_373-FFD700?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-spain"></a>
 <a href="https://github.com/GeiserX/awesome-europe"><img src="https://img.shields.io/badge/awesome--europe-★_157-FFD612?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-europe"></a>
@@ -200,7 +200,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/awesome-ceuta-y-melilla"><img src="https://img.shields.io/badge/awesome--ceuta--y--melilla-★_2-FC64A6?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-ceuta-y-melilla"></a>
 <a href="https://github.com/GeiserX/awesome-lint-extra"><img src="https://img.shields.io/badge/awesome--lint--extra-★_1-FC60A8?style=flat-square&logo=awesomelists&logoColor=white&labelColor=FC60A8" alt="awesome-lint-extra"></a>
 <br/>
-<a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-★_1-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=2088FF" alt="lynxprompt-action"></a>
+<a href="https://github.com/GeiserX/lynxprompt-action"><img src="https://img.shields.io/badge/lynxprompt--action-★_2-298BFC?style=flat-square&logo=githubactions&logoColor=white&labelColor=2088FF" alt="lynxprompt-action"></a>
 <br/>
 <a href="https://github.com/GeiserX/homebrew-unsent"><img src="https://img.shields.io/badge/homebrew--unsent-★_3-FBB23E?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-unsent"></a>
 <a href="https://github.com/GeiserX/homebrew-akou"><img src="https://img.shields.io/badge/homebrew--akou-★_2-FBB13F?style=flat-square&logo=homebrew&logoColor=white&labelColor=FBB040" alt="homebrew-akou"></a>
