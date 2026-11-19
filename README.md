@@ -48,7 +48,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 
 <p align="center">
 <a href="https://github.com/GeiserX/duplicacy-exporter"><img src="https://img.shields.io/badge/duplicacy--exporter-★_7-648B99?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="duplicacy-exporter"></a>
-<a href="https://github.com/GeiserX/squares-in-squares"><img src="https://img.shields.io/badge/squares--in--squares-★_3-4279A2?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="squares-in-squares"></a>
+<a href="https://github.com/GeiserX/squares-in-squares"><img src="https://img.shields.io/badge/squares--in--squares-★_4-4A7DA1?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="squares-in-squares"></a>
 <a href="https://github.com/GeiserX/SuperMedicalDoctor"><img src="https://img.shields.io/badge/SuperMedicalDoctor-★_3-4279A2?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="SuperMedicalDoctor"></a>
 <a href="https://github.com/GeiserX/epub-and-vtt-to-llm"><img src="https://img.shields.io/badge/epub--and--vtt--to--llm-★_2-3B75A4?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="epub-and-vtt-to-llm"></a>
 <a href="https://github.com/GeiserX/metaculus-forecasting-bot"><img src="https://img.shields.io/badge/metaculus--forecasting--bot-★_2-3B75A4?style=flat-square&logo=python&logoColor=white&labelColor=3572A5" alt="metaculus-forecasting-bot"></a>
@@ -82,7 +82,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <br/>
 <a href="https://github.com/GeiserX/LynxPrompt"><img src="https://img.shields.io/badge/LynxPrompt-★_59-EED142?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="LynxPrompt"></a>
 <a href="https://github.com/GeiserX/DeclaRenta"><img src="https://img.shields.io/badge/DeclaRenta-★_57-EED044?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="DeclaRenta"></a>
-<a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_48-E8CE4E?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
+<a href="https://github.com/GeiserX/Pumperly"><img src="https://img.shields.io/badge/Pumperly-★_49-E9CE4D?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="Pumperly"></a>
 <a href="https://github.com/GeiserX/ootip"><img src="https://img.shields.io/badge/ootip-★_2-377BC4?style=flat-square&logo=typescript&logoColor=white&labelColor=3178C6" alt="ootip"></a>
 <a href="https://github.com/GeiserX/CatsUp"><img src="docs/images/badges/CatsUp.svg" alt="CatsUp (archived)"></a>
 <br/>
@@ -142,7 +142,7 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/pumperly-ha"><img src="https://img.shields.io/badge/pumperly--ha-★_3-39BFEB?style=flat-square&logo=homeassistant&logoColor=white&labelColor=18BCF2" alt="pumperly-ha"></a>
 <br/>
 <a href="https://github.com/GeiserX/genieacs-mcp"><img src="https://img.shields.io/badge/genieacs--mcp-★_19-CCB19F?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="genieacs-mcp"></a>
-<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_15-BFA6B0?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
+<a href="https://github.com/GeiserX/telegram-archive-mcp"><img src="https://img.shields.io/badge/telegram--archive--mcp-★_16-C3A9AC?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="telegram-archive-mcp"></a>
 <a href="https://github.com/GeiserX/spinnaker-mcp"><img src="https://img.shields.io/badge/spinnaker--mcp-★_6-9B7BE1?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="spinnaker-mcp"></a>
 <a href="https://github.com/GeiserX/atlassian-browser-mcp"><img src="https://img.shields.io/badge/atlassian--browser--mcp-★_5-9674E6?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="atlassian-browser-mcp"></a>
 <a href="https://github.com/GeiserX/cashpilot-mcp"><img src="https://img.shields.io/badge/cashpilot--mcp-★_4-936DEB?style=flat-square&logo=modelcontextprotocol&logoColor=white&labelColor=8B5CF6" alt="cashpilot-mcp"></a>
@@ -227,6 +227,6 @@ Honestly though, after reading it, I realized I'd prefer building things rather 
 <a href="https://github.com/GeiserX/cv"><img src="https://img.shields.io/badge/cv-★_1-e34c26?style=flat-square&logo=html5&logoColor=white&labelColor=e34c26" alt="cv"></a>
 <a href="https://github.com/GeiserX/raquel-teruel-web"><img src="https://img.shields.io/badge/raquel--teruel--web-e34c26?style=flat-square&logo=html5&logoColor=white" alt="raquel-teruel-web"></a>
 <br/>
-<a href="https://github.com/GeiserX/OwnGenome"><img src="https://img.shields.io/badge/OwnGenome-★_27-F3C640?style=flat-square&logo=rust&logoColor=white&labelColor=CF9572" alt="OwnGenome"></a>
+<a href="https://github.com/GeiserX/OwnGenome"><img src="https://img.shields.io/badge/OwnGenome-★_28-F3C73F?style=flat-square&logo=rust&logoColor=white&labelColor=CF9572" alt="OwnGenome"></a>
 <a href="https://github.com/GeiserX/OwnHealth"><img src="https://img.shields.io/badge/OwnHealth-★_4-D39B6E?style=flat-square&logo=rust&logoColor=white&labelColor=CF9572" alt="OwnHealth"></a>
 </p>
