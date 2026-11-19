@@ -137,7 +137,14 @@ jobs:
           # A terminal window with a prompt, for the command-line tools.
           TERMINAL_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjMiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCIgcng9IjMiLz48cGF0aCBkPSJNNiA5bDQgMy00IDNNMTIgMTZoNiIvPjwvc3ZnPg=="
 
-          # Three linked nodes, for the networking tools (VPN routing, Tailscale, GenieACS).
+          # The GenieACS beluga (docs/images/logo.svg of genieacs-container), drawn in white.
+          BELUGA_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjxnIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOCwxMTk5KSBzY2FsZSgxLC0xKSI%2BPHBhdGggZD0iTTI4MiAxMTkwIGMtNiAtMSAtMTYgLTIgLTIzIC0yIC02IC0xIC0xMiAtMiAtMTMgLTIgLTEgMCAtMSAtNyAtMSAtMzYgbDAgLTM2IDUgMCBjMjggNCA3OCA0IDEwMSAyIDYwIC02IDEwOSAtMjQgMTU4IC01NiA3MCAtNDcgMTEyIC0xMDUgMTQ1IC0xOTcgbDYgLTE2IDggLTIgYzQzIC03IDg5IC0zNSAxMTkgLTczIDQzIC01NCA2MCAtMTE2IDUxIC0xOTIgMCAtNyAtMSAtMTQgLTEgLTE0IDAgLTEgMTUgLTEgMzYgLTEgbDM1IDEgMSAzIGM3IDMzIDcgNzQgMCAxMDggLTEzIDU3IC00OSAxMjMgLTkxIDE2NSAtMTQgMTQgLTIzIDIxIC00MCAzMyAtMTkgMTMgLTMzIDE5IC02MiAyNyAtMSAxIC01IDExIC05IDIzIC0xMSAzMSAtMTUgMzkgLTIzIDU0IC02MCAxMDYgLTE2NyAxODEgLTI5MCAyMDQgLTM2IDcgLTc4IDEwIC0xMTIgN3ogTTI2NSAxMDQ1IGMtNTcgLTUgLTEwNSAtMjYgLTE1MSAtNjUgLTQ2IC0zOSAtOTEgLTEwMyAtMTA1IC0xNTIgLTcgLTI0IC0xMSAtNTggLTggLTgwIGwwIC01IDM1IDAgMzUgMCAwIDIwIGMxIDQ0IDExIDcxIDM3IDEwOCAyMyAzMSA0OSA1OCA3NCA3NSAzNCAyMyA2NyAzMiAxMTYgMzEgMzUgLTEgNjYgLTggMTAwIC0yMyA3MSAtMzEgMTAwIC02MyAxMjggLTE0MSA0IC0xMiA2IC0xNiA3IC0xNiAxIDAgMTYgNSAzMyAxMiBsMzEgMTMgMCAzIGMtMiA3IC0xMSAzNCAtMTcgNDcgLTM3IDgxIC0xMjAgMTQ3IC0yMTAgMTY3IC0yMyA1IC0zNCA2IC02NSA3IC0xNyAwIC0zNSAtMSAtNDAgLTF6IE0yNTMgOTA4IGMtMyAwIC02IC0xIC02IC0xIC0yIC0xIC0yIC01IC0yIC0zMiBsMCAtMzEgMTcgMCBjNjYgLTMgMTA5IC0zMCAxMzggLTg3IDIgLTUgNSAtMTAgNSAtMTEgMSAtMSA0IDAgNDIgMTcgbDE0IDUgLTEgNCBjMCAyIC0yIDggLTQgMTMgLTE4IDUwIC02NCA5NCAtMTE4IDExMiAtMjUgOSAtNjQgMTQgLTg1IDExeiIvPjxwYXRoIGQ9Ik0yMDAgNzY4IGMtNDUgLTggLTc1IC00MiAtODcgLTk5IC0xMSAtNDggLTggLTEyMSA3IC0xNzAgbDIgLTggNyAwIGMxNCAtMiA2NCAtMiA3MiAtMSA5IDEgOSAwIDEgLTcgLTkgLTggLTIwIC0xNCAtNDggLTI0IC04IC0zIC0xNSAtNSAtMTYgLTYgbC0zIC0xIDMgLTYgYzExIC0yMSAyNSAtNDEgNjAgLTgzIDI3IC0zMiA0MCAtNTAgNTIgLTczIDI0IC00NSA1NSAtNzEgOTcgLTgxIDE3IC00IDE5IC00IDE5IC0yIDIgNyAwIDIyIC01IDQ3IC0yIDkgLTQgMTYgLTQgMTcgMCAwIDUgLTEgMTEgLTQgODcgLTM0IDIwMSAtMTUgMzAzIDUxIDM0IDIyIDQ1IDMyIDczIDcxIDI4IDM4IDQ1IDUwIDY1IDQ5IDQgLTEgMTIgLTEgMTkgLTIgMzggLTMgODAgOCAxMDggMjggOSA3IDkgNyA3IDE1IC0xIDUgLTEgNSAtNCA1IC05IC0yIC0yMiAtMiAtMzAgLTEgLTkgMSAtMTcgNCAtMzUgMTIgLTIxIDkgLTI1IDEwIC00MSAxMSAtMTQgMCAtMjUgLTIgLTM1IC01IC0yIC0xIC0yIDAgLTMgNSAtNSAyMiAtMTYgNDEgLTM3IDYwIC0zMCAyNyAtMzkgMzggLTQ2IDU2IC0xIDMgLTMgNiAtMyA2IC0xIDEgLTggLTExIC0xMCAtMTggLTEzIC0zOSA3IC0xMDEgNDMgLTEzNSBsOSAtOCAtNSAtMiBjLTIgLTEgLTggLTYgLTEyIC0xMSAtMzQgLTM1IC00MiAtNDEgLTU4IC00NyAtMjQgLTggLTQ2IC02IC04MSA4IC00MCAxNiAtNzMgMzggLTEwNSA2OSAtMzIgMzMgLTU4IDcwIC04OSAxMjkgLTUxIDk2IC0xMDUgMTQ4IC0xNjIgMTU2IC0xMSAxIC0zMCAxIC0zOSAtMXoiLz48L2c%2BPC9zdmc%2B"
+
+          # The official LynxPrompt lynx (docs/images/logo.svg of LynxPrompt), as a 32 px PNG.
+          # It keeps its own white and black halves, so it is not recoloured.
+          LYNX_LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAABmJLR0QA/wD/AP%2BgvaeTAAAHZ0lEQVRIibWWW0xU2x3Gv7Vnzx5mBIERZ/RQGEBiY9oKtVx8AJ3UG2qxydEHwXK0SQUSlNhYHwwJBwNB0QiNop6aE2MEtAlEKkc8EYmJYIlX8M7FHqGKKBUZUAaGcWZ/fVCmw8XLaeuXrIeZ9V//3/p/67ZBcjrJP5HU4DOKpNnlcv2WpBj7I6WxsZFut/vrzwiV%2Bvr6vquvr3e53e5tACANDw%2Bn3Lt3D4WFhV%2BT/OpzQIeHh4%2Blp6f/prW1VeNyuX4JALLBYDh99erV5HPnzglFUY6TNAghvvk/QRW73X58w4YNKXfv3kVISAgURakY69Q%2BePDgH0ajkZIkMSsrSx0ZGTlK0ud/hM5%2B/PjxjYSEBBUAw8PD2dPT83fPGr8L%2BvW2bdu4e/duZmZmMj4%2BXm1ra%2BskGfVfQr%2Bsq6uzBwcHqwAIgFVVVS6SQRMDF23evJnFxcXs6enhmTNnOHfuXO7fv191OBzfkJzpFSuTDCEZQXLahDw/e/bsWWNGRoYqhCAA6vV6AmBZWZlKUhqLlb0HBgcHIz09HTU1NbBarcjLyxOxsbHpu3bt%2Br3L5fpLe3v70pMnT/706dOnkqqqCAgIQF1d3VBsbOxFRVFshw4d%2BiovL0/09fUBAAwGAxStgpGRETgcDgFAB2DEe6bxW7duZVlZGePi4piXl8cxdXR0cO3atQwJCeG6detYVFTEyspKxsXFccxGnU5Hk8nksRUAtbKWYZZwjlV%2B%2BvTp0anWJOjAgQPcsmULN27cSIPBwCNHjtBbbrd73O9Vq1bRG%2BTdJEliRPgcmmaaKQmJAHjt2rUn3kwJAIQQfXFxcT01NTVYtmwZHA4HjEYj7Hb7fwIlCZ8iWZYR8pNQ%2BOh8MOochUoVQUFBiI6O/n4SGABiY2NP6HQ6BgUFITs7G5mZmWhubv4kmLfcbjecTifs9iG8fv0KAJCWlgatVls25QCS4aWlperChQvZ39/PnTt3cnR0lO/Th6wWQjAw0EiNRkONRsPOzs72iTxv/0b9/PxUo9GIvr4%2BFBYWQlGUH13xuyJgs/V7HLh48WIEyblTBjudzoORkZFqQ0PDe6v81IonNrPZrA4MDFROqpikf3V1dYbZbBaJiYmezqGhIbS3tyMvLw9NTU2TqpoovV6PAP9A%2BPsHQKN5%2B8pKkoTe3l5x/PjxtSTDxoEBrCovL9dkZGRgcHAQJHHp0iVUVVUhNTUVNpsNCQkJKC4unhKsKAqEECgqKsIv5v8cg4MDnv7AgEBoNBocPXoUAH43bqZDQ0N/DQwMZEFBAQcGBsZZmpWVxStXrvDw4cNctmwZHz16RJJcsWIFAVCWZW7dupUnTpxgU1MTZ8yYMc5mg97AWebZBMD79%2B%2B3jjFlALhz545VlmW0tLTA399/3KRKSkpQV1cHi8WCsLAwtLS0IDw83NNv0Btw8ODBSbaPacQxgi9mfwEhBG7dujWXpCyEcMkA8Pz588AXL17AbDaDJDo7OxEREQEA0Gq1WL16NQAgKSkJT58%2BHWe1Y3TyTegtkui39UMIga6uLglAMIB/SgAwMjIix8TEUFEUVFZWwtfXd8okkiQhJCRkHNjp/DAYAFSVUFUVo28nqQDvNldoaOjF3Nxc9Pf3o7a2FiaTCQDQ0dGB%2Bvp6XL9%2BHQ6HAyRRXV2NnJwcdHV1QZIkKNq3Z10IgcjISFitVsTExMDPz88DfvPGiZSUFFgslkl2RDQ3Nz8PDQ1lfHw8SfLWrVs8e/Ysc3JyaDKZ2NnZSZKsqKhgYGAgZVlmaIiFWq2WAGixWJiUlMTo6GjOnj2bMTEx9PX19dxke/fupcvl%2BpakDni3uYQQj5xOZ43dbt/86tUrkITb7cbg4CCioqIghEBDQwOMRiNSU1MRFRWFRYmL0Puv53jz5g30ej2WLl2KGTNmQFEUzJkzBzdu3MDQ0JBnWWJiYgZkWf7DVJtgeWZmJn19fdnb20ubzUan08nGxkauX7%2BeS5Ys4ZMnTzg8PMxjx45x%2BvTpBEBF0dHX14/hYeG0LrYyLS2NGo3Gc5xmzZpFs9lMh8Mx9QckSdHR0fFDdna2mpuby9bWVtbW1pIk9%2B3bRwCcN28e09LSeP78ec851ul0nDbN1/PgT2wXLlxQ8/PzVZK/eu/uI%2Bn38OHDByaTiZcvX2ZiYiK7u7vp4%2BPD5cuXMz8/33OxrFy50pN85syZjIiIUCdCFy9e7CZ5dnh4%2BI/vhXrBk7Zv387k5GTq9XomJiYyOTnZ/fr16x%2BsVqu6adMmtrW1eR4Ji8XCmpqa0fLycucYUAhBRVF48%2BbNbpL6j0LHZLPZ/jZv3jxVlmUC4J49e0hyzsuXL7/Pzc3lmjVr3PPnz3efOnXK0d3d3UkyYXBw8DshBA0GAxcsWMDS0lI3ybhPho5Zfvfu3W6TyUQ/Pz%2BWlJSQZBBJQfJLkhkkc0mGeo05qtfrWVJSolZUVKgkN/4oqFei0Nu3bz/bsWMHq6urVZLRH4rv6elpLCgoUEnmfCz2U%2BBGt9v9Z5LZJP0/ErudpPVTc/8bW1TCH%2BTRBqwAAAAASUVORK5CYII="
+
+          # Three linked nodes, for the networking tools (VPN routing, Tailscale).
           NETWORK_LOGO = "data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTEyIDQuNUw0LjUgMThoMTV6IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjQuNSIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSI0LjUiIGN5PSIxOCIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSIxOS41IiBjeT0iMTgiIHI9IjMiIGZpbGw9IndoaXRlIi8%2BPC9zdmc%2B"
 
           # ── Badge styles: (color, shields.io logo) ──────────────────────
@@ -145,6 +152,8 @@ jobs:
               # Product families (own brand mark, overrides language)
               "CashPilot": ("0A0A1A", CASHPILOT_LOGO),
               "Biblical Earth": ("5C3D1E", BIBLE_LOGO),
+              "GenieACS": ("67B028", BELUGA_LOGO),  # the beluga's own green
+              "LynxPrompt": ("2B292C", LYNX_LOGO),  # the lynx's own dark grey; on black its dark half vanishes
               # Topic groups (override primary language)
               "Web Archive": ("671700", "internetarchive"),
               "Audio": ("630075", WAVE_LOGO),
@@ -239,6 +248,12 @@ jobs:
                   return "CashPilot"
               if name == "biblical-earth":
                   return "Biblical Earth"
+              # Everything GenieACS or LynxPrompt goes in its product's own group, the MCP
+              # server, integrations, taps and actions included.
+              if "genieacs" in name.lower():
+                  return "GenieACS"
+              if "lynxprompt" in name.lower():
+                  return "LynxPrompt"
 
               # ─ Topic groups ─
               if name in ("Wayback-Archive", "web-mirror", "media-download", "Way-CMS", "Wayback-Diff"):
@@ -253,10 +268,7 @@ jobs:
                   return "CLI"
               if name in ("gramps-web-toolkit", "search-by-surname", "BuscaPaginasBlancas"):
                   return "Genealogy"
-              # Only the core GenieACS repos; genieacs-mcp, -ha, -ansible and n8n-nodes-genieacs
-              # stay in their platform groups, the same rule as CashPilot.
               if name in ("VPN-Bypass", "tailscale-rs", "tailscaled-rs", "router-express",
-                          "genieacs-container", "genieacs-services", "genieacs-sim-container",
                           "statix", "services-isp"):
                   return "Networking"
 
@@ -362,9 +374,11 @@ jobs:
               "CashPilot",                # 0A0A1A brand navy + sunset mark
               "Telegram",                 # 06489C deep blue
               "Swift",                    # F05138 red-orange
+              "LynxPrompt",               # 2B292C dark grey + official lynx
               "Networking",               # 4A6D1F olive + linked nodes
               "ElectroBun",               # 111111 black
               "TypeScript",               # 3178C6 blue
+              "GenieACS",                 # 67B028 beluga green + beluga
               "Audio",                    # 630075 plum + sound wave
               "Shell",                    # 89e051 green
               "Go",                       # 00ADD8 cyan
