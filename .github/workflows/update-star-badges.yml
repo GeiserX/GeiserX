@@ -237,6 +237,14 @@ jobs:
               name = repo["name"]
               lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
 
+              # ─ Product families that take every related repo ─
+              # Everything GenieACS or LynxPrompt goes in its product's own group, the MCP
+              # server, integrations, taps, actions and any awesome list included.
+              if "genieacs" in name.lower():
+                  return "GenieACS"
+              if "lynxprompt" in name.lower():
+                  return "LynxPrompt"
+
               # ─ Curated lists ─
               if name.startswith("awesome-"):
                   return "Awesome"
@@ -248,12 +256,6 @@ jobs:
                   return "CashPilot"
               if name == "biblical-earth":
                   return "Biblical Earth"
-              # Everything GenieACS or LynxPrompt goes in its product's own group, the MCP
-              # server, integrations, taps and actions included.
-              if "genieacs" in name.lower():
-                  return "GenieACS"
-              if "lynxprompt" in name.lower():
-                  return "LynxPrompt"
 
               # ─ Topic groups ─
               if name in ("Wayback-Archive", "web-mirror", "media-download", "Way-CMS", "Wayback-Diff"):
