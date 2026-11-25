@@ -430,17 +430,16 @@ jobs:
           # ── Group display order ────────────────────────────────────────
           GROUP_ORDER = [
               # Main products (contrast-ordered by color)
-              "Python",                   # 3572A5 blue
+              "GenieACS",                 # 67B028 beluga green + beluga
               "CashPilot",                # 0A0A1A brand navy + sunset mark
               "Telegram",                 # 06489C deep blue
               "Swift",                    # F05138 red-orange
-              "VPN Bypass",               # 152A4E navy + bypass lanes
               "LynxPrompt",               # 2B292C dark grey + official lynx
+              "VPN Bypass",               # 152A4E navy + bypass lanes
               "Networking",               # 4A6D1F olive + linked nodes
               "ElectroBun",               # 111111 black
               "TypeScript",               # 3178C6 blue
               "Pumperly",                 # 0C111B near-black + green bolt tile
-              "GenieACS",                 # 67B028 beluga green + beluga
               "Audio",                    # 630075 plum + sound wave
               "Shell",                    # 89e051 green
               "Duplicacy",                # 12151C dark + level meter
@@ -450,6 +449,7 @@ jobs:
               "Super bots",               # 1D3A32 dark green + each bot's own logo
               "CLI",                      # 007A6E teal + terminal
               "JavaScript",               # 1A7100 deep green
+              "Python",                   # 3572A5 blue
               "Biblical Atlas",           # 5C3D1E leather brown + open book
               "Genealogy",                # 8A6836 ochre + family tree
               # Platform integrations (contrast-ordered)
